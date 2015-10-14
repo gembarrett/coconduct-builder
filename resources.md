@@ -1,21 +1,21 @@
 # Resources
 
 ## Offline CoConduct examples
-- [GeekFeminism's code of conduct] (http://geekfeminism.org/about/code-of-conduct/)
-- [.concat() conference's code of conduct] (https://github.com/conc-at/conc.at/blob/f50c3593af05f1e268abe7b73d37b6892baeffe6/app/jade/modals/coc.md)
-- [Conf code of conduct] (http://confcodeofconduct.com/)
+- [GeekFeminism's Code of Conduct] (http://geekfeminism.org/about/code-of-conduct/)
+- [.concat() conference's Code of Conduct] (https://github.com/conc-at/conc.at/blob/f50c3593af05f1e268abe7b73d37b6892baeffe6/app/jade/modals/coc.md)
+- [Conf Code of Conduct] (http://confcodeofconduct.com/)
 
 ## Online CoConduct examples
 - [OSS/community conduct] (http://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community/)
 - [Contributor covenant] (http://contributor-covenant.org)
-- [Citizen code of conduct] (http://citizencodeofconduct.org/)
-- [Thoughtbot’s repo code of conduct] (https://thoughtbot.com/open-source-code-of-conduct)
+- [Citizen Code of Conduct] (http://citizencodeofconduct.org/)
+- [Thoughtbot’s repo Code of Conduct] (https://thoughtbot.com/open-source-code-of-conduct)
 
 ## Why a CoConduct is needed
 - [Ashe Dryden 101 of CoCs] (http://www.ashedryden.com/blog/codes-of-conduct-101-faq)
-- [The message you send by not having a code of conduct] (http://www.catehuston.com/blog/2015/09/02/code-of-conducts-and-worthless-manfeelings/)
+- [The message you send by not having a Code of Conduct] (http://www.catehuston.com/blog/2015/09/02/code-of-conducts-and-worthless-manfeelings/)
 - [Reasons for a conference policy] (http://adainitiative.org/continue-our-work/conference-policies/)
-- [Supporting a code of conduct] (http://geekfeminism.wikia.com/wiki/Anti-harassment_policy_resources)
+- [Supporting a Code of Conduct] (http://geekfeminism.wikia.com/wiki/Anti-harassment_policy_resources)
 
 ## Diversification in offline and online spaces/additional reading
 - [AdaCamp toolkit] (http://adacamp.org/)
