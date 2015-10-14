@@ -13,6 +13,7 @@
 
 ## Why a CoConduct is needed
 - [Ashe Dryden 101 of CoCs] (http://www.ashedryden.com/blog/codes-of-conduct-101-faq)
+- [The message you send by not having a code of conduct] (http://www.catehuston.com/blog/2015/09/02/code-of-conducts-and-worthless-manfeelings/)
 - [Reasons for a conference policy] (http://adainitiative.org/continue-our-work/conference-policies/)
 - [Supporting a code of conduct] (http://geekfeminism.wikia.com/wiki/Anti-harassment_policy_resources)
 
