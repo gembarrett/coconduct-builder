@@ -20,7 +20,7 @@ To make the process of creating a Code of Conduct more efficient, while encourag
   * education (reasons behind a Code of Conduct and diversification beyond that)
   * event
   * project
----
+
 *Priority #1: event CoConduct builder tool*
 - [ ] Speak to others in the community (organisers and attendees) about their requirements for such a project
 - [ ] Write event CoConduct tool requirements/tech specs/user stories for based on research
@@ -29,13 +29,13 @@ To make the process of creating a Code of Conduct more efficient, while encourag
 - [ ] Create wireframes for tool layout
 - [ ] Build basic event CoConduct tool
 - [ ] Get feedback from community on tool so far
----
+
 *Priority #2: education around why a CoConduct is needed*
 - [ ] Plan info/quotes to share through building process
 - [ ] Contact authors of resources to ask for permission to quote them
 - [ ] Integrate these into the event CoConduct building tool
 - [ ] Get feedback from community on tool so far
----
+
 *Priority #3: open-source repo CoConduct builder tool*
 - [ ] Plan user route through building a CoConduct for a repo
 - [ ] Write repo CoConduct tool requirements/tech specs/user stories based on research
@@ -44,13 +44,13 @@ To make the process of creating a Code of Conduct more efficient, while encourag
 - [ ] Plan info/quotes to share through repo CoConduct building process
 - [ ] Contact authors of resources to ask for permission to quote them
 - [ ] Get feedback from community on tool so far
----
+
 *Priority #4: education around encouraging diversity at events and in open-source projects*
 - [ ] Plan info/quotes to integrate into the tool (part of building process or separate section?)
 - [ ] Contact authors of resources to ask for permission to quote them
 - [ ] Integrate these into the site
 - [ ] Get feedback from community on tool so far
----
+
 *Priority #5: additional resources for self-education and list of repos/events which have used the tool*
 - [ ] Create page for additional resources and repos/events which have used the tool
 - [ ] Create process for updating these quickly
