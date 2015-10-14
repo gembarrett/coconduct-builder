@@ -15,7 +15,7 @@ To make the process of creating a Code of Conduct more efficient, while encourag
 
 ### Tasks
 - [x] Define problem, goal, solution priorities and tasks
-- [ ] Compile list of resources and categorise by aforementioned functionality priorities
+- [x] Compile list of resources and categorise by aforementioned functionality priorities
 
 *Priority #1: offline CoConduct builder tool*
 - [ ] Speak to others in the community (organisers and attendees) about their requirements for an offline space CoConduct

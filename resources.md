@@ -24,3 +24,9 @@
 - [Going beyond a CoC] (https://modelviewculture.com/pieces/a-code-of-conduct-is-not-enough)
 - [Handling violations] (http://freethoughtblogs.com/almostdiamonds/2014/04/10/so-youve-got-yourself-a-policy-now-what/)
 - [Evaluating a Code of Conduct] (http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations)
+- [Why reverse-isms are BS] (http://www.cjournal.info/2013/04/24/reverse-isms-an-oppressive-myth/)
+
+## Community requirements for this tool
+- specify what happens to repeat violators (e.g. Thoughtbot CoConduct specifies ban/block before 3rd violation)
+- refusal to act on accusations of reverse-isms
+- specify examples of unacceptable behaviour
