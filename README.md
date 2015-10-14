@@ -19,7 +19,7 @@ To make the process of creating a Code of Conduct more efficient, while encourag
 
 *Priority #1: offline CoConduct builder tool*
 - [x] Request suggestions and feedback from various areas of the community (organisers and attendees) about their requirements for this project
-- [ ] Write offline CoConduct tool requirements/tech specs/user stories based on research
+- [x] Write user stories and other specs based on research
 - [ ] Plan user route through building an offline CoConduct
 - [ ] Create name, logo, colour scheme and general style of site
 - [ ] Create wireframes for tool layout
@@ -27,7 +27,6 @@ To make the process of creating a Code of Conduct more efficient, while encourag
 - [ ] Get feedback from community on tool so far
 
 *Priority #2: online CoConduct builder tool*
-- [ ] Write online CoConduct tool requirements/tech specs/user stories based on research
 - [ ] Plan user route through building a CoConduct for an online space
 - [ ] Duplicate previous tool layout wireframes and alter where necessary for repos
 - [ ] Build basic online CoConduct tool
