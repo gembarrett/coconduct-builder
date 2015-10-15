@@ -19,6 +19,9 @@
 - explain why a resource is included in additional reading
 - divide by short version and long version for UX readability
 - separate document for reporting process - different audience
+- translated into other languages
+- set up like the Privacy Policy generator (iubenda.com)
+- store your policy so can be changed later - log in with Twitter, etc to start building?
 
 ## User stories
 As a conference organiser who has implemented a Code of Conduct before, I want to learn how to build a more diverse environment at my conference.
@@ -36,6 +39,9 @@ As a forum admin, I want to access a Code of Conduct resource which brings toget
 ## Technical requirements
 - Upon arrival at the site, user is presented with:
   - basic description of the tool
+  - two things required to implement a policy:
+    - 1+ contact points for reports
+    - 1+ people who monitor those points and have the power to respond (including excluding violators)
   - links to further reading/information and contact info
   - choice of building a code of conduct for (multiple selection available):
     - an offline community (e.g. event)
@@ -45,12 +51,26 @@ As a forum admin, I want to access a Code of Conduct resource which brings toget
   - community name (can separate into offline name and online name)
   - website
   - happy to be added to list of users?
+- generate super-short version (e.g. for inclusion in intro speech/project description)
+- also generate short and long versions for display
 
 ## Common elements of CoConducts
-- specify which type of complaints will not be acted on (reverse-isms)
-- some examples of unacceptable behaviour
+- specify which type of complaints will not be acted on (basic list, e.g. reverse-isms, with ability to add others)
+- specific examples of unacceptable behaviour (basic list, e.g. sexual imagery, with ability to add others)
 - specify which areas of community it will be applied to:
   - online spaces: wiki, blog, mailing lists, forums, repos, other [specify]
-  - offline spaces: meetups, workshops, parties, conference venue, talks, other [specify]
-
-
+  - offline spaces: meetups, workshops, social events, conference venue, talks, other [specify]
+- consequences of CoConduct violations (basic info, e.g. asked to refrain, with ability to add others)
+- consequences of repeated violations (basic info, e.g. asked to leave after 2 violations, with ability to add others)
+- process for reporting
+- process for handling reports
+- response team:
+  - name of team (e.g. Awesome Conference Event Team)
+  - community Twitter account (DMs open?)
+  - community email address
+  - how to recognise members in offline spaces (shirt colour, )
+  - members:
+    - name
+    - email
+    - Twitter handle
+    - phone number
