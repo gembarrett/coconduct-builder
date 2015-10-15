@@ -17,6 +17,8 @@
 - specify examples of unacceptable behaviour
 - include process for users to suggest/submit additional resources
 - explain why a resource is included in additional reading
+- divide by short version and long version for UX readability
+- separate document for reporting process - different audience
 
 ## User stories
 As a conference organiser who has implemented a Code of Conduct before, I want to learn how to build a more diverse environment at my conference.
@@ -45,3 +47,10 @@ As a forum admin, I want to access a Code of Conduct resource which brings toget
   - happy to be added to list of users?
 
 ## Common elements of CoConducts
+- specify which type of complaints will not be acted on (reverse-isms)
+- some examples of unacceptable behaviour
+- specify which areas of community it will be applied to:
+  - online spaces: wiki, blog, mailing lists, forums, repos, other [specify]
+  - offline spaces: meetups, workshops, parties, conference venue, talks, other [specify]
+
+

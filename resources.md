@@ -1,7 +1,8 @@
 # Resources
 
 ## Offline CoConduct examples
-- [GeekFeminism's Code of Conduct] (http://geekfeminism.org/about/code-of-conduct/)
+- [GeekFeminism's Code of Conduct for online spaces] (http://geekfeminism.wikia.com/wiki/Community_anti-harassment/Policy)
+- [GeekFeminism's Code of Conduct for offline spaces] (http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
 - [.concat() conference's Code of Conduct] (https://github.com/conc-at/conc.at/blob/f50c3593af05f1e268abe7b73d37b6892baeffe6/app/jade/modals/coc.md)
 - [Conf Code of Conduct] (http://confcodeofconduct.com/)
 
