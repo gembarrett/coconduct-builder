@@ -17,7 +17,8 @@
 - specify examples of unacceptable behaviour
 - include process for users to suggest/submit additional resources
 - explain why a resource is included in additional reading
-- divide by short version and long version for UX readability
+- generate super-short version (e.g. for inclusion in intro speech/project description)
+- also generate short and long versions for display
 - separate document for reporting process - different audience
 - translated into other languages
 - set up like the Privacy Policy generator (iubenda.com)
@@ -35,24 +36,6 @@ As an open-source contributor, I want to know that the project I'm involved with
 As an open-source project owner, I want to build a well-considered Code of Conduct that is customised to my project.
 
 As a forum admin, I want to access a Code of Conduct resource which brings together a lot of the community-supported advice and tips provided in various blog posts.
-
-## Technical requirements
-- Upon arrival at the site, user is presented with:
-  - basic description of the tool
-  - two things required to implement a policy:
-    - >1 contact points for reports
-    - >1 people who monitor those points and have the power to respond (including excluding violators)
-  - links to further reading/information and contact info
-  - choice of building a code of conduct for (multiple selection available):
-    - an offline community (e.g. event)
-    - an online community (e.g. open-source repo)
-- having chosen the type of CoConduct, basic details are taken:
-  - user's name
-  - community name (can separate into offline name and online name)
-  - website
-  - happy to be added to list of users?
-- generate super-short version (e.g. for inclusion in intro speech/project description)
-- also generate short and long versions for display
 
 ## Common elements of CoConducts
 - specify which type of complaints will not be acted on (basic list, e.g. reverse-isms, with ability to add others)
@@ -74,3 +57,14 @@ As a forum admin, I want to access a Code of Conduct resource which brings toget
     - email
     - Twitter handle
     - phone number
+
+## Initial landing experience
+- Upon arrival at the site, user is presented with:
+  - basic description of the tool
+  - two things required to implement a policy:
+    - >1 contact points for reports
+    - >1 people who monitor those points and have the power to respond (including excluding violators)
+  - links to further reading/information and contact info
+  - choice of building a code of conduct for (multiple selection available):
+    - an offline community (e.g. event)
+    - an online community (e.g. open-source repo)
