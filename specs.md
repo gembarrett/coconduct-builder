@@ -40,8 +40,8 @@ As a forum admin, I want to access a Code of Conduct resource which brings toget
 - Upon arrival at the site, user is presented with:
   - basic description of the tool
   - two things required to implement a policy:
-    - 1+ contact points for reports
-    - 1+ people who monitor those points and have the power to respond (including excluding violators)
+    - >1 contact points for reports
+    - >1 people who monitor those points and have the power to respond (including excluding violators)
   - links to further reading/information and contact info
   - choice of building a code of conduct for (multiple selection available):
     - an offline community (e.g. event)
@@ -68,7 +68,7 @@ As a forum admin, I want to access a Code of Conduct resource which brings toget
   - name of team (e.g. Awesome Conference Event Team)
   - community Twitter account (DMs open?)
   - community email address
-  - how to recognise members in offline spaces (shirt colour, )
+  - how to recognise members in offline spaces (e.g. event shirts in specific colour, badges)
   - members:
     - name
     - email
