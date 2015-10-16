@@ -29,6 +29,7 @@
 - [ ] repositories
 - [ ] IRC channel
 - [ ] other ____
+
 (*offline choices*)
 - [ ] conference venues
 - [ ] social events
@@ -39,11 +40,13 @@
 ## Are there additional spaces in your community, not included above, which may have additional rules?
 - Yes
 - No
+
 > Some spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
 
 ### (if applied to offline community) Do you have sponsors?
 - Yes
 - No
+
 > Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
 ## Under what circumstances does this Code of Conduct apply?
