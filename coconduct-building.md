@@ -79,3 +79,25 @@
 - Criticising racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
 
 - [ ] additional specific circumstance that will *not* be acted upon ____
+
+## Reporting process
+- Response team name (e.g. Awesome Community Organisers) ____
+
+### For anonymous reports
+- URL of anonymous reporting form (i.e. doesn't require an email address to submit, such as WuFoo or similar) ____
+
+> We can't follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.
+
+### For personal reports
+- Main contact point (e.g. reports@awesomeconf.com)
+- [ ] > 1 members of response team who can deal with reports:
+  - Name
+  - [ ] Contact point 1 (e.g. email address or phone)
+  - [ ] Contact point 2 (e.g. Twitter or other) *if Twitter, are DMs open?*
+
+*offline choices*
+#### How to identify response team staff
+- [ ] coloured shirts ____
+- [ ] badges ____
+- [ ] branded shirts ____
+- [ ] other ____
