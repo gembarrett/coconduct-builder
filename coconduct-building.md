@@ -67,6 +67,7 @@
 - Continued one-on-one communication after requests to cease.
 - Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse.
 - Publication of non-harassing private communication.
+- Publishing another persons private information, such as physical or electronic addresses, without explicit permission
 - Advocating for, or encouraging, any of the above behaviour
 
 - [ ] additional specific circumstance that will be acted upon ____
@@ -81,6 +82,8 @@
 - [ ] additional specific circumstance that will *not* be acted upon ____
 
 ## Reporting process
+> If you are being harassed by a member of ____, notice that someone else is being harassed, or have any other concerns, please contact us at ____. Harassment and other code of conduct violations reduce the value of our community for everyone. We want you to be happy in our community as people like you make it a better place. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
+
 - Response team name (e.g. Awesome Community Organisers) ____
 
 ### For anonymous reports
@@ -95,9 +98,30 @@
   - [ ] Contact point 1 (e.g. email address or phone)
   - [ ] Contact point 2 (e.g. Twitter or other) *if Twitter, are DMs open?*
 
-*offline choices*
+*offline questions*
 #### How to identify response team staff
 - [ ] coloured shirts ____
 - [ ] badges ____
 - [ ] branded shirts ____
 - [ ] other ____
+
+> When taking a personal report, our staff will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly. Once safe, we'll ask you to tell us about what happened. This can be upsetting, but we'll handle it as respectfully as possible, and you can bring someone to support you. You won't be asked to confront anyone and we won't tell anyone who you are.
+
+#### Additional points of contact
+- [ ] Phone number for venue security
+- [ ] Local law enforcement
+- [ ] Local emergency medical number
+- [ ] Local taxi company
+
+> Our team will be happy to help you contact hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event. We value your attendance.
+
+## Consequences of violation
+> Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, we may take any action we deem appropriate, up to and including expulsion from all ____ spaces. Violators will be warned by the ____. Repeat violations will result in being blocked or banned by the ____ at or before the 3rd violation.
+
+*offline*
+> Appropriate action for offline spaces includes stopping a presentation or other event and/or expulsion without a refund.
+
+*online*
+> Appropriate action for online spaces includes deletion of comments, removal from the project’s codebase and communication systems, escalation to GitHub support and/or identification of the participant as a harasser to other ____ members or the general public.
+
+- [ ] additional sanctions not specified ____
