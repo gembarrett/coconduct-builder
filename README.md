@@ -1,4 +1,6 @@
 # Code of Conduct builder
+> "The golden rule is a good standard which can perhaps even be improved by doing unto others, wherever possible, as they would be done by" - Karl Popper
+
 ### An online tool for building a thorough and well-supported Code of Conduct specific to a community's online and/or offline environment.
 
 ## Problem
