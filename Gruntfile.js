@@ -15,7 +15,7 @@ module.exports = function (grunt) {
           }
         },
         files: {
-          'dest/dest.html': ['src/*.jade']
+          'dest/index.html': ['src/*.jade']
         }
       }
     },
