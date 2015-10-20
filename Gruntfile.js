@@ -7,34 +7,17 @@ module.exports = function (grunt) {
         }
       }
     },
-    jade: {
-      compile: {
-        options: {
-          data: {
-            debug: false
-          }
-        },
-        files: {
-          'dest/index.html': ['src/*.jade']
-        }
-      }
-    },
     watch: {
       styling: {
         files: ['src/*.scss'],
         tasks: 'sass'
-      },
-      templates: {
-        files: ['src/*.jade'],
-        tasks: 'jade'
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-jade');
 
-  grunt.registerTask('default', ['sass', 'jade', 'watch']);
+  grunt.registerTask('default', ['sass', 'watch']);
 
 };
