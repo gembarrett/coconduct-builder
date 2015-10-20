@@ -17,5 +17,6 @@ $(document).ready(function() {
         offlineSpace = true;
       }
     }
+  $('#next').prop('disabled',false);
   });
 });
