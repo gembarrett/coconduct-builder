@@ -3,4 +3,10 @@ body {
   background-color: black;
   color: white; }
 
+.section {
+  display: none; }
+
+.active {
+  display: block; }
+
 /*# sourceMappingURL=main.css.map */
