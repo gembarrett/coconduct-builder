@@ -1,7 +1,17 @@
+@import 'includes/text';
+
 body {
-  font-family: Helvetica, sans-serif;
-  background-color:black;
-  color:white;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  color:darkgray;
+}
+
+header {
+  margin-bottom:2em;
+}
+
+.container {
+  max-width:980px;
+  margin:0 auto;
 }
 
 .section {
@@ -9,4 +19,22 @@ body {
 }
 .active {
   display:block;
+}
+
+.offlineUsage {
+  #onlineSpaces {
+    display:none;
+  }
+}
+
+.onlineUsage {
+  #offlineSpaces {
+    display: none;
+  }
+}
+
+.offlineUsage.onlineUsage {
+  #onlineSpaces, #offlineSpaces {
+    display:block;
+  }
 }

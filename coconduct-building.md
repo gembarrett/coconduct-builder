@@ -15,10 +15,10 @@
 - Yes, please email me at ____ for appropriate info to use
 - No, I'd rather my community wasn't listed
 
-## Who does this Code of Conduct apply to?
+<!-- ## Who does this Code of Conduct apply to?
 > ____ is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of community members in any form.
 
-- [ ] additional groups of people ____
+- [ ] additional groups of people ____ -->
 
 ## Where does this Code of Conduct apply?
 > This code of conduct applies to all ____ spaces, including:

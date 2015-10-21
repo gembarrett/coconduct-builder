@@ -1,0 +1,20 @@
+h1, h2, h3, p {
+  font-weight: lighter;
+}
+
+h1 {
+  font-size:3.25em;
+  display:inline-block;
+  margin-bottom:0;
+}
+h2 {
+  display:inline-block;
+  padding-left: 0.5em;
+}
+quote {
+  display:inline-block;
+  font-weight:200;
+  span {
+    font-style: italic;
+  }
+}

@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Code of Conduct builder</title>
+    <title>The Platinum Rule: Code of Conduct builder</title>
     <link rel='stylesheet' href='main.css'>
   </head>
   <body>
-    <header>
-      <h1>Platinum Rule</h1>
-      <h2>The Code of Conduct Builder</h2>
-    </header>
-    <div id='intro' class='section'>
-      <h3>What type of space will your Code of Conduct apply to?</h3>
-      <button id='onlineSpace'>Online spaces</button><span>?</span>
-      <button id='offlineSpace'>Offline spaces</button><span>?</span>
+    <div class='container'>
+      <header>
+        <h1>Platinum Rule</h1>
+        <h2>The Code of Conduct builder</h2>
+        <quote><span>"doing unto others, wherever possible, as they would be done by"</span> - Karl Popper, philosopher</quote>
+      </header>
     </div>
-    <div id='basic' class='section'>
-      <h3>About your community</h3>
-      <p>Community name *</p>
-      <input type='text' placeholder='Awesome Community' id='communityName'>
-      <p>Your name *</p>
-      <input type='text' placeholder='Awesome Person' id='userName'>
-      <p>Community website's URL *</p>
-      <input type='text' placeholder='www.awesomeconf.com' id='communityurl'>
-      <p>Code of Conduct URL (if different from above)</p>
-      <input type='text' placeholder='www.awesomeconf.com/participation' id='coconducturl'>
+    <div class='container'>
+      <div id='intro' class='section'>
+        <h3>What type of space will your Code of Conduct apply to?</h3>
+        <button id='onlineSpace'>Online spaces</button><span>?</span>
+        <button id='offlineSpace'>Offline spaces</button><span>?</span>
+      </div>
+      <div id='basic' class='section'>
+        <h3>About your community</h3>
+        <p>Community name *</p>
+        <input type='text' placeholder='Awesome Community' id='communityName'>
+        <p>Your name *</p>
+        <input type='text' placeholder='Awesome Person' id='userName'>
+        <p>Community website's URL *</p>
+        <input type='text' placeholder='www.awesomeconf.com' id='communityurl'>
+        <p>Code of Conduct URL (if different from above)</p>
+        <input type='text' placeholder='www.awesomeconf.com/participation' id='coconducturl'>
+      </div>
+      <!-- <div id='list' class='section'>
+        <h3>Are you happy to be added to the list of communities using this tool?</h3>
+        <p>Yes, please use the previous details provided</p>
+        <input type='radio' id='yesPrev'>
+        <p>Yes, please email me for appropriate details to use</p>
+        <input type='text' id='yesEmail'>
+        <p>No, I'd rather my community wasn't listed</p>
+        <input type='radio' id='no'>
+      </div> -->
+      <div id='spaces' class='section'>
+        <div id='onlineSpaces'>
+          <p>Mailing lists</p>
+          <input type='checkbox' value='mailing lists'>
+          <p>Forums</p>
+          <input type='checkbox' value='forums'>
+          <p>Repositories</p>
+          <input type='checkbox' value='repositories'>
+          <p>IRC channel</p>
+          <input type='checkbox' value='IRC channel'>
+          <p>Other</p>
+          <input type='text' value='other'>
+        </div>
+        <div id='offlineSpaces'>
+          <p>Conference venues</p>
+          <input type='checkbox' value='conference venues'>
+          <p>Social events</p>
+          <input type='checkbox' value='social events'>
+          <p>Workshops</p>
+          <input type='checkbox' value='workshops'>
+          <p>Meetups</p>
+          <input type='checkbox' value='meetups'>
+          <p>Other</p>
+          <input type='text' value='other'>
+        </div>
+      </div>
+      <button id='next'>Next</button>
     </div>
-    <button id='next'>Next</button>
     <script src='//code.jquery.com/jquery-2.1.4.min.js'></script>
     <script src='main.min.js'></script>
   </body>

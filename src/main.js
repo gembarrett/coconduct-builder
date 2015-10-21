@@ -13,7 +13,7 @@ $(sections[section]).addClass('active');
 $('#next').prop('disabled',true);
 $('#next').click(function(){
   if ($('#intro').hasClass('active')) {
-    getSpace();
+    onAndOffline();
   } else if ($('#basic').hasClass('active')) {
     getBasicInfo();
   }

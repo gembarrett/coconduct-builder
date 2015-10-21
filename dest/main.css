@@ -1,12 +1,45 @@
+h1, h2, h3, p {
+  font-weight: lighter; }
+
+h1 {
+  font-size: 3.25em;
+  display: inline-block;
+  margin-bottom: 0; }
+
+h2 {
+  display: inline-block;
+  padding-left: 0.5em; }
+
+quote {
+  display: inline-block;
+  font-weight: 200; }
+  quote span {
+    font-style: italic; }
+
 body {
-  font-family: Helvetica, sans-serif;
-  background-color: black;
-  color: white; }
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  color: darkgray; }
+
+header {
+  margin-bottom: 2em; }
+
+.container {
+  max-width: 980px;
+  margin: 0 auto; }
 
 .section {
   display: none; }
 
 .active {
+  display: block; }
+
+.offlineUsage #onlineSpaces {
+  display: none; }
+
+.onlineUsage #offlineSpaces {
+  display: none; }
+
+.offlineUsage.onlineUsage #onlineSpaces, .offlineUsage.onlineUsage #offlineSpaces {
   display: block; }
 
 /*# sourceMappingURL=main.css.map */

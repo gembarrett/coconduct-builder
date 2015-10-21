@@ -7,9 +7,11 @@ $('#intro button').click(function(){
     if (onlineSpace) {
       // deselect online space
       onlineSpace = false;
+      $('body').removeClass('onlineUsage');
     } else {
       // select online space
       onlineSpace = true;
+      $('body').addClass('onlineUsage');
     }
     // if offline space is chosen
   } else {
@@ -17,9 +19,11 @@ $('#intro button').click(function(){
     if (offlineSpace) {
       // deselect offline space
       offlineSpace = false;
+      $('body').removeClass('offlineUsage');
     } else {
       // select offline space
       offlineSpace = true;
+      $('body').addClass('offlineUsage');
     }
   }
   $('#next').prop('disabled',false);
