@@ -7,5 +7,6 @@ $(document).ready(function() {
     $(sections[section]).removeClass('active');
     section++;
     $(sections[section]).addClass('active');
+    $('#next').prop('disabled',true);
   });
 });
