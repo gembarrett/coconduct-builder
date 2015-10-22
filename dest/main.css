@@ -36,7 +36,7 @@ button {
   button.selected, button:hover {
     opacity: 1; }
   button:disabled {
-    opacity: 0.75;
+    opacity: 0.5;
     cursor: default; }
 
 .section button {

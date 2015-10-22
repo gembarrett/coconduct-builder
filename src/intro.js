@@ -26,10 +26,16 @@ $('#intro button').click(function(){
       $('body').addClass('offlineUsage');
     }
   }
-  $('#next').prop('disabled',false);
+  canProceed();
 });
-while ($('#intro').hasClass('active')) {
-  console.log('disabled');
+function canProceed() {
+  if ($('body').hasClass('offlineUsage') || $('body').hasClass('onlineUsage')) {
+    $('#next').prop('disabled',false);
+    return true;
+  } else {
+    $('#next').prop('disabled',true);
+    return false;
+  }
 }
 function onAndOffline() {
   if (offlineSpace && onlineSpace) {
