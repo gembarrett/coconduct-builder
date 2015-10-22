@@ -26,6 +26,18 @@ p {
   font-weight: 300;
 }
 
+cta {
+  float:right;
+  a, a:visited {
+    text-decoration: none;
+    color:#6794ef;
+    opacity:0.8;
+    &:hover {
+      opacity: 1.0;
+    }
+  }
+}
+
 button {
   width:10em;
   height:3em;
@@ -38,7 +50,6 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   &.selected, &:hover {
-    // background-color:#5375ba;
     opacity:1;
   }
   &:disabled {

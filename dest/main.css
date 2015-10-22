@@ -22,6 +22,15 @@ quote {
 p {
   font-weight: 300; }
 
+cta {
+  float: right; }
+  cta a, cta a:visited {
+    text-decoration: none;
+    color: #6794ef;
+    opacity: 0.8; }
+    cta a:hover, cta a:visited:hover {
+      opacity: 1.0; }
+
 button {
   width: 10em;
   height: 3em;
@@ -47,7 +56,7 @@ body {
   color: #5b5b5b; }
 
 header {
-  margin-bottom: 4em; }
+  margin-bottom: 2em; }
 
 .container {
   max-width: 980px;
