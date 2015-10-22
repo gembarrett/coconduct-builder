@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+h1, h2, h3 {
   font-weight: lighter;
 }
 
@@ -11,10 +11,40 @@ h2 {
   display:inline-block;
   padding-left: 0.5em;
 }
+h3 {
+  font-size:2em;
+}
 quote {
   display:inline-block;
   font-weight:200;
   span {
     font-style: italic;
   }
+}
+
+p {
+  font-weight: 300;
+}
+
+button {
+  width:10em;
+  height:3em;
+  border:0;
+  border-radius: 5%;
+  background-color: #6794ef;
+  color:white;
+  margin:1em 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  &.selected {
+    background-color:#5375ba;
+  }
+  &:disabled {
+    opacity:0.75;
+    cursor: default;
+  }
+}
+
+.section button {
+  margin:0;
 }

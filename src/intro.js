@@ -28,6 +28,9 @@ $('#intro button').click(function(){
   }
   $('#next').prop('disabled',false);
 });
+while ($('#intro').hasClass('active')) {
+  console.log('disabled');
+}
 function onAndOffline() {
   if (offlineSpace && onlineSpace) {
     onAndOfflineSpace = true;
