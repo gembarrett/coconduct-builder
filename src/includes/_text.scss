@@ -32,12 +32,14 @@ button {
   border:0;
   border-radius: 5%;
   background-color: #6794ef;
+  opacity:0.75;
   color:white;
-  margin:1em 0;
+  margin:3em 0;
   cursor: pointer;
   text-transform: uppercase;
-  &.selected {
-    background-color:#5375ba;
+  &.selected, &:hover {
+    // background-color:#5375ba;
+    opacity:1;
   }
   &:disabled {
     opacity:0.75;
