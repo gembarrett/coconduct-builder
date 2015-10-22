@@ -20,33 +20,26 @@ To make the process of creating a Code of Conduct more efficient, while encourag
 - [x] Define problem, goal, solution priorities and tasks
 - [x] Compile list of resources and categorise by aforementioned functionality priorities
 
-*Priority #1: offline CoConduct builder tool*
+*Priority #1: basic CoConduct builder tool*
 - [x] Request suggestions and feedback from various areas of the community (organisers and attendees) about their requirements for this project
 - [x] Write user stories and other specs based on research
-- [x] Plan user route through building an offline CoConduct
-- [ ] Create name, logo, colour scheme and general style of site
-- [ ] Create wireframes for tool layout
-- [ ] Build basic offline CoConduct tool
+- [x] Plan user route through building a community CoConduct (with online and offline options)
+- [x] Create name, logo, colour scheme and general style of site
+- [ ] Build basic CoConduct tool
 - [ ] Get feedback from community on tool so far
 
-*Priority #2: online CoConduct builder tool*
-- [ ] Plan user route through building a CoConduct for an online space
-- [ ] Duplicate previous tool layout wireframes and alter where necessary for repos
-- [ ] Build basic online CoConduct tool
-- [ ] Get feedback from community on tool so far
-
-*Priority #3: education around why a CoConduct is needed*
+*Priority #2: education around why a CoConduct is needed*
 - [ ] Plan info/quotes to share through building process
 - [ ] Contact authors of resources to ask for permission to quote them
 - [ ] Integrate these into the event CoConduct building tool
 - [ ] Get feedback from community on tool so far
 
-*Priority #4: education around encouraging diversity in general*
+*Priority #3: education around encouraging diversity in general*
 - [ ] Plan info/quotes to integrate into the tool (part of building process or separate section?)
 - [ ] Contact authors of resources to ask for permission to quote them
 - [ ] Integrate these into the site
 - [ ] Get feedback from community on tool so far
 
-*Priority #5: additional resources for self-education and list of repos/events which have used the tool*
+*Priority #4: additional resources for self-education and list of repos/events which have used the tool*
 - [ ] Create page for additional resources and repos/events which have used the tool
 - [ ] Create process for updating these quickly
