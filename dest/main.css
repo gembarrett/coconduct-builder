@@ -19,6 +19,9 @@ quote {
   quote span {
     font-style: italic; }
 
+.output quote {
+  font-style: italic; }
+
 p {
   font-weight: 300; }
 
@@ -62,11 +65,21 @@ header {
   max-width: 980px;
   margin: 0 auto; }
 
+.main {
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  overflow: auto; }
+
 .section {
   display: none;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #d9d9d9;
-  border-top: 1px solid #d9d9d9; }
+  padding-bottom: 2em; }
+
+.previewEnabled .output {
+  width: 40%;
+  float: right; }
+.previewEnabled .input {
+  width: 60%;
+  float: left; }
 
 .active {
   display: block; }

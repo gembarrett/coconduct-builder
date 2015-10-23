@@ -14,12 +14,28 @@ header {
   margin:0 auto;
 }
 
+.main {
+  border-bottom:1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  overflow:auto;
+}
+
 .section {
   display:none;
   padding-bottom: 2em;
-  border-bottom:1px solid #d9d9d9;
-  border-top: 1px solid #d9d9d9;
 }
+
+.previewEnabled {
+  .output {
+    width:40%;
+    float:right;
+  }
+  .input {
+    width:60%;
+    float:left;
+  }
+}
+
 .active {
   display:block;
 }

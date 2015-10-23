@@ -13,61 +13,77 @@
         <cta><a href='https://github.com/gembarrett/coconduct-builder' target='_blank'>Contribute to this project!</a></cta>
       </header>
     </div>
-    <div class='container '>
-      <div id='intro' class='section'>
-        <h3>What type of space will your Code of Conduct apply to?</h3>
-        <p>The context in which your Code of Conduct applies will depend on whether your community is primarily offline or online.</p>
-        <p>Examples of offline spaces include conferences, meetups and workshops. Online spaces, including mailing lists, forums and repositories, may also require a Code of Conduct.</p>
-        <p>If your community meets both online and offline then it is recommended to have one Code of Conduct across both contexts.</p>
-        <button id='onlineSpace'>Online spaces</button>
-        <button id='offlineSpace'>Offline spaces</button>
-      </div>
-      <div id='basic' class='section'>
-        <h3>About your community</h3>
-        <p>Community name *</p>
-        <input type='text' placeholder='Awesome Community' id='communityName'>
-        <p>Your name *</p>
-        <input type='text' placeholder='Awesome Person' id='userName'>
-        <p>Community website's URL *</p>
-        <input type='text' placeholder='www.awesomeconf.com' id='communityurl'>
-        <p>Code of Conduct URL (if different from above)</p>
-        <input type='text' placeholder='www.awesomeconf.com/participation' id='coconducturl'>
-      </div>
-      <!-- <div id='list' class='section'>
-        <h3>Are you happy to be added to the list of communities using this tool?</h3>
-        <p>Yes, please use the previous details provided</p>
-        <input type='radio' id='yesPrev'>
-        <p>Yes, please email me for appropriate details to use</p>
-        <input type='text' id='yesEmail'>
-        <p>No, I'd rather my community wasn't listed</p>
-        <input type='radio' id='no'>
-      </div> -->
-      <div id='spaces' class='section'>
-        <div id='onlineSpaces'>
-          <input type='checkbox' value='listservs'>
-          <p>Mailing lists</p>
-          <input type='checkbox' value='forums'>
-          <p>Forums</p>
-          <input type='checkbox' value='repositories'>
-          <p>Repositories</p>
-          <input type='checkbox' value='irc'>
-          <p>IRC channel</p>
-          <input type='text' placeholder='other online space'>
-          <p>Other</p>
+    <div class='container'>
+      <div class='main'>
+        <div id='intro' class='section'>
+          <h3>What type of space will your Code of Conduct apply to?</h3>
+          <p>The context in which your Code of Conduct applies will depend on whether your community is primarily offline or online.</p>
+          <p>Examples of offline spaces include conferences, meetups and workshops. Online spaces, including mailing lists, forums and repositories, may also require a Code of Conduct.</p>
+          <p>If your community meets both online and offline then it is recommended to have one Code of Conduct across both contexts.</p>
+          <button id='onlineSpace'>Online spaces</button>
+          <button id='offlineSpace'>Offline spaces</button>
         </div>
-        <div id='offlineSpaces'>
-          <input type='checkbox' value='conferences'>
-          <p>Conference venues</p>
-          <input type='checkbox' value='socials'>
-          <p>Social events</p>
-          <input type='checkbox' value='workshops'>
-          <p>Workshops</p>
-          <input type='checkbox' value='meetups'>
-          <p>Meetups</p>
-          <input type='text' placeholder='other offline space'>
-          <p>Other</p>
+        <div id='basic' class='section previewEnabled'>
+          <div class='input'>
+            <h3>About your community</h3>
+            <p>Community name
+            <input type='text' placeholder='Awesome Community' id='communityName'></p>
+            <p>Your name
+            <input type='text' placeholder='Awesome Person' id='userName'></p>
+            <p>Community website's URL
+            <input type='text' placeholder='www.awesomeconf.com' id='communityurl'></p>
+            <p>Code of Conduct URL
+            <input type='text' placeholder='www.awesomeconf.com/participation' id='coconducturl'></p>
+          </div>
+          <div class='output'>
+            <h3>Preview</h3>
+            <h4>A short version of your Code of Conduct refers the reader to the full version and is suitable for footers, announcement emails and press releases.</h4>
+            <quote>"<span class='communityName'></span> is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote>
+          </div>
+
         </div>
-      </div>
+        <!-- <div id='list' class='section'>
+          <h3>Are you happy to be added to the list of communities using this tool?</h3>
+          <p>Yes, please use the previous details provided</p>
+          <input type='radio' id='yesPrev'>
+          <p>Yes, please email me for appropriate details to use</p>
+          <input type='text' id='yesEmail'>
+          <p>No, I'd rather my community wasn't listed</p>
+          <input type='radio' id='no'>
+        </div> -->
+        <div id='people' class='section'>
+          <p>Your Code of Conduct should declare your community's dedication to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religious opinions or technology choices.</p>
+          <p>Are there any additional marginalised groups you want to explicitly support in your Code of Conduct?</p>
+          <p><input type='radio' value='yes-additional'>Yes, please add <input type='text' placeholder='group 1, group 2, group 3'></p>
+          <p><input type='radio' value='no-additional'>No</p>
+        </div>
+        <div id='spaces' class='section'>
+          <div id='onlineSpaces'>
+            <input type='checkbox' value='listservs'>
+            <p>Mailing lists</p>
+            <input type='checkbox' value='forums'>
+            <p>Forums</p>
+            <input type='checkbox' value='repositories'>
+            <p>Repositories</p>
+            <input type='checkbox' value='irc'>
+            <p>IRC channel</p>
+            <input type='text' placeholder='other online space'>
+            <p>Other</p>
+          </div>
+          <div id='offlineSpaces'>
+            <input type='checkbox' value='conferences'>
+            <p>Conference venues</p>
+            <input type='checkbox' value='socials'>
+            <p>Social events</p>
+            <input type='checkbox' value='workshops'>
+            <p>Workshops</p>
+            <input type='checkbox' value='meetups'>
+            <p>Meetups</p>
+            <input type='text' placeholder='other offline space'>
+            <p>Other</p>
+          </div>
+        </div>
+    </div>
       <button id='next'>Next ></button>
     </div>
     <script src='//code.jquery.com/jquery-2.1.4.min.js'></script>
