@@ -19,6 +19,12 @@ quote {
   quote span {
     font-style: italic; }
 
+#basic .input h4 {
+  margin-bottom: 0; }
+#basic .input h4 ~ p {
+  display: inline-block;
+  padding-right: 1em; }
+
 .output quote {
   font-style: italic; }
 
@@ -79,7 +85,9 @@ header {
   float: right; }
 .previewEnabled .input {
   width: 60%;
-  float: left; }
+  float: left;
+  box-sizing: border-box;
+  padding-right: 2em; }
 
 .active {
   display: block; }

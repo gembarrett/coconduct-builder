@@ -22,6 +22,16 @@ quote {
   }
 }
 
+#basic .input {
+  h4 {
+    margin-bottom: 0;
+  }
+  h4 ~ p {
+    display: inline-block;
+    padding-right:1em;
+  }
+}
+
 .output quote {
   font-style: italic;
 }

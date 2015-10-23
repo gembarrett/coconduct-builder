@@ -3,8 +3,6 @@ $('#communityName, #userName, #communityurl, #coconducturl').val('').change(func
 });
 function getBasicInfo() {
   communityName = $('#communityName').val();
-  userName = $('#userName').val();
-  communityUrl = $('#communityurl').val();
   coconductUrl = $('#coconducturl').val();
 }
 var $copyNameTo = $('#basic .output .communityName');

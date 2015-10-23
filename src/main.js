@@ -4,8 +4,6 @@ var onlineSpace = false;
 var offlineSpace = false;
 var space;
 var communityName;
-var userName;
-var communityUrl;
 var coconductUrl;
 var eventType;
 
