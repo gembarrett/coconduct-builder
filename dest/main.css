@@ -78,7 +78,8 @@ header {
 
 .section {
   display: none;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  overflow: auto; }
 
 .previewEnabled .output {
   width: 40%;

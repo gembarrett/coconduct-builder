@@ -39,22 +39,20 @@
             <h4>A short version of your Code of Conduct refers the reader to the full version and is suitable for footers, IRC channel welcome messages and press releases.</h4>
             <quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone. Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote>
           </div>
-
         </div>
-        <!-- <div id='list' class='section'>
-          <h3>Are you happy to be added to the list of communities using this tool?</h3>
-          <p>Yes, please use the previous details provided</p>
-          <input type='radio' id='yesPrev'>
-          <p>Yes, please email me for appropriate details to use</p>
-          <input type='text' id='yesEmail'>
-          <p>No, I'd rather my community wasn't listed</p>
-          <input type='radio' id='no'>
-        </div> -->
-        <div id='people' class='section'>
-          <p>Your Code of Conduct should declare your community's dedication to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religious opinions or technology choices.</p>
-          <p>Are there any additional marginalised groups you want to explicitly support in your Code of Conduct?</p>
-          <p><input type='radio' name='people' value='yes-additional'>Yes, please add <input type='text' placeholder='group 1, group 2, group 3'></p>
-          <p><input type='radio' name='people' value='no-additional'>No</p>
+        <div id='people' class='section previewEnabled'>
+          <div class='input'>
+            <h3>Supporting marginalised groups</h3>
+            <p>Your Code of Conduct should declare your community's dedication to providing a harassment-free experience for everyone and make it explicity clear that discrimination against marginalised groups for any reason is not acceptable.</p>
+            <p>Are there any additional marginalised groups you want to explicitly support in your Code of Conduct?</p>
+            <p><input type='radio' name='people' id='yesAdditional'>Yes, please add <input type='text' id='otherAdditional' placeholder='group 1, group 2, group 3'></p>
+            <p><input type='radio' name='people' id='noAdditional' checked='checked'>No</p>
+          </div>
+          <div class='output'>
+            <h3>Preview</h3>
+            <h4>A slightly longer version of your Code of Conduct sets expectations for the tone of the community and is suitable for introductory conference announcements and project readme files.</h4>
+            <quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religious opinions or technology choices. <span id='additional'></span>We do not tolerate harassment of participants in any form. <span class='offlineContent'></span><span class='onlineContent'>Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote>
+          </div>
         </div>
         <div id='spaces' class='section'>
           <div id='onlineSpaces'>

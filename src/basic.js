@@ -5,14 +5,14 @@ function getBasicInfo() {
   communityName = $('#communityName').val();
   coconductUrl = $('#coconducturl').val();
 }
-var $copyNameTo = $('#basic .output .communityName');
+var $copyNameTo = $('.output .communityName');
 var $copyName = $('#communityName');
 
 $($copyName).keyup(function() {
   $copyNameTo.text(this.value);
 });
 
-var $copyUrlTo = $('#basic .output .coconductURL');
+var $copyUrlTo = $('.output .coconductURL');
 var $copyUrl = $('#coconducturl');
 
 $($copyUrl).keyup(function() {
