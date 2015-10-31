@@ -28,7 +28,7 @@ quote {
 .output quote {
   font-style: italic; }
 
-p {
+p, li {
   font-weight: 300; }
 
 cta {
