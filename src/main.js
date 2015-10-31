@@ -10,7 +10,7 @@ var eventType;
 // if JS is turned on then show the tool content and hide the non-JS content
 // $(document).ready(function(){
   $('#no-js').hide();
-  $('.main').show();
+  $('.main, #next').show();
 // })
 
 // add active class to first section
