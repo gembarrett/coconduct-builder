@@ -7,6 +7,12 @@ var communityName;
 var coconductUrl;
 var eventType;
 
+// if JS is turned on then show the tool content and hide the non-JS content
+// $(document).ready(function(){
+  $('#no-js').hide();
+  $('.main').show();
+// })
+
 // add active class to first section
 $(sections[section]).addClass('active');
 // disable the next button

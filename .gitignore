@@ -2,3 +2,4 @@
 *.log
 .sass-cache/
 node_modules
+jquery.js
