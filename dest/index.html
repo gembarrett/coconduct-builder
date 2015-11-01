@@ -62,7 +62,7 @@
           <div class='output'>
             <h3>Preview</h3>
             <h4>A short version of your Code of Conduct refers the reader to the full version and is suitable for footers, IRC channel welcome messages and press releases.</h4>
-            <quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone. Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote>
+            <div id='shortVersion'><quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone. Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote></div>
           </div>
         </div>
         <div id='people' class='section previewEnabled'>
@@ -76,34 +76,31 @@
           <div class='output'>
             <h3>Preview</h3>
             <h4>A slightly longer version of your Code of Conduct sets expectations for the tone of the community and is suitable for introductory conference announcements and project readme files.</h4>
-            <quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religious opinions or technology choices. <span id='additional'></span>We do not tolerate harassment of participants in any form. <span class='offlineContent'></span><span class='onlineContent'>Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote>
+            <div id='medVersion'><quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religious opinions or technology choices. <span id='additional'></span>We do not tolerate harassment of participants in any form. <span class='offlineContent'></span><span class='onlineContent'>Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote></div>
           </div>
         </div>
         <div id='spaces' class='section'>
           <div id='onlineSpaces'>
-            <input type='checkbox' value='listservs'>
-            <p>Mailing lists</p>
-            <input type='checkbox' value='forums'>
-            <p>Forums</p>
-            <input type='checkbox' value='repositories'>
-            <p>Repositories</p>
-            <input type='checkbox' value='irc'>
-            <p>IRC channel</p>
-            <input type='text' placeholder='other online space'>
-            <p>Other</p>
+            <p><input type='checkbox' value='listservs'>
+            Mailing lists</p>
+            <p><input type='checkbox' value='forums'>
+            Forums</p>
+            <p><input type='checkbox' value='repositories'>
+            Repositories</p>
+            <p><input type='checkbox' value='irc'>
+            IRC channel</p>
           </div>
           <div id='offlineSpaces'>
-            <input type='checkbox' value='conferences'>
-            <p>Conference venues</p>
-            <input type='checkbox' value='socials'>
-            <p>Social events</p>
-            <input type='checkbox' value='workshops'>
-            <p>Workshops</p>
-            <input type='checkbox' value='meetups'>
-            <p>Meetups</p>
-            <input type='text' placeholder='other offline space'>
-            <p>Other</p>
+            <p><input type='checkbox' value='conferences'>
+            Conference venues</p>
+            <p><input type='checkbox' value='socials'>
+            Social events</p>
+            <p><input type='checkbox' value='workshops'>
+            Workshops</p>
+            <p><input type='checkbox' value='meetups'>
+            Meetups</p>
           </div>
+          <p><input type='checkbox' value='other'>Other<input type='text' placeholder='other space'></p>
         </div>
     </div>
       <button id='next'>Next ></button>

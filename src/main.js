@@ -6,6 +6,8 @@ var space;
 var communityName;
 var coconductUrl;
 var eventType;
+var shortVersion;
+var medVersion;
 
 // if JS is turned on then show the tool content and hide the non-JS content
 // $(document).ready(function(){
@@ -19,6 +21,7 @@ $(sections[section]).addClass('active');
 $('#next').prop('disabled',true);
 // when the next button is enabled and clicked
 $('#next').click(function(){
+
   // if we're on the intro section
   if ($('#intro').hasClass('active')) {
     // check whether on or offline has been chosen and run function
@@ -27,7 +30,11 @@ $('#next').click(function(){
   } else if ($('#basic').hasClass('active')) {
     // grab input info
     getBasicInfo();
+    shortVersion = $('#shortVersion quote').text();
+  } else if ($('#people').hasClass('active')) {
+    medVersion = $('#medVersion quote').text();
   }
+
   // deactivate the current section
   $(sections[section]).removeClass('active');
   // select the next section

@@ -9,10 +9,10 @@ $($copyAddPeeps).keyup(function() {
 });
 
 $yesAdditional.click(function(){
-    $('#otherAdditional').prop('disabled', false);
+    $copyAddPeeps.prop('disabled', false);
 });
 
 $noAdditional.click(function(){
-    $('#otherAdditional').prop('disabled', true);
+    $copyAddPeeps.prop('disabled', true);
     $copyAddPeepsTo.text('');
 });
