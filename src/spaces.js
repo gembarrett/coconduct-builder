@@ -29,20 +29,24 @@ $(copyOtherSpacesFrom).keyup(function() {
 });
 
 function matchSpaces(array, value, box) {
+  // for every item in the on or offline array
   for (var i=0; i < array.length; i++) {
+    // compare elements and if found
     if (value == array[i].value){
-      // if you are checking the box
+      // and if you are checking the box
       if ($(box).is(':checked')) {
         // add the value to the list of selected spaces
         selectedSpaces.push(array[i].value);
+        // update text
+        $('#commSpaces').text(selectedSpaces);
       } else {
-        // assuming
+        // double check the item you're unchecking is in the array
         var index = $.inArray(value, selectedSpaces);
         // remove the value from the list of selected spaces
         if(index != -1) {
           selectedSpaces.splice(index, 1);
           // update text
-
+          $('#commSpaces').text(selectedSpaces);
         }
       }
     }
