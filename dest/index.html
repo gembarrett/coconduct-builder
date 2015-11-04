@@ -79,33 +79,47 @@
             <div id='medVersion'><quote>"<span class='communityName'></span> is dedicated to a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religious opinions or technology choices. <span id='additional'></span>We do not tolerate harassment of participants in any form. <span class='offlineContent'></span><span class='onlineContent'>Our anti-harassment policy can be found at: <span class='coconductURL'></span>"</quote></div>
           </div>
         </div>
-        <div id='spaces' class='section'>
-          <div id='onlineSpaces'>
-            <p><input type='checkbox' value='listservs'>
-            Mailing lists</p>
-            <p><input type='checkbox' value='forums'>
-            Forums</p>
-            <p><input type='checkbox' value='repositories'>
-            Repositories</p>
-            <p><input type='checkbox' value='irc'>
-            IRC channel</p>
+        <div id='spaces' class='section previewEnabled'>
+          <div class='input'>
+            <h3>Where does your Code of Conduct apply?</h3>
+            <p>Your Code of Conduct should define in which of your community spaces it is applicable. It should be enforceable in all of your community's spaces, but it is still advisable to specify all the places to which this applies.</p>
+            <p>Later on, you'll need to plan a reporting and violation-handling process for each of these spaces.</p>
+            <div id='onlineSpaces'>
+              <p><input type='checkbox' value='Mailing lists'>
+              Mailing lists</p>
+              <p><input type='checkbox' value='Forums'>
+              Forums</p>
+              <p><input type='checkbox' value='Repositories'>
+              Repositories</p>
+              <p><input type='checkbox' value='IRC channels'>
+              IRC channel</p>
+            </div>
+            <div id='offlineSpaces'>
+              <p><input type='checkbox' value='Conference venues'>
+              Conference venues</p>
+              <p><input type='checkbox' value='Social events'>
+              Social events</p>
+              <p><input type='checkbox' value='Workshops'>
+              Workshops</p>
+              <p><input type='checkbox' value='Meetups'>
+              Meetups</p>
+            </div>
+            <p><input type='checkbox' value='Other' id='otherSpace'>Other
+              <input type='text' placeholder='other space' id='otherSpaceText'>
+            </p>
           </div>
-          <div id='offlineSpaces'>
-            <p><input type='checkbox' value='conferences'>
-            Conference venues</p>
-            <p><input type='checkbox' value='socials'>
-            Social events</p>
-            <p><input type='checkbox' value='workshops'>
-            Workshops</p>
-            <p><input type='checkbox' value='meetups'>
-            Meetups</p>
+          <div class='output'>
+            <h3>Preview</h3>
+            <div id='spaceDefinition'>
+              <quote>"This code of conduct applies to all <span class='communityName'></span> spaces <span id='commSpaces'></span>"</quote>
+            </div>
           </div>
-          <p><input type='checkbox' value='other'>Other<input type='text' placeholder='other space'></p>
         </div>
     </div>
       <button id='next'>Next ></button>
     </div>
     <script src='//code.jquery.com/jquery-2.1.4.min.js'></script>
+    <!-- <script src='jquery.js'></script> -->
     <script src='main.min.js'></script>
   </body>
 </html>
