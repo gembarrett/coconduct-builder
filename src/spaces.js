@@ -9,6 +9,14 @@ var onlineChoices = $('#spaces #onlineSpaces input[type=checkbox]');
 var offlineChoices = $('#spaces #offlineSpaces input[type=checkbox]')
 var selectedSpaces = [];
 
+// push any pre-checked boxes to the array
+$('#spaces input:checkbox:checked').each(function() {
+  if ($(this.value != 'Other')) {
+    selectedSpaces.push(this.value);
+  }
+  $('#commSpaces').text(selectedSpaces);
+});
+
 // if any checkboxes are checked
 if ($('#spaces input:checkbox:checked').length) {
   // if Other checkbox is checked
