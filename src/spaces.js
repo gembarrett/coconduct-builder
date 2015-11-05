@@ -11,8 +11,11 @@ var selectedSpaces = [];
 
 // push any pre-checked boxes to the array
 $('#spaces input:checkbox:checked').each(function() {
-  if ($(this.value != 'Other')) {
+  console.log(this.value);
+  if (this.value != 'other') {
     selectedSpaces.push(this.value);
+  } else {
+    otherSpacesTo.text(copyOtherSpacesFrom.value);
   }
   $('#commSpaces').text(selectedSpaces);
 });
@@ -65,9 +68,11 @@ function matchSpaces(array, value, box) {
 $('#spaces input[type=checkbox]').click(function() {
   var clickedCheckbox = this;
   var clickedValue = this.value;
-
+  if ($('#commSpaces').text('')) {
+    $('#prefixing').show();
+  }
   // if space is Other
-  if (clickedValue == 'Other') {
+  if (clickedValue == 'other') {
     if ($(otherCheckbox).is(':checked')) {
       $(copyOtherSpacesFrom).prop('disabled', false);
     } else if ($(otherCheckbox).not(':checked')) {
@@ -82,13 +87,4 @@ $('#spaces input[type=checkbox]').click(function() {
       matchSpaces(offlineChoices,clickedValue,clickedCheckbox)
     }
   }
-
-// else
-//  if the box is already checked
-//    uncheck the box
-//    remove the value text from the preview
-//  else
-//    check the box
-//    add the value text to the preview
-// }
 });
