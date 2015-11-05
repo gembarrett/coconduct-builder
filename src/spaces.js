@@ -11,29 +11,16 @@ var selectedSpaces = [];
 
 // push any pre-checked boxes to the array
 $('#spaces input:checkbox:checked').each(function() {
-  console.log(this.value);
+  $('#prefixing').show();
   if (this.value != 'other') {
     selectedSpaces.push(this.value);
-  } else {
-    otherSpacesTo.text(copyOtherSpacesFrom.value);
-  }
-  $('#commSpaces').text(selectedSpaces);
-});
-
-// if any checkboxes are checked
-if ($('#spaces input:checkbox:checked').length) {
-  // if Other checkbox is checked
-  if ($(otherCheckbox).is(':checked')) {
-    // enable the text box
     $(copyOtherSpacesFrom).prop('disabled', false);
   } else {
-    // disable the text box
+    otherSpacesTo.text(copyOtherSpacesFrom.value);
     $(copyOtherSpacesFrom).prop('disabled', true);
   }
-} else {
-  $('#prefixing').hide();
-}
-
+  $(copyOtherSpacesTo).text(selectedSpaces);
+});
 
 $(copyOtherSpacesFrom).keyup(function() {
   otherSpacesTo.text(this.value);
@@ -49,15 +36,18 @@ function matchSpaces(array, value, box) {
         // add the value to the list of selected spaces
         selectedSpaces.push(array[i].value);
         // update text
-        $('#commSpaces').text(selectedSpaces);
+        $(copyOtherSpacesTo).text(selectedSpaces);
       } else {
         // double check the item you're unchecking is in the array
         var index = $.inArray(value, selectedSpaces);
         // remove the value from the list of selected spaces
         if(index != -1) {
           selectedSpaces.splice(index, 1);
+          if (selectedSpaces.length < 1) {
+            $('#prefixing').hide();
+          }
           // update text
-          $('#commSpaces').text(selectedSpaces);
+          $(copyOtherSpacesTo).text(selectedSpaces);
         }
       }
     }
@@ -68,7 +58,7 @@ function matchSpaces(array, value, box) {
 $('#spaces input[type=checkbox]').click(function() {
   var clickedCheckbox = this;
   var clickedValue = this.value;
-  if ($('#commSpaces').text('')) {
+  if ($(copyOtherSpacesTo).text('')) {
     $('#prefixing').show();
   }
   // if space is Other
@@ -77,7 +67,7 @@ $('#spaces input[type=checkbox]').click(function() {
       $(copyOtherSpacesFrom).prop('disabled', false);
     } else if ($(otherCheckbox).not(':checked')) {
       $(copyOtherSpacesFrom).prop('disabled', true);
-      $(otherSpacesTo).text('');
+      $('#otherSpaces').text('');
     }
   } else {
     if ($('body').hasClass('onlineUsage')) {

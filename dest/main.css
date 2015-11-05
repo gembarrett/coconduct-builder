@@ -103,4 +103,7 @@ header {
 .offlineUsage.onlineUsage #onlineSpaces, .offlineUsage.onlineUsage #offlineSpaces {
   display: block; }
 
+#prefixing {
+  display: none; }
+
 /*# sourceMappingURL=main.css.map */
