@@ -45,6 +45,8 @@ $('#next').click(function(){
   if ($('#people').hasClass('active')) {
     // enable the next button
     $('#next').prop('disabled',false);
+  } else if ($('#spaces').hasClass('active')) {
+
   } else {
     // disable the next button
     $('#next').prop('disabled',true);
