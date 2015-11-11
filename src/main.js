@@ -15,6 +15,26 @@ var medVersion;
   $('.main, #next').show();
 // })
 
+$('#back').click(function(){
+  $(sections).each(function(index) {
+    if ($(this).hasClass('active')){
+      // var thisSection = $(this)[0];
+      // var thatSection = $(sections[index-1]);
+      // console.log(thatSection[0]);
+      // $(thisSection).removeClass('active');
+      // $(thatSection).addClass('active');
+      // section--;
+      // deactivate the current section
+      $(sections[section]).removeClass('active');
+      // select the next section
+      section--;
+      // activate it
+      $(sections[section]).addClass('active');
+      $('#next').prop('disabled',false);
+    }
+  });
+});
+
 // add active class to first section
 $(sections[section]).addClass('active');
 // disable the next button
