@@ -7,19 +7,18 @@ var copyOtherSpacesFrom = $('#otherSpaceText');
 var otherCheckbox = $('#otherSpace');
 var onlineChoices = $('#spaces #onlineSpaces input[type=checkbox]');
 var offlineChoices = $('#spaces #offlineSpaces input[type=checkbox]')
-var selectedSpaces = [];
+var selectedSpaces;
 
-// push any pre-checked boxes to the array
+// empty the array from last time
+selectedSpaces = [];
+console.log(selectedSpaces);
+
+// uncheck any from last time
 $('#spaces input:checkbox:checked').each(function() {
-  $('#prefixing').show();
-  if (this.value != 'other') {
-    selectedSpaces.push(this.value);
-    $(copyOtherSpacesFrom).prop('disabled', false);
-  } else {
-    otherSpacesTo.text(copyOtherSpacesFrom.value);
-    $(copyOtherSpacesFrom).prop('disabled', true);
+  var $input = $(this);
+  if ($input.prop('checked')) {
+    $input.prop('checked', false);
   }
-  $(copyOtherSpacesTo).text(selectedSpaces);
 });
 
 $(copyOtherSpacesFrom).keyup(function() {
