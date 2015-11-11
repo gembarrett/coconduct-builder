@@ -1,3 +1,18 @@
+// 0 should have at least 1 button selected
+// 1 should have text inside all inputs
+// 2 no change required
+// 3 should have at least 1 checkbox selected
+// 4 should have 1 button selected
+// (offline) 5 should have 1 button selected
+// 6 no change required
+// 7 no change required
+// 8 should have text inside input
+// 9 should have text inside input
+// 10 should have text inside all inputs and, if applicable, 1 button selected
+// (offline) 11 should have at least 1 checkbox selected and text inside related input
+// (offline) 12 should have at least 1 checkbox selected and text inside related input
+// 13 no change required
+
 var section = 0;
 var sections = $('.section');
 var onlineSpace = false;
@@ -18,15 +33,9 @@ var medVersion;
 $('#back').click(function(){
   $(sections).each(function(index) {
     if ($(this).hasClass('active')){
-      // var thisSection = $(this)[0];
-      // var thatSection = $(sections[index-1]);
-      // console.log(thatSection[0]);
-      // $(thisSection).removeClass('active');
-      // $(thatSection).addClass('active');
-      // section--;
       // deactivate the current section
       $(sections[section]).removeClass('active');
-      // select the next section
+      // select the previous section
       section--;
       // activate it
       $(sections[section]).addClass('active');
