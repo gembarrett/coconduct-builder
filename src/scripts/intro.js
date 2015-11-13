@@ -26,6 +26,7 @@ $('#intro input[type="checkbox"]').click(function(){
       $('body').addClass('offlineUsage');
     }
   }
+  
   canProceed();
 });
 function canProceed() {
