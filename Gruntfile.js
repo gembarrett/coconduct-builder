@@ -3,14 +3,14 @@ module.exports = function (grunt) {
     sass: {
       dist: {
         files: {
-          'dest/main.css': 'src/main.scss'
+          'dest/main.css': 'src/scss/main.scss'
         }
       }
     },
     uglify: {
       compress: {
         files: {
-          'dest/main.min.js': ['src/*.js']
+          'dest/main.min.js': ['src/scripts/*.js']
         },
         options: {
           mangle: false
@@ -19,11 +19,11 @@ module.exports = function (grunt) {
     },
     watch: {
       styling: {
-        files: ['src/**/*.scss'],
+        files: ['src/scss/**/*.scss'],
         tasks: 'sass'
       },
       script: {
-        files: ['src/*.js'],
+        files: ['src/scripts/*.js'],
         tasks: 'uglify'
       }
     }
