@@ -1,4 +1,4 @@
-$('#intro button').click(function(){
+$('#intro input[type="checkbox"]').click(function(){
   $clickedID = $(this).attr('id');
   $(this).toggleClass('selected');
   // if online space is chosen

@@ -45,9 +45,20 @@
           <p>The context in which your Code of Conduct applies will depend on whether your community is primarily offline or online.</p>
           <p>Examples of offline spaces include conferences, meetups and workshops. Online spaces, including mailing lists, forums and repositories, may also require a Code of Conduct.</p>
           <p>If your community meets both online and offline then it is recommended to have one Code of Conduct across both contexts.</p>
-          <button id='onlineSpace'>Online spaces</button>
-          <button id='offlineSpace'>Offline spaces</button>
+
+          <form class="form-group">
+            <label for="onlineSpace">
+              Online spaces
+              <input type="checkbox" id="onlineSpace" name="onlineSpace" value="onlineSpace">
+            </label>
+
+            <label for="offlineSpace">
+              Offline spaces
+              <input type="checkbox" id="offlineSpace" name="space" value="offlineSpace">
+            </label>
+          </form>
         </div>
+
         <div id='basic' class='section previewEnabled'>
           <div class='input'>
             <h3>About your community</h3>
