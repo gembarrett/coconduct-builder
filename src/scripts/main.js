@@ -13,6 +13,11 @@
 // (offline) 12 should have at least 1 checkbox selected and text inside related input
 // 13 no change required
 
+// 2, 6, 7, 13 - no change
+// 0, 4, 5 - 1+ button selected
+// 1, 8, 9 - text inside all inputs
+// 3, 10, 11, 12 - 1+ checkbox plus inputs (poss button on 10)
+
 var section = 0;
 var sections = $('.section');
 var onlineSpace = false;
@@ -24,11 +29,24 @@ var eventType;
 var shortVersion;
 var medVersion;
 
+function sectionHasRequiredChanges() {
+  var thisSection = sections[section];
+  if (thisSection == 2 || thisSection == 6 || thisSection == 7 || thisSection == 13) {
+
+  } else if (thisSection == 0 || thisSection == 4 || thisSection == 5) {
+
+  } else if (thisSection == 1 || thisSection == 8 || thisSection == 9) {
+
+  } else if (thisSection == 3 || thisSection == 10 || thisSection == 11 || thisSection == 12) {
+
+  }
+  console.log($.inArray(thisSection, sections));
+}
+
 // if JS is turned on then show the tool content and hide the non-JS content
-// $(document).ready(function(){
-  $('#no-js').hide();
-  $('.main, #next').show();
-// })
+$('#no-js').hide();
+$('.main, #next').show();
+sectionHasRequiredChanges();
 
 $('#back').click(function(){
   $(sections).each(function(index) {
@@ -60,6 +78,7 @@ $('#next').prop('disabled',true);
 // when the next button is enabled and clicked
 $('#next').click(function(){
   $('#back').prop('disabled',false);
+  sectionHasRequiredChanges();
   // if we're on the intro section
   if ($('#intro').hasClass('active')) {
     // check whether on or offline has been chosen and run function
