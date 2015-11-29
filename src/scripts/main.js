@@ -60,14 +60,24 @@ $('#back').click(function(){
       $('#next').prop('disabled',false);
     }
   });
+
+  if (section === 0) {
+    // disable the back button
+    $('#back').prop('disabled',true);
+  }
 });
 
 // add active class to first section
 $(sections[section]).addClass('active');
+
+// disable the back button
+$('#back').prop('disabled',true);
+
 // disable the next button
 $('#next').prop('disabled',true);
 // when the next button is enabled and clicked
 $('#next').click(function(){
+  $('#back').prop('disabled',false);
   sectionHasRequiredChanges();
   // if we're on the intro section
   if ($('#intro').hasClass('active')) {
