@@ -12,6 +12,9 @@ header {
 .container {
   max-width:980px;
   margin:0 auto;
+  div:nth-child(2) {
+    margin-bottom: 2em;
+  }
 }
 
 .main {

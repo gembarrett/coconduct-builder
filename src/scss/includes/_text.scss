@@ -53,21 +53,24 @@ cta {
 }
 
 #intro label {
-  margin:3em 1em 3em 0;
-  padding:0.75em;
+  max-width: 9em;
+  text-align: center;
+}
+button {
+  width:10em;
 }
 
 #intro label, button {
-  width:10em;
-  height:3em;
   border:0;
-  border-radius: 5%;
+  border-radius: 15%;
   background-color: #6794ef;
   opacity:0.75;
   color:white;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 0.8em;
+  display: inline-block;
+  padding:1em;
   input {
     display:none;
   }

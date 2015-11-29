@@ -41,20 +41,23 @@ cta {
       opacity: 1.0; }
 
 #intro label {
-  margin: 3em 1em 3em 0;
-  padding: 0.75em; }
+  max-width: 9em;
+  text-align: center; }
+
+button {
+  width: 10em; }
 
 #intro label, button {
-  width: 10em;
-  height: 3em;
   border: 0;
-  border-radius: 5%;
+  border-radius: 15%;
   background-color: #6794ef;
   opacity: 0.75;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 1em; }
   #intro label input, button input {
     display: none; }
   #intro label.selected, #intro label:hover, button.selected, button:hover {
@@ -76,6 +79,8 @@ header {
 .container {
   max-width: 980px;
   margin: 0 auto; }
+  .container div:nth-child(2) {
+    margin-bottom: 2em; }
 
 .main {
   display: none;
