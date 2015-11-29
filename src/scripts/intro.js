@@ -1,6 +1,6 @@
 $('#intro input[type="checkbox"]').click(function(){
   $clickedID = $(this).attr('id');
-  $(this).toggleClass('selected');
+  this.parentElement.classList.toggle('selected');
   // if online space is chosen
   if ($clickedID == 'onlineSpace') {
     // if online space is already chosen
@@ -26,7 +26,7 @@ $('#intro input[type="checkbox"]').click(function(){
       $('body').addClass('offlineUsage');
     }
   }
-  
+
   canProceed();
 });
 function canProceed() {

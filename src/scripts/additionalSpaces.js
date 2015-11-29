@@ -1,6 +1,6 @@
 $('#additionalSpaces button').click(function(){
   $clickedID = $(this).attr('id');
-  $(this).toggleClass('selected');
+  this.parentElement.classList.toggle('selected');
   if ($clickedID == 'additionalSpaceRulesYes') {
     // if (additionalSpaceRulesYes) {
       console.log(additionalSpaceRulesYes);

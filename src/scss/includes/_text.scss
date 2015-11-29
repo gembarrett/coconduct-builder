@@ -52,7 +52,12 @@ cta {
   }
 }
 
-button {
+#intro label {
+  margin:3em 1em 3em 0;
+  padding:0.75em;
+}
+
+#intro label, button {
   width:10em;
   height:3em;
   border:0;
@@ -60,9 +65,12 @@ button {
   background-color: #6794ef;
   opacity:0.75;
   color:white;
-  margin:3em 0;
   cursor: pointer;
   text-transform: uppercase;
+  font-size: 0.8em;
+  input {
+    display:none;
+  }
   &.selected, &:hover {
     opacity:1;
   }
