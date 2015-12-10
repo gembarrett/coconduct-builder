@@ -40,14 +40,14 @@ cta {
     cta a:hover, cta a:visited:hover {
       opacity: 1.0; }
 
-#intro label {
+#intro label, #additionalSpaces label {
   max-width: 9em;
   text-align: center; }
 
 button {
   width: 10em; }
 
-#intro label, button {
+#intro label, button, #additionalSpaces label {
   border: 0;
   border-radius: 15%;
   background-color: #6794ef;
@@ -58,11 +58,11 @@ button {
   font-size: 0.8em;
   display: inline-block;
   padding: 1em; }
-  #intro label input, button input {
+  #intro label input, button input, #additionalSpaces label input {
     display: none; }
-  #intro label.selected, #intro label:hover, button.selected, button:hover {
+  #intro label.selected, #intro label:hover, button.selected, button:hover, #additionalSpaces label.selected, #additionalSpaces label:hover {
     opacity: 1; }
-  #intro label:disabled, button:disabled {
+  #intro label:disabled, button:disabled, #additionalSpaces label:disabled {
     opacity: 0.5;
     cursor: default; }
 

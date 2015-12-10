@@ -52,7 +52,7 @@ cta {
   }
 }
 
-#intro label {
+#intro label, #additionalSpaces label {
   max-width: 9em;
   text-align: center;
 }
@@ -60,7 +60,7 @@ button {
   width:10em;
 }
 
-#intro label, button {
+#intro label, button, #additionalSpaces label {
   border:0;
   border-radius: 15%;
   background-color: #6794ef;

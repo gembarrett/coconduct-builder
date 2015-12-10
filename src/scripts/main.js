@@ -28,17 +28,19 @@ var coconductUrl;
 var eventType;
 var shortVersion;
 var medVersion;
+var additionalSpaces;
 
+// TODO: refactor using class on sections and change to switch statement
 function sectionHasRequiredChanges() {
   var thisSection = sections[section];
   if (thisSection == 2 || thisSection == 6 || thisSection == 7 || thisSection == 13) {
-
+    // no change required
   } else if (thisSection == 0 || thisSection == 4 || thisSection == 5) {
-
+    // at least one button must be selected
   } else if (thisSection == 1 || thisSection == 8 || thisSection == 9) {
-
+    // there must be text inside all inputs
   } else if (thisSection == 3 || thisSection == 10 || thisSection == 11 || thisSection == 12) {
-
+    // at least one checkbox plus inputs required
   }
   console.log($.inArray(thisSection, sections));
 }
