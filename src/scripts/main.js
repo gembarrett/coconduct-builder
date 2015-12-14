@@ -2,7 +2,7 @@
 // 1 should have text inside all inputs
 // 2 no change required
 // 3 should have at least 1 checkbox selected
-// 4 should have 1 button selected
+// 4 no change required
 // (offline) 5 should have 1 button selected
 // 6 no change required
 // 7 no change required
@@ -32,17 +32,18 @@ var additionalSpaces;
 
 // TODO: refactor using class on sections and change to switch statement
 function sectionHasRequiredChanges() {
-  var thisSection = sections[section];
-  if (thisSection == 2 || thisSection == 6 || thisSection == 7 || thisSection == 13) {
-    // no change required
-  } else if (thisSection == 0 || thisSection == 4 || thisSection == 5) {
-    // at least one button must be selected
+  var thisSection = section;
+  if (thisSection == 2 || thisSection == 4 || thisSection == 6 || thisSection == 7 || thisSection == 13) {
+    console.log("no change required");
+    $('#next').prop('disabled',false);
+  } else if (thisSection == 0 || thisSection == 5) {
+    console.log("at least one button must be selected");
   } else if (thisSection == 1 || thisSection == 8 || thisSection == 9) {
-    // there must be text inside all inputs
+    console.log("there must be text inside all inputs");
   } else if (thisSection == 3 || thisSection == 10 || thisSection == 11 || thisSection == 12) {
-    // at least one checkbox plus inputs required
+    console.log("at least one checkbox plus inputs required");
   }
-  console.log($.inArray(thisSection, sections));
+  // console.log($.inArray(thisSection, sections));
 }
 
 // if JS is turned on then show the tool content and hide the non-JS content
@@ -80,7 +81,6 @@ $('#next').prop('disabled',true);
 // when the next button is enabled and clicked
 $('#next').click(function(){
   $('#back').prop('disabled',false);
-  sectionHasRequiredChanges();
   // if we're on the intro section
   if ($('#intro').hasClass('active')) {
     // check whether on or offline has been chosen and run function
@@ -110,4 +110,5 @@ $('#next').click(function(){
     // disable the next button
     $('#next').prop('disabled',true);
   }
+  sectionHasRequiredChanges();
 });
