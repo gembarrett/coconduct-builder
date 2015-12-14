@@ -3,6 +3,7 @@ var $noAdditional = $('#noAdditional');
 var $copyAddPeepsTo = $('#people .output #additional');
 var $copyAddPeeps = $('#otherAdditional');
 var $prefixPeeps = 'We will also support the following groups of people in whatever way is needed: ';
+$noAdditional.prop('checked', true);
 
 $($copyAddPeeps).keyup(function() {
   $copyAddPeepsTo.text($prefixPeeps + this.value + '. ');
