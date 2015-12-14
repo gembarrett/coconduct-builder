@@ -8,4 +8,5 @@ $('#additionalSpaces label').click(function(){
   }
   $selected.prop('checked',true);
   this.classList.toggle('selected');
+  console.log("added selected class");
 });

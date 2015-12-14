@@ -11,7 +11,6 @@ var selectedSpaces;
 
 // empty the array from last time
 selectedSpaces = [];
-console.log(selectedSpaces);
 
 // uncheck any from last time
 $('#spaces input:checkbox:checked').each(function() {
