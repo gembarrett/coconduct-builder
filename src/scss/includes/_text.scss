@@ -60,7 +60,11 @@ button {
   width:10em;
 }
 
-#intro label, button, #additionalSpaces label {
+#intro label,
+button,
+#people label,
+#additionalSpaces label,
+#sponsors label {
   border:0;
   border-radius: 15%;
   background-color: #6794ef;

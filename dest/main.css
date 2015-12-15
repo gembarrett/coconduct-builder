@@ -47,7 +47,11 @@ cta {
 button {
   width: 10em; }
 
-#intro label, button, #additionalSpaces label {
+#intro label,
+button,
+#people label,
+#additionalSpaces label,
+#sponsors label {
   border: 0;
   border-radius: 15%;
   background-color: #6794ef;
@@ -58,13 +62,29 @@ button {
   font-size: 0.8em;
   display: inline-block;
   padding: 1em; }
-  #intro label input, button input, #additionalSpaces label input {
+  #intro label input,
+  button input,
+  #people label input,
+  #additionalSpaces label input,
+  #sponsors label input {
     opacity: 0;
     position: absolute;
     cursor: pointer; }
-  #intro label.selected, #intro label:hover, button.selected, button:hover, #additionalSpaces label.selected, #additionalSpaces label:hover {
+  #intro label.selected, #intro label:hover,
+  button.selected,
+  button:hover,
+  #people label.selected,
+  #people label:hover,
+  #additionalSpaces label.selected,
+  #additionalSpaces label:hover,
+  #sponsors label.selected,
+  #sponsors label:hover {
     opacity: 1; }
-  #intro label:disabled, button:disabled, #additionalSpaces label:disabled {
+  #intro label:disabled,
+  button:disabled,
+  #people label:disabled,
+  #additionalSpaces label:disabled,
+  #sponsors label:disabled {
     opacity: 0.5;
     cursor: default; }
 
