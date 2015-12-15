@@ -5,8 +5,8 @@ var copyOtherSpacesTo = $('#commSpaces');
 var otherSpacesTo = $('#otherSpaces');
 var copyOtherSpacesFrom = $('#otherSpaceText');
 var otherCheckbox = $('#otherSpace');
-var onlineChoices = $('#spaces #onlineSpaces input[type=checkbox]');
-var offlineChoices = $('#spaces #offlineSpaces input[type=checkbox]')
+var onlineChoices = $('#spaces .onlineSpacesOnly input[type=checkbox]');
+var offlineChoices = $('#spaces .offlineSpacesOnly input[type=checkbox]')
 var selectedSpaces;
 
 // empty the array from last time
