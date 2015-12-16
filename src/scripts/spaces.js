@@ -69,10 +69,10 @@ $('#spaces input[type=checkbox]').click(function() {
     }
   } else {
     if ($('body').hasClass('onlineUsage')) {
-      matchSpaces(onlineChoices,clickedValue,clickedCheckbox)
+      matchSpaces(onlineChoices,clickedValue,clickedCheckbox);
     }
     if ($('body').hasClass('offlineUsage')) {
-      matchSpaces(offlineChoices,clickedValue,clickedCheckbox)
+      matchSpaces(offlineChoices,clickedValue,clickedCheckbox);
     }
   }
 });

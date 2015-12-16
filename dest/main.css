@@ -92,7 +92,14 @@ button,
   margin: 0; }
 
 #close {
-  cursor: pointer; }
+  cursor: pointer;
+  float: right;
+  font-size: 2em;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 5%;
+  margin-right: 5%; }
 
 body {
   font-family: Helvetica Neue, Helvetica, sans-serif;
@@ -132,13 +139,13 @@ header {
 .active {
   display: block; }
 
-.offlineUsage #onlineSpaces {
+.offlineUsage .onlineSpacesOnly {
   display: none; }
 
-.onlineUsage #offlineSpaces {
+.onlineUsage .offlineSpacesOnly {
   display: none; }
 
-.offlineUsage.onlineUsage #onlineSpaces, .offlineUsage.onlineUsage #offlineSpaces {
+.offlineUsage.onlineUsage .onlineSpacesOnly, .offlineUsage.onlineUsage .offlineSpacesOnly {
   display: block; }
 
 #prefixing {
@@ -162,7 +169,14 @@ header {
   width: 50%;
   height: 50%;
   z-index: 2;
-  border-radius: 20%;
-  margin: 0 auto; }
+  border-radius: 5%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0; }
+  #CoCWindow #copyableCoC {
+    width: 50%;
+    height: 50%; }
 
 /*# sourceMappingURL=main.css.map */

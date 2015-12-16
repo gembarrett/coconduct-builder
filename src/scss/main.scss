@@ -92,6 +92,14 @@ header {
   width:50%;
   height:50%;
   z-index:2;
-  border-radius: 20%;
-  margin:0 auto;
+  border-radius: 5%;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  #copyableCoC {
+    width:50%;
+    height: 50%;
+  }
 }
