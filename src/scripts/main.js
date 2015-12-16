@@ -90,6 +90,7 @@ $('#next').click(function(){
     // grab input info
     getBasicInfo();
     shortVersion = $('#shortVersion quote').text();
+    $('#outputCoC').show();
   } else if ($('#people').hasClass('active')) {
     medVersion = $('#medVersion quote').text();
   }

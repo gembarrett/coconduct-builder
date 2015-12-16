@@ -3,6 +3,8 @@
 body {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   color:#5b5b5b;
+  margin:0;
+  position:relative;
 }
 
 header {
@@ -70,3 +72,26 @@ header {
   display:none;
 }
 
+#outputCoC, #CoCWindow {
+  display:none;
+}
+
+#popover {
+  position:absolute;
+  z-index:1;
+  display:none;
+  background-color:black;
+  opacity:0.75;
+  width:100%;
+  height:100%;
+  height:100vh;
+}
+
+#CoCWindow {
+  background-color:white;
+  width:50%;
+  height:50%;
+  z-index:2;
+  border-radius: 20%;
+  margin:0 auto;
+}

@@ -5,6 +5,12 @@
     <link rel='stylesheet' href='main.css'>
   </head>
   <body>
+    <div id='CoCWindow'>
+      <div id='close'>X</div>
+      <textarea disabled='true' class='copyableCoC'></textarea>
+    </div>
+    <div id='popover'>
+    </div>
     <div class='container'>
       <header>
         <h1>Platinum Rule</h1>
@@ -177,7 +183,7 @@
       <div id='circumstances' class='section previewEnabled'>
         <div class='input'>
           <h3>Under what circumstances does this Code of Conduct apply?</h3>
-          
+
         </div>
         <div class='output'>
           <h3>Preview</h3>
@@ -310,6 +316,7 @@
     </div>
       <button id='back'>< Back</button>
       <button id='next'>Next ></button>
+      <button id='outputCoC'>Skip the rest</button>
     </div>
     <script src='//code.jquery.com/jquery-2.1.4.min.js'></script>
     <script src='main.min.js'></script>
