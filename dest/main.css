@@ -136,13 +136,13 @@ header {
 .active {
   display: block; }
 
-.offlineUsage #onlineSpaces {
+.offlineUsage .onlineSpacesOnly {
   display: none; }
 
-.onlineUsage #offlineSpaces {
+.onlineUsage .offlineSpacesOnly {
   display: none; }
 
-.offlineUsage.onlineUsage #onlineSpaces, .offlineUsage.onlineUsage #offlineSpaces {
+.offlineUsage.onlineUsage .onlineSpacesOnly, .offlineUsage.onlineUsage .offlineSpacesOnly {
   display: block; }
 
 #prefixing {

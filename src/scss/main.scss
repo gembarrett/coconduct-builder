@@ -51,19 +51,19 @@ header {
 }
 
 .offlineUsage {
-  #onlineSpaces {
+  .onlineSpacesOnly {
     display:none;
   }
 }
 
 .onlineUsage {
-  #offlineSpaces {
+  .offlineSpacesOnly {
     display: none;
   }
 }
 
 .offlineUsage.onlineUsage {
-  #onlineSpaces, #offlineSpaces {
+  .onlineSpacesOnly, .offlineSpacesOnly {
     display:block;
   }
 }
