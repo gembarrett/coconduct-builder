@@ -98,6 +98,9 @@ button,
   padding: 10px;
   color: white; }
 
+@media (max-width: 1024px) {
+  .container {
+    margin: 0 2em; } }
 body {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   color: #5b5b5b;

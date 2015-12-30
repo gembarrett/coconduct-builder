@@ -33,11 +33,11 @@ var additionalSpaces;
 // TODO: refactor using class on sections and change to switch statement
 function sectionHasRequiredChanges() {
   var thisSection = section;
-  if (thisSection == 2 || thisSection == 4 || thisSection == 6 || thisSection == 7 || thisSection == 13 || thisSection == 3) {
-    console.log("no change required");
+  if (thisSection == 2 || thisSection == 3 || thisSection == 4 || thisSection == 5 || thisSection == 6 || thisSection == 7 || thisSection == 13) {
+    console.log("no change required", thisSection);
     $('#next').prop('disabled',false);
-  } else if (thisSection == 0 || thisSection == 5) {
-    console.log("at least one button must be selected");
+  } else if (thisSection == 0 ) {
+    console.log("at least one button must be selected", thisSection);
   } else if (thisSection == 1 || thisSection == 8 || thisSection == 9) {
     console.log("there must be text inside all inputs");
   } else if (thisSection == 10 || thisSection == 11 || thisSection == 12) {
