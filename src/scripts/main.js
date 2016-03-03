@@ -101,6 +101,8 @@ $('#next').click(function(){
   section++;
   // activate it
   $(sections[section]).addClass('active');
+  // scroll back to the top of the page
+  window.scrollTo(0,0);
   // if we're in a section that doesn't require user change
   if ($('#people').hasClass('active')) {
     // enable the next button
