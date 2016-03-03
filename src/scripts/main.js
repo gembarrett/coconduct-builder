@@ -32,19 +32,18 @@ var additionalSpaces;
 
 // TODO: refactor using class on sections and change to switch statement
 function sectionHasRequiredChanges() {
-  var thisSection = section;
-  if (thisSection == 2 || thisSection == 3 || thisSection == 4 || thisSection == 5 || thisSection == 6 || thisSection == 7 || thisSection == 13) {
-    console.log("no change required", thisSection);
+  if (section == 4 || section == 10 ) {
+    isOffline();
+  }
+  if (section == 2 || section == 3 || section == 4 || section == 5 || section == 6 || section == 7 || section == 13) {
+    console.log("no change required", section);
     $('#next').prop('disabled',false);
-  } else if (thisSection == 0 ) {
-    console.log("at least one button must be selected", thisSection);
-  } else if (thisSection == 1 || thisSection == 8 || thisSection == 9) {
+  } else if (section == 0 ) {
+    console.log("at least one button must be selected", section);
+  } else if (section == 1 || section == 8 || section == 9) {
     console.log("there must be text inside all inputs");
-  } else if (thisSection == 10 || thisSection == 11 || thisSection == 12) {
+  } else if (section == 10 || section == 11 || section == 12) {
     console.log("at least one checkbox plus inputs required");
-    if (thisSection == 10) {
-      isOffline();
-    }
   }
   // console.log($.inArray(thisSection, sections));
 }
