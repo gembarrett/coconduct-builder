@@ -98,3 +98,27 @@ function selectRadio(thisOption) {
   // remove selected class from other option
   // add selected class to that option
 }
+
+function addAdditionalOptions(yesButton, noButton, copyTo, copyFrom, prefix) {
+  var $yesAdditional = yesButton;
+  var $noAdditional = noButton;
+  var $copyAddTo = copyTo;
+  var $copyAddFrom = copyFrom;
+  var $prefixWith = prefix;
+  $noAdditional.prop('checked', true);
+  $copyAddFrom.prop('disabled', true);
+
+
+  $($copyAddFrom).keyup(function() {
+    $copyAddTo.text($prefixWith + this.value + '. ');
+  });
+
+  $yesAdditional.click(function(){
+      $copyAddFrom.prop('disabled', false);
+  });
+
+  $noAdditional.click(function(){
+      $copyAddFrom.prop('disabled', true);
+      $copyAddTo.text('');
+  });
+}
