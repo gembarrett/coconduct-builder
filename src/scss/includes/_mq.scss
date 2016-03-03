@@ -1,14 +1,9 @@
-@media (max-width:1024px) {
-  .container {
-    margin:0 2em;
-  }
-}
-
 @media (max-width:900px) {
   cta {
     display:block;
     text-align: right;
     padding:0.5em;
+    width:100%;
   }
 }
 
@@ -16,5 +11,10 @@
   header h2 {
     display:block;
     padding-left: 0;
+  }
+  .previewEnabled {
+    .input, .output {
+      width:auto;
+    }
   }
 }
