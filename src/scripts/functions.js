@@ -92,3 +92,9 @@ function getCodeOfConduct() {
 
   document.getElementById("copyableCoC").value = shortVersion + '\n\n' + mediumVersion;
 }
+
+function selectRadio(thisOption) {
+  // if clicked element is not already selected
+  // remove selected class from other option
+  // add selected class to that option
+}
