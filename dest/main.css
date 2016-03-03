@@ -75,7 +75,7 @@ body > div {
     width: 100%;
     height: 100%; }
 
-input {
+input[type="text"] {
   display: block;
   margin-top: 1em;
   width: 50%; }
@@ -180,6 +180,9 @@ button,
   padding: 10px;
   color: white; }
 
+ul {
+  padding-left: 1em; }
+
 @media (max-width: 900px) {
   cta {
     display: block;
@@ -193,7 +196,7 @@ button,
 
   .previewEnabled .input, .previewEnabled .output {
     width: 100%;
-    padding-right: auto; }
+    padding-right: 0; }
 
   h3 {
     font-size: 1.75em; }
@@ -201,7 +204,7 @@ button,
   .section, .container div:nth-child(2) {
     margin-bottom: 1em; } }
 @media (max-width: 550px) {
-  input {
+  input[type="text"] {
     width: 240px; } }
 
 /*# sourceMappingURL=main.css.map */
