@@ -32,9 +32,6 @@ var additionalSpaces;
 
 // TODO: refactor using class on sections and change to switch statement
 function sectionHasRequiredChanges() {
-  if (section == 4 || section == 10 ) {
-    isOffline();
-  }
   if (section == 2 || section == 3 || section == 4 || section == 5 || section == 6 || section == 7 || section == 13) {
     console.log("no change required", section);
     $('#next').prop('disabled',false);
@@ -99,6 +96,10 @@ $('#next').click(function(){
 
   // deactivate the current section
   $(sections[section]).removeClass('active');
+  // hide offline bits unless appropriate
+  if (section == 4 || section == 10 ) {
+    isOffline();
+  }
   // select the next section
   section++;
   // activate it
