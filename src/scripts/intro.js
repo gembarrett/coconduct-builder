@@ -43,3 +43,10 @@ function onAndOffline() {
     onAndOfflineSpace = true;
   }
 }
+
+// if section is for offline community spaces only, hide unless offline was selected earlier
+function isOffline() {
+  if (!offlineSpace) {
+    section = section + 2;
+  }
+}

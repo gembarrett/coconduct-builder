@@ -42,6 +42,9 @@ function sectionHasRequiredChanges() {
     console.log("there must be text inside all inputs");
   } else if (thisSection == 10 || thisSection == 11 || thisSection == 12) {
     console.log("at least one checkbox plus inputs required");
+    if (thisSection == 10) {
+      isOffline();
+    }
   }
   // console.log($.inArray(thisSection, sections));
 }
