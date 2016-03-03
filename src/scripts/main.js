@@ -30,20 +30,6 @@ var shortVersion;
 var medVersion;
 var additionalSpaces;
 
-// TODO: refactor using class on sections and change to switch statement
-function sectionHasRequiredChanges() {
-  if (section == 2 || section == 3 || section == 4 || section == 5 || section == 6 || section == 7 || section == 13) {
-    console.log("no change required", section);
-    $('#next').prop('disabled',false);
-  } else if (section == 0 ) {
-    console.log("at least one button must be selected", section);
-  } else if (section == 1 || section == 8 || section == 9) {
-    console.log("there must be text inside all inputs");
-  } else if (section == 10 || section == 11 || section == 12) {
-    console.log("at least one checkbox plus inputs required");
-  }
-  // console.log($.inArray(thisSection, sections));
-}
 
 // if JS is turned on then show the tool content and hide the non-JS content
 $('#no-js').hide();

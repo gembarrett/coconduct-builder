@@ -24,34 +24,6 @@ $(copyOtherSpacesFrom).keyup(function() {
   otherSpacesTo.text(this.value);
 });
 
-function matchSpaces(array, value, box) {
-  // for every item in the on or offline array
-  for (var i=0; i < array.length; i++) {
-    // compare elements and if found
-    if (value == array[i].value){
-      // and if you are checking the box
-      if ($(box).is(':checked')) {
-        // add the value to the list of selected spaces
-        selectedSpaces.push(array[i].value);
-        // update text
-        $(copyOtherSpacesTo).text(selectedSpaces);
-      } else {
-        // double check the item you're unchecking is in the array
-        var index = $.inArray(value, selectedSpaces);
-        // remove the value from the list of selected spaces
-        if(index != -1) {
-          selectedSpaces.splice(index, 1);
-          if (selectedSpaces.length < 1) {
-            $('#prefixing').hide();
-          }
-          // update text
-          $(copyOtherSpacesTo).text(selectedSpaces);
-        }
-      }
-    }
-  }
-}
-
 // when a checkbox is clicked on
 $('#spaces input[type=checkbox]').click(function() {
   var clickedCheckbox = this;

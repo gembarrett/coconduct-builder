@@ -29,29 +29,3 @@ $('#intro input[type="checkbox"]').click(function(){
 
   canProceed();
 });
-function canProceed() {
-  if ($('body').hasClass('offlineUsage') || $('body').hasClass('onlineUsage')) {
-    $('#next').prop('disabled',false);
-    return true;
-  } else {
-    $('#next').prop('disabled',true);
-    return false;
-  }
-}
-function onAndOffline() {
-  if (offlineSpace && onlineSpace) {
-    onAndOfflineSpace = true;
-  }
-}
-
-// if section is for offline community spaces only, hide unless offline was selected earlier
-function isOffline() {
-  if (!offlineSpace) {
-    if (section == 10) {
-      section = section + 2;
-    }
-    else {
-      section++;
-    }
-  }
-}
