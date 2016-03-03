@@ -14,7 +14,20 @@
   }
   .previewEnabled {
     .input, .output {
-      width:auto;
+      width:100%;
+      padding-right: auto;
     }
+  }
+  h3 {
+    font-size:1.75em;
+  }
+  .section, .container div:nth-child(2) {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width:550px) {
+  input {
+    width:240px;
   }
 }
