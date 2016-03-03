@@ -101,18 +101,28 @@ button,
 @media (max-width: 1024px) {
   .container {
     margin: 0 2em; } }
+@media (max-width: 900px) {
+  cta {
+    display: block;
+    text-align: right;
+    padding: 0.5em; } }
+@media (max-width: 650px) {
+  header h2 {
+    display: block;
+    padding-left: 0; } }
 body {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   color: #5b5b5b;
   margin: 0;
   position: relative; }
 
-header {
-  margin-bottom: 2em; }
+body > div {
+  padding: 0.5em 1em; }
 
 .container {
   max-width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  clear: both; }
   .container div:nth-child(2) {
     margin-bottom: 2em; }
 

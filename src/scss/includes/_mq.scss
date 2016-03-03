@@ -3,3 +3,18 @@
     margin:0 2em;
   }
 }
+
+@media (max-width:900px) {
+  cta {
+    display:block;
+    text-align: right;
+    padding:0.5em;
+  }
+}
+
+@media(max-width:650px) {
+  header h2 {
+    display:block;
+    padding-left: 0;
+  }
+}

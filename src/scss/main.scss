@@ -8,13 +8,14 @@ body {
   position:relative;
 }
 
-header {
-  margin-bottom:2em;
+body > div {
+  padding:0.5em 1em;
 }
 
 .container {
   max-width:980px;
   margin:0 auto;
+  clear:both;
   div:nth-child(2) {
     margin-bottom: 2em;
   }
@@ -102,3 +103,4 @@ header {
     height: 100%;
   }
 }
+
