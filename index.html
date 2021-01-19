@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code of Conduct Builder</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <script src="content/rest-of-site.js"></script>
+    <script src="content/section-0.js"></script>
+    <script src="content/section-1.js"></script>
+    <script src="content/section-2.js"></script>
+    <script src="content/section-3.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <link href="assets/css/all.css" rel="stylesheet">
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/init.js"></script>
+    <!-- these may need to be moved further down or refactored -->
+    <script src="assets/js/start.js"></script>
+    <script src="assets/js/keyboard.js"></script>
+    <script src="assets/js/overlay.js"></script>
+    <script src="assets/js/edit.js"></script>
+    <script src="assets/js/policy.js"></script>
+    <script src="assets/js/subpolicies.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://usesoap.app/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body>
+    <div id="head" class="nav-start contain">
+      <a href="/" title="Go to the home page" id="homeLink">
+        <p>Code of Conduct Builder</p>
+      </a>
+
+      <div class="header-menu">
+        <ul id="menu" class="links">
+          <li><a id="bu" href="/#build" title="Build a policy">Build policy</a></li>
+          <li id="editBtn" class="disabled" tabindex="0" title="Click or press E to edit your answers">EDIT</li>
+        </ul>
+      </div>
+
+    </div>
+    <div id="page" class="main-content">
+      <div id="no-js" class="window">
+        <h3>Looks like you've got Javascript disabled</h3>
+        <p>You'll need to enable Javascript in order to use this website. Here's how to do that: <a href="https://enable-javascript.com" title="Find out more about enabling Javascript in your browser">enable-javascript.com</a></p>
+        <p>If your threat model requires you to keep Javascript disabled, you can instead go to <a href="https://github.com/gembarrett/soap" title="View the open-source SOAP code at GitHub">SOAP's GitHub repository</a> and grab the code to run the whole website offline on your local computer.</p>
+      </div>
+    </div>
+    <div id="feedback" class="modal closed">
+      <button id="closeFeedback" class="xIcon">
+        <i class="fas fa-plus-circle"></i>
+      </button>
+      <div id="inner-feedback" class="modalScrollbox">
+        <h3>Have your say!</h3>
+        <p>Take a quick survey and tell us how you rate SOAP. If you've spotted a problem with the site, including typos or bugs, please raise an issue on GitHub (account required). Alternatively, you can email about your experience - and feel free to <a href="https://keys.openpgp.org/search?q=feedback%40usesoap.app" target="_blank" title="Get the PGP public key">download the PGP key</a> to send encrypted.</p>
+        <div class="text-buttons-wrap">
+          <a href='https://feedback024968.typeform.com/to/ykpDnElo' class='btn btn-seco' target="_blank" title="Take a short survey on Typeform">Take a survey</a>
+          <a href='https://github.com/gembarrett/soap/issues' class='btn btn-seco' target="_blank" title="Go to the issues on the GitHub code repository">Report an issue</a>
+          <a id="updateLink" href='mailto:feedback@usesoap.app?subject=Suggested%20change' class="btn btn-seco" title="Send an email to SOAP feedback">Send an email</a>
+        </div>
+      </div>
+    </div>
+    <div id="overlay-feedback" class="modalOverlay closed"></div>
+    <div id="spinner"><img src="assets/images/spin.gif" alt="Spinning circle - the page is loading"><p>LOADING</p></div>
+    <div id="foot" class="footer nav-start contain">
+      <ul class="links">
+        <!-- github, report download, contact, build, more info -->
+        <li><a href="https://github.com/gembarrett/soap" target="_blank" title="View the open-source SOAP code at GitHub">Code</a></li>
+        <li id="feedbackBtn" class="prompt" tabindex="0" title="Click to send feedback on SOAP by survey, email or GitHub issue">Feedback</li>
+        <li><a href="/#build" title="Build a policy">Build policy</a></li>
+      </ul>
+    </div>
+    <script src="assets/js/templates/homeSection.js"></script>
+    <script src="assets/js/templates/intro.js"></script>
+    <script src="assets/js/templates/questionsTemplate.js"></script>
+    <script src="assets/js/templates/policyTemplate.js"></script>
+    <script src="assets/js/controllers/home.js"></script>
+    <script src="assets/js/controllers/questionPage.js"></script>
+    <script src="assets/js/controllers/policyPage.js"></script>
+    <script src="assets/js/views/home.js"></script>
+    <script src="assets/js/views/questionsView.js"></script>
+    <script src="assets/js/views/policyView.js"></script>
+    <script src="assets/js/styling.js"></script>
+    <script src="assets/js/transition.js"></script>
+    <script src="assets/js/snapshot.js"></script>
+  </body>
+</html>

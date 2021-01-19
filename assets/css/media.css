@@ -1,0 +1,497 @@
+@media (min-width:600px) {
+  #head a {
+    width: auto;
+  }
+  #menu-check:checked ~ ul {
+    align-items: center;
+  }
+  #head img {
+    max-width: 47%;
+  }
+  #head {
+    justify-content: space-between;
+  }
+  #expand {
+    display: none;
+  }
+  #menu-check:checked ~ #collapse {
+    display:none;
+  }
+  #policy-edit p{
+    display:none;
+  }
+  .btn-wrap.wrap-r {
+    padding-left: 0;
+  }
+  #snapshotPolicy {
+    margin-left: 0;
+  }
+  .btn-wrap.wrap-r > div:last-child {
+    flex: 1 1 60%;
+    text-align: right;
+  }
+}
+
+@media (min-width:600px) and (max-width:1399px) {
+  .feature {
+    flex: 1 2 30%;
+  }
+  #overview section {
+    flex: 1 2 40%;
+    margin: 1.5em 2em;
+  }
+  #overview {
+    flex-wrap: wrap;
+  }
+  .main-content > div {
+    padding:2em;
+  }
+  .text-buttons-wrap {
+    margin: 0;
+    max-width: initial;
+  }
+  #img-intro {
+    width: 100%;
+    margin: 0;
+  }
+  #intro .text-buttons-wrap {
+    flex: 1 2 40%;
+  }
+  #intro .text-img-wrap {
+    margin-bottom: 1.5em;
+    align-items: flex-start;;
+  }
+  #bgContainer section img {
+    max-width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-start.trio {
+    flex-direction: column;
+  }
+  #bgContainer section.dbl img {
+    margin-right: 4em;
+  }
+  #bgContainer .nav-start.dbl.reverse {
+    align-items: flex-start;
+  }
+  .grid h4 {
+    text-align: center;
+  }
+  #q0 section {
+    flex:1 0 40%;
+  }
+  .trioPics {
+    float: 1 1 30%;
+    margin: 1em;
+  }
+}
+
+@media (max-width:1399px) {
+  .desktopVis {
+    display:none;
+  }
+  .mobileVis{
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  #feedback{
+    height:50%;
+    max-width: 800px;
+    min-height: 300px;
+  }
+}
+
+@media (min-width:1400px){
+  .desktopVis {
+    display:block;
+  }
+  .mobileVis{
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  #intro {
+    padding: 4em 4em 6em;
+  }
+  #logoContainer {
+    align-items: flex-start;
+  }
+  #intro h1 {
+    margin-top: 0em;
+    margin-bottom: 1.4em;
+  }
+  #intro .btn-wrap.wrap-c {
+    padding-top: 0;
+  }
+  .window h3 {
+    font-size: 3em;
+  }
+  .buildPage .window {
+    margin-top: 1em;
+    margin-bottom: 4em;
+  }
+  .buildPage .window:last-child {
+    margin-bottom:0;
+  }
+  #preview h1 {
+    line-height: 2em;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width:768px) {
+  #logoContainer {
+    align-items: center;
+  }
+  #logoContainer > div {
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+  #logoContainer h1 {
+    font-size: 1.5em;
+    width:auto;
+  }
+  .window {
+    flex-direction: column;
+  }
+  .homeSectionOverview {
+    padding-left: 0;
+  }
+  .buildPage .window > :not(h3) {
+    padding:0;
+  }
+  .policyHolder {
+    margin-top: 1em;
+  }
+}
+
+@media (max-width:600px) {
+  #feedback .text-buttons-wrap {
+    flex-direction: column;
+  }
+  progress {
+    margin-top:1em;
+  }
+  #feedback {
+    height: 60%;
+  }
+  #head label {
+    font-size: 1.5rem;
+    padding: 0.5em 0.5em 1em 1em;
+    margin: 10px;
+    margin-right:0;
+  }
+  .incidentBox {
+    width:100%;
+    min-width:unset;
+    padding:2em 0;
+  }
+  .links a {
+    padding:0;
+  }
+  .questionContent h1 {
+    font-size: 1.5em;
+  }
+  #q0 h2 {
+    width:100%;
+    font-size: 1.2em;
+  }
+  #intro {
+    padding: 2em 2em 5em;
+  }
+  #intro h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .text-img-wrap {
+    flex-direction: column-reverse;
+  }
+  .text-buttons-wrap {
+    margin:0;
+    max-width: inherit;
+  }
+  #img-intro {
+    width:100%;
+    margin:0;
+  }
+  #head {
+    display:flex;
+    justify-content: space-between;
+  }
+  #menu-check:checked ~ ul {
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    padding:0;
+    align-items: end;
+    width:unset;
+    border-top: 0;
+    font-size: 0.8em;
+  }
+  #collapse i {
+    opacity: 0.5;
+  }
+  #page {
+    padding-top: 7em;
+  }
+  .links li:last-child {
+    padding: 0.1em 1em;
+  }
+  .links li {
+    min-width: 90px;
+  }
+  .feature {
+    width:100%;
+    margin:1em auto;
+  }
+  #overview section {
+    width:100%;
+    padding-bottom: 4em;
+  }
+  .links {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    /* fallback */
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left:0;
+  }
+  #overview {
+    flex-direction: column;
+    padding: 1em;
+  }
+  .grid {
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+  #bgContainer .trio img {
+    margin: 0;
+  }
+  #bgContainer section {
+    padding: 2em;
+    flex-direction: column;
+  }
+  .nav-start.trio {
+    padding: 1em;
+  }
+  .wrap-c {
+    flex-direction: column;
+  }
+  .qContainer {
+    padding:1.5em;
+  }
+  #q0 section {
+    margin:2em 0;
+  }
+  .question-panel {
+    margin-top: 0.5em;
+  }
+  .form-el {
+    margin: 1em;
+    font-size: 0.9em;
+  }
+  .form-el label {
+    line-height: 1em;
+    font-size: 1.1em;
+  }
+  #closePreview {
+    font-size: 1.5em;
+    top: -1.5em;
+    font-weight: bold;
+  }
+  #preview {
+    width:90%;
+    height:80%;
+  }
+  #inner h4 {
+    border-top:1px solid;
+    padding-top:0.5em;
+  }
+  #policy-edit {
+    width: unset;
+  }
+  #policy-edit h3 {
+    margin-top: 0;
+  }
+  .buildPage textarea {
+    padding-left: 1em;
+  }
+  .buildPage text-img-wrap {
+    margin-top:2em;
+  }
+  .btn.btn-prim {
+    min-width: 10em;
+  }
+  .btn-wrap.wrap-c {
+    flex-wrap: wrap;
+  }
+  #head img {
+    max-width: 50%;
+  }
+  #menu-check:checked ~ #collapse {
+    float:none;
+  }
+  .header-menu {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #bgContainer img {
+    width:100%;
+    margin:0 auto;
+  }
+  #bgContainer section p {
+    margin-top:0;
+  }
+  .nav-start a {
+    color:#fff;
+    font-weight: bold;
+  }
+  .nav-start .links a:hover, .nav-start .links a.active {
+    border-color: #fff;
+  }
+  #reset {
+    margin:1em auto;
+    display:block;
+  }
+  .btn-wrap.wrap-r {
+    justify-content: center;
+    margin: 3em 0;
+  }
+  .btn-wrap.wrap-r button {
+    min-width: initial;
+    flex: 0 0 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .buildPage .btn-wrap.wrap-r{
+    flex-direction: column-reverse;
+    margin: 0;
+    padding-left: 0;
+  }
+  .buildPage .btn-wrap.wrap-r div {
+    display: flex;
+  }
+  .buildPage .btn-wrap.wrap-r div:first-child{
+    flex-direction: column;
+  }
+  .buildPage .btn-wrap.wrap-r div:last-child {
+    justify-content: space-evenly;
+  }
+  #logoContainer {
+    flex-direction: column;
+  }
+  #logoContainer > div {
+    margin-right: 0;
+  }
+  #logoContainer h1 {
+    text-align: center;
+  }
+  #intro .btn {
+    margin-top:2em;
+  }
+  .questionContent h2 {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  #head {
+    padding: 5px 2em;
+  }
+  .links {
+    padding-left: 0;
+    font-size: 1em;
+  }
+  #head > a {
+    flex: 0 0 30%;
+  }
+  .answers-container {
+    flex-direction: column;
+  }
+  #closePreview .fas {
+    font-size: 1.5em;
+  }
+  #preview h1 {
+    font-size: 1.3em;
+  }
+  .form-el {
+    display:flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin:1em;
+  }
+  .form-el label {
+    font-size: 1em;
+    line-height: 1.5em;
+    flex: 0 0 25%;
+  }
+  .form-el input[type="text"] {
+    margin-left: 1em;
+    flex: 1 0 auto;
+    padding: 2em 1em;
+    text-align: left;
+  }
+  #q1 .type-text label {
+    flex: 0 0 auto;
+  }
+  #q1 input {
+    text-align: center;
+  }
+  .type-checkbox, .type-radio {
+    text-align: center;
+    display: block;
+    margin: 2em 0 0;
+  }
+  .modalScrollbox {
+    padding: 1em;
+  }
+  #foot .links {
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .editMode {
+    border-width: 1em;
+  }
+  #page {
+    padding-top: 0;
+  }
+  .window h3 {
+    font-size: 2.5em;
+  }
+  .form-el.type-text {
+    flex-direction: column;
+    margin-top: 2em;
+  }
+  .form-el input[type="text"] {
+    text-align: center;
+    margin: 0 0 1em;
+  }
+  .buildPage #menu li:first-child {
+    display: none;
+  }
+  #head > a {
+    flex: 0 0 auto;
+  }
+  #editBtn {
+    min-height: 44px;
+    line-height: 44px;
+  }
+  #snapshotGroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .question-panel div {
+    flex-direction: column;
+    padding: 1em 0;
+  }
+  #teamContentCols {
+    flex-direction: column;
+  }
+}
