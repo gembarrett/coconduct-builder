@@ -5,23 +5,23 @@ var section0 = [
     "title": "",
     "steps":[
       {
-        "title":"Plan",
-        "text":"The first set of questions is all about understanding your organization's unique context.  The following five sections present common security incidents and then ask questions that explore preventative tactics and inform your policy's content. Each section ends with an opportunity for you to specify any incident response actions you would wish staff to take in the given scenario."
+        "title":"Part 1",
+        "text":"Part 1 is all about the first part. It's the beginning of the process."
       },
       {
-        "title":"Build",
-        "text":"Unsure how to answer a question? Click or tap on the question to reveal a panel with implementation tips, definitions, search terms, and other information to improve clarity. If the answers aren't quite right, many questions have an 'other' button you can double-click to edit and add your own answers."
+        "title":"Part 2",
+        "text":"Part 2 is all about the middle bit. It's the second area of the tool."
       },
       {
-        "title":"Apply",
-        "text":"When you've completed the process, you will be presented with your full organizational security policy, including a review checklist, appendix of implementation tips and an \"Everyday Practices\" reminder document. Download options are available so you can share the policy in the best way for your organization."
+        "title":"Part 3",
+        "text":"Part 3 is where the process wraps up and we all go home. It's the end bit."
       }
     ],
   },
   {
     "isQuestion": true,
     "id":"q1",
-    "q":"What is the name of your organization?",
+    "q":"Animi tenetur dicta et et molestiae eaque quae?",
     "required":true,
     "policyEntry":"",
     "appendixEntry":"",
@@ -30,11 +30,11 @@ var section0 = [
       {
         "type":"text",
         "answerText":"",
-        "placeholder":"Example Organization",
+        "placeholder":"Example",
         "storeAs":"[organisation-name]",
         "excludes":[],
-        "policyEntry":"This is the security policy of [organisation-name], which has been created in order to support staff in carrying out our sensitive work securely. It is important to understand and comply with the rules described as they aim to protect everyone involved in our work, including partner organizations and frontline activists.",
-        "routineEntry":"This is the short version of [organisation-name] security policy. It is designed to remind you of the everyday practices to include in your routine.",
+        "policyEntry":"",
+        "routineEntry":"",
         "appendixEntry": [
           {
             "reviewList":"",
@@ -46,7 +46,7 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"Your organization’s name will be used in the policy to make the ownership of it clear. If you would prefer not to give a name, you can instead use an alias name to find and replace later if you wish."},
+      {"meaning":"Animi tenetur dicta et et molestiae eaque quae means animi tenetur dicta et et molestiae eaque quae."},
       {"implementation":""},
       {"more":""}
     ]
@@ -54,15 +54,15 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q2",
-    "q":"Who will this policy apply to?",
+    "q":"Reprehenderit sit iste libero nulla dolores voluptatum quod?",
     "required":true,
-    "policyEntry":"This policy applies to [who-policy-applies-to].",
+    "policyEntry":"",
     "appendixEntry":"",
     "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"contractors",
+        "answerText":"Q",
         "storeAs":"[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
@@ -77,7 +77,7 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"full or part-time staff",
+        "answerText":"W",
         "storeAs":"[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
@@ -92,7 +92,7 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"volunteers",
+        "answerText":"E",
         "storeAs": "[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
@@ -108,7 +108,7 @@ var section0 = [
       {
         "type":"checkbox",
         "editable": true,
-        "answerText":"another team",
+        "answerText":"another",
         "storeAs": "[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
@@ -124,15 +124,15 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"It should be clear exactly who is responsible for adhering to the policy and liable for violations. Use this moment to decide whether to create a separate policy for staff with different access levels, for instance volunteers or contractors."},
-      {"implementation":"No one wants to read a policy that doesn’t apply to them. Presenting staff with only the most relevant of rules for their working environment will help with implementation and buy-in."},
+      {"meaning":""},
+      {"implementation":"Just do reprehenderit sit iste libero nulla dolores voluptatum quod."},
       {"more":""}
     ]
   },
   {
     "isQuestion": true,
     "id":"q3",
-    "q":"Do all your staff work in the same physical office?",
+    "q":"Quis enim ratione esse aliquam itaque cum est cupiditate?",
     "required":true,
     "policyEntry":"",
     "appendixEntry":"",
@@ -155,7 +155,7 @@ var section0 = [
       },
       {
         "type":"radio",
-        "answerText":"Some work remote.",
+        "answerText":"Some.",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -170,9 +170,9 @@ var section0 = [
       },
       {
         "type":"radio",
-        "answerText":"No - everyone works remote.",
+        "answerText":"No.",
         "storeAs": "",
-        "excludes":[36, 38, 39, 40, 44, 45],
+        "excludes":[18,24],
         "policyEntry":"",
         "routineEntry":"",
         "appendixEntry":[
@@ -186,19 +186,19 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"For the majority of their time, remote staff work outside of a traditional office, such as from home or a cafe. The risks in different working environments vary and there are factors to be considered which apply to remote staff but not so much those who work in a regular office – and vice versa."},
-      {"implementation":"Your organization is remote if it has any members of staff working from outside [organisation-name]-controlled premises, and taking this remote-first perspective helps with supporting those staff as part of the team."},
-      {"more":["managing remote staff"]}
+      {"meaning":"Quis enim ratione esse aliquam itaque cum est cupiditate though."},
+      {"implementation":""},
+      {"more":["lorem ipsum"]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q4",
-    "q":"Who is responsible for this policy?",
+    "q":"Repudiandae officia vitae corporis accusamus?",
     "required":true,
-    "policyEntry":"If you have questions about this policy or its recommendations, please contact: ",
+    "policyEntry":"Repudiandae officia vitae corporis accusamus, please contact: ",
     "appendixEntry":"",
-    "routineEntry":"Got questions? Ask [security-contact-name], [security-contact-role]!",
+    "routineEntry":"Repudiandae officia vitae corporis accusamus? Ask [security-contact-name], [security-contact-role]!",
     "answers":[
       {
         "type":"text",
@@ -210,7 +210,7 @@ var section0 = [
         "routineEntry":"",
         "appendixEntry":[
           {
-            "reviewList":"Is [security-contact-name] still responsible for this policy?",
+            "reviewList":"Is [security-contact-name] still responsible?",
             "tipList": "",
             "linksList": ""
           }
@@ -283,17 +283,17 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"In order to ease the implementation process and support future maintenance, one or more members of staff will be needed as a point of contact for queries about the policy. Ideally this role will be taken on by you, as the creator of this policy, or another staff member with sufficient time and security knowledge."},
-      {"implementation":"The person named here should ideally be approachable and a familiar face around the organization, with a workload that can support the requirement to answer questions in a timely manner. However, people leave or become unsuitable for the role, and so there should also be a contingency plan in place so that all the security management doesn’t leave with the person."},
-      {"more":["security champion role"]},
+      {"meaning":"Repudiandae officia vitae corporis accusamus again."},
+      {"implementation":""},
+      {"more":["lorem ipsum"]},
     ]
   },
   {
     "isQuestion": true,
     "id":"q5",
-    "q":"How regularly do you intend to review and update this policy?",
+    "q":"Saepe molestias at rerum commodi officiis quo quidem?",
     "required":true,
-    "policyEntry":"This policy will be reviewed by [security-contact-name] ([security-contact-role]) on a [how-often-policy-reviewed] basis. Any suggestions or feedback on the policy’s contents should be directed to them.",
+    "policyEntry":"Saepe molestias at rerum commodi officiis quo quidem by [security-contact-name] ([security-contact-role]) on a [how-often-policy-reviewed] basis.",
     "appendixEntry":"",
     "routineEntry":"",
     "answers":[
@@ -307,7 +307,7 @@ var section0 = [
         "appendixEntry":[
           {
             "reviewList":"",
-            "tipList": "Mark your calendar for review dates on [date+12], [date+24], [date+36]",
+            "tipList": "Recusandae alias magnam nihil. Ad nisi et eum. [date+12], [date+24], [date+36]",
             "linksList": ""
           }
         ]
@@ -322,7 +322,7 @@ var section0 = [
         "appendixEntry":[
           {
             "reviewList":"",
-            "tipList": "Mark your calendar for review dates on [date+6], [date+12], [date+18]",
+            "tipList": "Recusandae alias magnam nihil. Ad nisi et eum. [date+6], [date+12], [date+18]",
             "linksList": ""
           }
         ],
@@ -337,7 +337,7 @@ var section0 = [
         "appendixEntry":[
           {
             "reviewList":"",
-            "tipList": "Mark your calendar for review dates on [date+3], [date+6], [date+9]",
+            "tipList": "Recusandae alias magnam nihil. Ad nisi et eum. [date+3], [date+6], [date+9]",
             "linksList": ""
           }
         ],
@@ -360,15 +360,15 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"It is recommended to review at least once a year to improve and update to meet new threats. Check your policy’s appendix at the end to find a checklist that will help when it comes time to review the policy."},
-      {"implementation":"Create calendar events for the next 2 policy reviews and invite stakeholders involved in reviewing the policy (e.g. management, Human Resources, IT)."},
-      {"more":["review security policy"]}
+      {"meaning":"Recusandae alias magnam nihil. Ad nisi et eum."},
+      {"implementation":""},
+      {"more":["lorem ipsum"]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q6",
-    "q":"Which operating systems are used in your organization?",
+    "q":"Ut provident nobis quo consequuntur necessitatibus nulla non iusto?",
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
@@ -376,7 +376,7 @@ var section0 = [
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"Windows",
+        "answerText":"R",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -385,13 +385,13 @@ var section0 = [
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Privacy tips for Windows 10: https://spreadprivacy.com/windows-10-privacy-tips"
+            "linksList": "Windows 10: https://spreadprivacy.com/windows-10-privacy-tips"
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"macOS or OS X",
+        "answerText":"T",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -400,13 +400,13 @@ var section0 = [
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Privacy tips for macOS and OS X: https://spreadprivacy.com/mac-privacy-tips"
+            "linksList": "OS X: https://spreadprivacy.com/mac-privacy-tips"
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"Linux (any)",
+        "answerText":"Y",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -415,13 +415,13 @@ var section0 = [
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Privacy tips for Linux: https://spreadprivacy.com/linux-privacy-tips"
+            "linksList": "Linux: https://spreadprivacy.com/linux-privacy-tips"
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"Chrome OS",
+        "answerText":"U",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -430,13 +430,13 @@ var section0 = [
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "This article explains privacy settings on Chrome OS: https://www.makeuseof.com/tag/privacy-settings-chrome-os-google-chrome"
+            "linksList": "Chrome OS: https://www.makeuseof.com/tag/privacy-settings-chrome-os-google-chrome"
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"Android",
+        "answerText":"I",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -445,13 +445,13 @@ var section0 = [
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Privacy tips for Android: https://spreadprivacy.com/android-privacy-tips"
+            "linksList": "Android: https://spreadprivacy.com/android-privacy-tips"
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"iOS",
+        "answerText":"O",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
@@ -460,7 +460,7 @@ var section0 = [
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Privacy tips for iOS: https://spreadprivacy.com/iphone-privacy-tips"
+            "linksList": "iOS: https://spreadprivacy.com/iphone-privacy-tips"
           }
         ]
       },
@@ -483,26 +483,26 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"Security measures and settings vary in extent and location between operating systems. Specifying those that are relevant and in use at your organization makes it simpler to provide appropriate instructions and questions in the process."},
+      {"meaning":"Ut provident nobis quo consequuntur necessitatibus nulla non iusto."},
       {"implementation":""},
-      {"more":["comparing security of operating systems", "desktop/mobile os security features", "Mac security", "Linux security", "Windows security", "Chrome os security", "iOS security", "Android security"]}
+      {"more":[]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q7",
-    "q":"How does your organization manage staff work devices?",
+    "q":"Sint maxime id esse aut. Sunt dolorum labore odio facere?",
     "required":true,
-    "policyEntry":"[organisation-name] manages device security in the following way, depending on the situation:",
+    "policyEntry":"[organisation-name] sint maxime id esse aut. Sunt dolorum labore odio facere:",
     "appendixEntry":"",
     "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"We install work profiles on staff-owned devices (Bring Your Own Device policy)",
+        "answerText":"C",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"- Profiles on your devices: With your consent, we will install a work profile on your personal devices in order for you to use them in the course of your work. This work profile will keep your work and personal use of the device separated.",
+        "policyEntry":"",
         "routineEntry":"",
         "appendixEntry":[
           {
@@ -514,10 +514,10 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"We install work and personal profiles on organization-owned devices.",
+        "answerText":"V",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"- Profiles on [organisation-name] devices: [organisation-name] staff are given some freedom to decide their work environment and equipment, and we acknowledge that there may be times when after hours access to work email and data is needed. We will provide you with devices and install both a work and personal profile for you to use.",
+        "policyEntry":"- Sint maxime id esse aut. Sunt dolorum labore odio facere [organisation-name] devices: [organisation-name] staff sint maxime id esse aut. Sunt dolorum labore odio facere.",
         "routineEntry":"",
         "appendixEntry":[
           {
@@ -529,10 +529,10 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"We provide work-only devices.",
+        "answerText":"B",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"- [organisation-name] devices for work-only use: We will provide you with devices, such as a computer, to use solely for work purposes.",
+        "policyEntry":"",
         "routineEntry":"",
         "appendixEntry":[
           {
@@ -544,10 +544,10 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"Staff use their own devices without separate profiles",
+        "answerText":"N",
         "storeAs": "",
         "excludes":[7],
-        "policyEntry":"- Your device, your choice: You may use your own devices as work equipment, we do not require the use of a work profile but please strive to maintain a separation between your work and personal data.",
+        "policyEntry":"",
         "routineEntry":"",
         "appendixEntry":[
           {
@@ -560,23 +560,23 @@ var section0 = [
     ],
     "tips":[
       {"relevance":""},
-      {"meaning":"Providing devices to staff can be expensive but it makes it easier to achieve complete separation of personal and work activities. Work profiles can be installed on most ‘smart’ devices and computers as an alternative that maintains the convenience of remote control for wiping (the profile), installation and updates. Although the personal and work profiles are kept isolated from each other, reducing leakage of sensitive information between the two, it can blur the boundaries between work and personal lives and feel intrusive to staff. BYOD policies allow staff to use their own computers and phones, and paired with work profiles can provide convenience for staff member and organization."},
-      {"implementation":"Commonly the choice of work device vs work profile is given to individual staff members to decide the best option for their own situation. For the staff member, convenience and work-life balance are major factors in this decision. For the organization, security and cost are top priority. Be aware though, that not all staff members will be in a position to provide a suitable device for use at work."},
-      {"more":["comparing security of operating systems", "desktop/mobile os security features"]}
+      {"meaning":""},
+      {"implementation":"Sint maxime id esse aut. Sunt dolorum labore odio facere"},
+      {"more":[]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q8",
-    "q":"Does your organization provide staff with privacy equipment for their devices?",
+    "q":"Fugit dolore non voluptas voluptatem dolor quos?",
     "required":false,
-    "policyEntry":"In addition to other device security measures, [organisation-name] will also provide you with [privacy-peripherals-provided] to use on your devices.",
+    "policyEntry":"[organisation-name] fugit dolore non voluptas voluptatem dolor quos [privacy-peripherals-provided] to use on your devices.",
     "appendixEntry":"",
     "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"webcam cover",
+        "answerText":"A",
         "storeAs": "[privacy-peripherals-provided]",
         "excludes":[],
         "policyEntry":"",
@@ -584,14 +584,14 @@ var section0 = [
         "appendixEntry":[
           {
             "reviewList":"",
-            "tipList": "A quick temporary alternative to webcam covers can be made from a post-it note or sticky-taped paper over the camera.",
+            "tipList": "",
             "linksList": ""
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"privacy screen",
+        "answerText":"S",
         "storeAs": "[privacy-peripherals-provided]",
         "excludes":[],
         "policyEntry":"",
@@ -599,17 +599,17 @@ var section0 = [
         "appendixEntry":[
           {
             "reviewList":"",
-            "tipList": "In addition to shoulder surfers, privacy screens can also help to protect against dust, scratches and sunlight glare.",
+            "tipList": "",
             "linksList": ""
           }
         ]
       }
     ],
     "tips":[
-      {"relevance":"If a device has been hacked, there is a risk that the hacker can access the camera (and/or microphone) remotely. If a malicious actor has “shoulder surfed” (i.e. viewed your screen over your shoulder or in the reflection of glasses) there is a risk they may have seen sensitive information onscreen."},
-      {"meaning":"Webcam covers are easy to buy online and you can sometimes find branded ones being given away free at conferences. They’re a small, simple plastic device with a cover that slides back and forth to expose or hide the camera. When the camera is hidden, any remote camera view will see only darkness. Note that this only mitigates camera access, and not microphone access. Privacy screens are tinted in such a way that someone looking at the screen from the side, rather than directly in front, will see only a black screen."},
-      {"implementation":"Covers are easy to stick over the camera and usually stick pretty well. It will take time for staff to keep the cover closed by default and only opening it when needed. Privacy screens are usually stuck over the device screen, however some laptop versions can be slid on/off easily when needed."},
-      {"more":["webcam covers", "computer mobile privacy screens"]}
+      {"relevance":"Fugit dolore non voluptas voluptatem dolor quos."},
+      {"meaning":""},
+      {"implementation":""},
+      {"more":[]}
     ]
   }
 ]

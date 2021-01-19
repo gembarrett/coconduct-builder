@@ -6,10 +6,6 @@ function addChangeListeners() {
   // add listener for edit button
   var editBtn = document.getElementById("editBtn");
   editBtn.addEventListener('click', editAnswers, false);
-  // and a listener for changes in the subpolicies question
-  document.querySelector('#teams').addEventListener('change', updateTeams);
-  document.querySelector('#policyAreas').addEventListener('change', updateTeams);
-  document.querySelector('#teams button').addEventListener('click', addTeam);
 
   // TODO: get skip/next fully working
   // grab all the form inputs
@@ -203,7 +199,6 @@ function setUpPage(id){
     // sneaking this in here so it's done when textboxes exist
     resizingBoxes();
     addChangeListeners();
-    setUpTeamContent();
     checkForName();
   }
 }

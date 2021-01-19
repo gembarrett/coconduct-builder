@@ -18,11 +18,9 @@ window.onscroll = function () {
     if (document.documentElement.scrollTop >= headChange.offsetHeight ) {
         headChange.classList.add("nav-scroll");
         headChange.classList.remove("nav-start");
-        document.getElementById('logo').src="assets/images/soapLogo.png";
     }
     else {
         headChange.classList.add("nav-start");
         headChange.classList.remove("nav-scroll");
-        document.getElementById('logo').src="assets/images/soapLogoW.png";
     }
 };
