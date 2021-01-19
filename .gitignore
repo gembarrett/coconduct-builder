@@ -1,6 +1,3 @@
-.DS_Store
-*.log
-.sass-cache/
-node_modules
-jquery.js
-iff-showcase.html
+404.html
+assets/images
+assets/css/webfonts
