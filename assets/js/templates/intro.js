@@ -9,8 +9,8 @@ templates.intro = function(data){
       <div class="btn-wrap wrap-c">
         <label for="home-q1-0-answer"></label><input type="text" id="home-q1-0-answer" title="Great Project Name!" name="home-q1-el" placeholder="Great Project Name">
         <div class="btns">
-          <button class="btn btn-prim" id="">Event</button>
-          <button class="btn btn-seco" id="">Project</button>
+          <button class="btn btn-prim" id="submit-home-event" onclick="signPosts('ev')">Event</button>
+          <button class="btn btn-seco" id="submit-home-project" onclick="signPosts('pr')">Project</button>
         </div>
         </div>
       </div>

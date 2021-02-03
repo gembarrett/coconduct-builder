@@ -1,4 +1,4 @@
-function getNameFromHome(){
+function getNameFromHome(type){
   // find the input field
   var homeOrgName = document.getElementById('home-q1-0-answer');
   // if there's an Org Name entered
@@ -26,5 +26,15 @@ function checkForName() {
     // nextQuestion();
   } else {
     console.log('No organization name stored');
+  }
+}
+
+function signPosts(type) {
+  if (type === 'ev'){
+    currentState.exclusions = [3,8];
+    getNameFromHome();
+  } else {
+    currentState.exclusions = [2,4,6];
+    getNameFromHome()
   }
 }
