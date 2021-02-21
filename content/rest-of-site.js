@@ -1,7 +1,17 @@
 var ros = [
   {
-    "head":"Two free and simple tools that enable organisers and open-source maintainers to build better Code of Conduct policies.",
+    "head":"Free and simple tools that enable event organisers and project maintainers to build better Code of Conduct policies.",
     "subhead":"To get started, enter the name of your event or project:",
+    "buttons":[
+      {
+        "name":"Event",
+        "desc": "Use this tool to build a Code of Conduct policy for a conference, meetup or related social gathering."
+      },
+      {
+        "name":"Project",
+        "desc": "Use this tool to build a Code of Conduct policy for a code repository, mailing list or other online community space."
+      }
+    ],
     "what":[
       {
         "head":"What is this tool?",
