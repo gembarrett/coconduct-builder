@@ -12,7 +12,6 @@ var section3 = [
     "required":true,
     "policyEntry":"Nullam orci urna, ornare eleifend condimentum sed, euismod sit amet justo [organisation-name] Duis elit magna, facilisis eget venenatis in, lacinia vitae libero. Nunc eu rhoncus elit [biometric-authentication-options].",
     "appendixEntry":"Be aware that touchscreen devices are susceptible to holding fingerprint marks which can be used to guess recently-used key sequences.",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -20,7 +19,6 @@ var section3 = [
         "storeAs":"[biometric-authentication-options]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -35,7 +33,6 @@ var section3 = [
         "storeAs":"[biometric-authentication-options]",
         "excludes":[19],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -46,9 +43,7 @@ var section3 = [
       }
     ],
     "tips":[
-      {"relevance":"Phasellus ut turpis consequat purus accumsan consectetur. Cras maximus sem ut consectetur laoreet. Quisque condimentum urna nec metus hendrerit, at interdum purus tempor."},
       {"meaning":""},
-      {"implementation":"Pellentesque nunc est, suscipit eu nulla in, imperdiet congue massa. Nullam orci urna, ornare eleifend condimentum sed, euismod sit amet justo. Duis elit magna, facilisis eget venenatis in, lacinia vitae libero."},
       {"more": [""]}
     ]
   },
@@ -59,7 +54,6 @@ var section3 = [
     "required":false,
     "policyEntry":"Aenean suscipit orci porta quam ullamcorper, in tempor neque egestas. Fusce a nisl venenatis neque tincidunt facilisis: [we-use-this-device-manager].",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -67,7 +61,6 @@ var section3 = [
         "storeAs":"[we-use-this-device-manager]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -82,7 +75,6 @@ var section3 = [
         "storeAs":"[we-use-this-device-manager]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -97,7 +89,6 @@ var section3 = [
         "storeAs":"[we-use-this-device-manager]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -112,7 +103,6 @@ var section3 = [
         "storeAs":"[we-use-this-device-manager]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -128,7 +118,6 @@ var section3 = [
         "storeAs":"[we-use-this-device-manager]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -139,9 +128,7 @@ var section3 = [
       }
     ],
     "tips":[
-      {"relevance":"Vestibulum metus mi, convallis sit amet facilisis faucibus, efficitur at orci."},
       {"meaning":"Aenean accumsan lacus malesuada porttitor feugiat. Ut fringilla, magna sit amet molestie vehicula, nunc dui vestibulum eros, a blandit augue neque eget neque. Morbi ullamcorper, lectus ultricies interdum semper, augue tortor semper sem, eu ullamcorper dolor dolor sed dolor."},
-      {"implementation":"Nullam eleifend sed diam ac imperdiet. Mauris dui nunc, ultricies id diam sit amet, volutpat accumsan lacus."},
       {"more": [""]}
     ]
   },
@@ -152,7 +139,6 @@ var section3 = [
     "required":false,
     "policyEntry":"[organisation-name] Cras est enim, feugiat vel pharetra eu, lobortis quis nisi [we-use-this-backup-storage].",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -160,7 +146,6 @@ var section3 = [
         "storeAs":"[we-use-this-backup-storage]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -175,7 +160,6 @@ var section3 = [
         "storeAs":"[we-use-this-backup-storage]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Does your cloud storage provider still provide the most appropriate package for your data or is it time to migrate?",
@@ -186,9 +170,7 @@ var section3 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Ut porttitor augue mi, eget elementum lacus luctus et. Donec blandit urna libero, et congue tortor tristique eu."},
-      {"implementation":"Sed dictum sollicitudin scelerisque. Etiam rutrum vestibulum lacus non gravida."},
       {"more": [""]}
     ]
   },
@@ -199,7 +181,6 @@ var section3 = [
     "required":true,
     "policyEntry":"Quisque congue diam sed magna placerat fringilla. Phasellus sed commodo dui [how-often-backups-done] basis.",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -207,7 +188,6 @@ var section3 = [
         "storeAs":"[how-often-backups-done]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -222,7 +202,6 @@ var section3 = [
         "storeAs":"[how-often-backups-done]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -237,7 +216,6 @@ var section3 = [
         "storeAs":"[how-often-backups-done]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -253,7 +231,6 @@ var section3 = [
         "storeAs":"[how-often-backups-done]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -264,9 +241,7 @@ var section3 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."},
-      {"implementation":"Ut ornare porta sollicitudin. Proin pellentesque dui ut varius feugiat."},
       {"more": [""]}
     ]
   },
@@ -277,7 +252,6 @@ var section3 = [
     "required":false,
     "policyEntry":"[organisation-name] Sed porta ex in justo bibendum accumsan. Vestibulum mattis mauris sed lacus varius, feugiat iaculis dui lacinia. Donec imperdiet ultrices leo quis ornare: ",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -285,7 +259,6 @@ var section3 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"- B",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -300,7 +273,6 @@ var section3 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"- R.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -315,7 +287,6 @@ var section3 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"- M.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -330,7 +301,6 @@ var section3 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"- D.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -346,7 +316,6 @@ var section3 = [
         "storeAs":"[alt-backup-security]",
         "excludes":[],
         "policyEntry":"- [alt-backup-security]",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -357,9 +326,7 @@ var section3 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Suspendisse pretium quam vestibulum justo vestibulum dapibus. Morbi ultricies lectus id mi lobortis, tristique iaculis nisl volutpat. Etiam ut nisl congue, porttitor est in, ultrices magna. ."},
-      {"implementation":"Suspendisse mattis, odio eu tempor feugiat, libero neque porta tortor, vel pharetra nibh sem in tellus"},
       {"more": [""]}
     ]
   },
@@ -370,7 +337,6 @@ var section3 = [
     "required":false,
     "policyEntry":"Quisque imperdiet ac ligula eget convallis. Duis mattis, justo at iaculis pulvinar, quam lacus vehicula purus, nec condimentum libero odio et ligula. Curabitur et finibus sem. Integer convallis volutpat felis, a fringilla mi pharetra non. Nulla placerat odio vitae tristique ornare:",
     "appendixEntry": "",
-    "routineEntry":"",
     "answers":[
       {
         "type":"textarea",
@@ -379,7 +345,6 @@ var section3 = [
         "storeAs":"[do-this-if-seized]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -390,9 +355,7 @@ var section3 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
-      {"implementation":"Aliquam libero nisl, pharetra ut erat rutrum, accumsan interdum augue. Nulla nec fringilla turpis. Nunc mi augue, semper eu vulputate ut, egestas vel nibh."},
       {"more": [""]}
     ]
   }

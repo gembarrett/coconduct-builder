@@ -53,7 +53,6 @@ function compileDoc(p,a){
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found); // TODO: instead of repeating this is should just be a function call each time
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // add case for teaming name & pos @ 9
@@ -63,7 +62,6 @@ function compileDoc(p,a){
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // questions 9-12 are for comms
@@ -72,7 +70,6 @@ function compileDoc(p,a){
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // question 13 is inc resp
@@ -85,7 +82,6 @@ function compileDoc(p,a){
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // question 20 is for inc resp
@@ -99,7 +95,6 @@ function compileDoc(p,a){
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // question 27 is for inc resp
@@ -113,7 +108,6 @@ function compileDoc(p,a){
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // question 34 is for inc resp
@@ -126,7 +120,6 @@ function compileDoc(p,a){
             // if we need appendix and routines
             if (a){
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // question 42 is for inc resp
@@ -139,7 +132,6 @@ function compileDoc(p,a){
             // if we need appendix and routines
             if (a){
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-              routineDoc = getRoutineEntry(qRef, prevQ, aRef, routineDoc, found);
             }
             break;
           // question 48 is for inc resp
@@ -480,22 +472,6 @@ function getAppendixContent(question, previous, answer, appDoc, content){
     appDoc.links.push(thisContent);
   }
   return appDoc;
-}
-
-function getRoutineEntry(question, previous, answer, routines, content){
-  // if it's a new question and there's a general routine entry
-  if ((question !== previous) && (content.routineEntry !== "")) {
-    // edit the entry and push it to the doc
-    thisContent = replaceStr(content.routineEntry);
-    routines.push(thisContent);
-  }
-  // if the answer has a specific routine entry
-  if (content.answers[answer].routineEntry !== ""){
-    // edit that entry and push it to the doc
-    thisContent = replaceStr(content.answers[answer].routineEntry);
-    routines.push(thisContent);
-  }
-  return routines;
 }
 
 function resetChanges(){

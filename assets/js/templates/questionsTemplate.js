@@ -42,20 +42,14 @@ templates.questionsTemplate = function(data, params){
       // if it's a question
       if (question.isQ) {
         var panel = "";
-        if (question.tips[0].relevance) {
-          panel += '<div><span class="fas fa-user-circle"></span><p>' + question.tips[0].relevance + '</p></div>';
+        if (question.tips[0].meaning) {
+          panel += '<div><span class="fas fa-question-circle"></span><p>' + question.tips[0].meaning + '</p></div>';
         }
-        if (question.tips[1].meaning) {
-          panel += '<div><span class="fas fa-question-circle"></span><p>' + question.tips[1].meaning + '</p></div>';
-        }
-        if (question.tips[2].implementation) {
-          panel += '<div><span class="fas fa-clipboard-list"></span><p>' + question.tips[2].implementation + '</p></div>';
-        }
-        if (question.tips[3].more) {
+        if (question.tips[1].more) {
           panel += '<div><span class="fas fa-search"></span><p>| ';
-          for (var s = 0; s < question.tips[3].more.length; s++){
-            more = encodeURIComponent(question.tips[3].more[s]);
-            panel += '<a href="https://duckduckgo.com/?q='+more+'" target="_blank" title="Research '+question.tips[3].more[s]+' on DuckDuckGo">'+question.tips[3].more[s]+'</a> | ';
+          for (var s = 0; s < question.tips[1].more.length; s++){
+            more = encodeURIComponent(question.tips[1].more[s]);
+            panel += '<a href="https://duckduckgo.com/?q='+more+'" target="_blank" title="Research '+question.tips[1].more[s]+' on DuckDuckGo">'+question.tips[1].more[s]+'</a> | ';
           }
           panel += '</p></div>';
         }

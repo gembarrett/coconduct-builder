@@ -12,7 +12,6 @@ var section2 = [
     "required":true,
     "policyEntry":"Nunc in nisi quis erat placerat porta eget ut nibh [organisation-name].",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -20,7 +19,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[16],
         "policyEntry":"Mauris molestie, arcu sed auctor faucibus, lorem erat ultrices erat, quis volutpat eros urna scelerisque urna [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -35,7 +33,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[16],
         "policyEntry":"Maecenas sit amet risus velit. Vestibulum eget velit justo. Curabitur dolor ligula, interdum vel suscipit aliquam, lacinia id lorem [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -50,7 +47,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[16],
         "policyEntry":"Sed consequat augue vel nibh mollis pretium. Cras ligula ex, iaculis et consectetur quis, accumsan eget nisl [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -65,7 +61,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[16], // no browser storage
         "policyEntry":"Curabitur dolor ligula, interdum vel suscipit aliquam, lacinia id lorem [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -80,7 +75,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[16],
         "policyEntry":"Curabitur dolor ligula, interdum vel suscipit aliquam, lacinia id lorem [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -95,7 +89,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Mauris molestie, arcu sed auctor faucibus, lorem erat ultrices erat, quis volutpat eros urna scelerisque urna [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -111,7 +104,6 @@ var section2 = [
         "storeAs": "[use-this-for-password-storage]",
         "excludes":[],
         "policyEntry":"Maecenas sit amet risus velit. Vestibulum eget velit justo. Curabitur dolor ligula, interdum vel suscipit aliquam, lacinia id lorem [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -122,9 +114,7 @@ var section2 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Sed consequat augue vel nibh mollis pretium. Cras ligula ex, iaculis et consectetur quis, accumsan eget nisl. Curabitur commodo ultrices erat, in interdum elit sodales in. Etiam porttitor, ante hendrerit pulvinar sodales, erat lorem faucibus arcu, nec mattis purus nulla vel dolor. Donec ullamcorper rhoncus urna sit amet gravida. Etiam non odio quis magna fringilla efficitur nec id libero. Mauris sed facilisis orci, vitae viverra metus."},
-      {"implementation":"Etiam at tortor sodales, ornare neque eget, luctus libero. Proin rutrum eros eu enim ullamcorper, tempus posuere felis ornare. Curabitur quis elit sit amet quam rhoncus pharetra ut vitae odio"},
       {"more": [""]}
     ]
   },
@@ -135,7 +125,6 @@ var section2 = [
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -143,7 +132,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Suspendisse bibendum lobortis odio, pellentesque semper massa posuere varius [browser-password-exceptions].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -158,7 +146,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Cras blandit lectus non suscipit dictum. Etiam nec tortor eget urna auctor ornare. Aenean vel dapibus purus. Nam eu mattis nulla, [browser-password-exceptions].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -174,7 +161,6 @@ var section2 = [
         "storeAs":"[browser-password-exceptions]",
         "excludes":[],
         "policyEntry":"Cras blandit lectus non suscipit dictum. Etiam nec tortor eget urna auctor ornare. Aenean vel dapibus purus. Nam eu mattis nulla, [browser-password-exceptions]",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -185,9 +171,7 @@ var section2 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Donec quis arcu commodo, congue nibh ut, placerat ex."},
-      {"implementation":"Phasellus imperdiet dui at ornare luctus. Donec urna turpis, ullamcorper a lorem nec, pharetra cursus nibh. Duis id vulputate nunc, sit amet gravida justo. Suspendisse aliquam elit in enim porta, non mattis tellus mattis"},
       {"more": [""]}
     ]
   },
@@ -198,7 +182,6 @@ var section2 = [
     "required":true,
     "policyEntry":"Vivamus a faucibus nibh. Sed pretium vitae nulla nec rutrum.",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -206,7 +189,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Vestibulum venenatis metus eget laoreet molestie, [organisation-name]. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras scelerisque odio at nulla sollicitudin, quis auctor nunc tempus [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -221,7 +203,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Aenean pretium lacus tincidunt porttitor sollicitudin, [organisation-name] Aliquam non ullamcorper nisi, a tincidunt quam [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -236,7 +217,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[18],
         "policyEntry":"Quisque sit amet ligula ligula. Morbi ultrices est magna, ac faucibus est suscipit eget [organisation-name]. Quisque nisl risus, tincidunt quis diam ac, facilisis viverra lorem. Nunc eget augue bibendum, tristique nunc ultricies, mollis velit, [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -247,9 +227,7 @@ var section2 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Quisque venenatis metus vitae dolor placerat, id euismod nibh blandit."},
-      {"implementation":"Suspendisse bibendum lobortis odio, pellentesque semper massa posuere varius."},
       {"more": [""]}
     ]
   },
@@ -260,7 +238,6 @@ var section2 = [
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -268,7 +245,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Quisque sit amet ligula ligula. Morbi ultrices est magna, ac faucibus est suscipit eget [organisation-name]. Quisque nisl risus, tincidunt quis diam ac, facilisis viverra lorem. Nunc eget augue bibendum, tristique nunc ultricies, mollis velit, [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -283,7 +259,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Nam sagittis vitae erat sit amet auctor. Aenean malesuada laoreet ullamcorper [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -298,7 +273,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Vivamus commodo tincidunt risus, sagittis vulputate urna blandit in [security-contact-name] to discuss.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -313,7 +287,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Quisque sit amet ligula ligula. Morbi ultrices est magna, ac faucibus est suscipit eget [organisation-name]. Quisque nisl risus, tincidunt quis diam ac, facilisis viverra lorem. Nunc eget augue bibendum, tristique nunc ultricies, mollis velit, [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -329,7 +302,6 @@ var section2 = [
         "storeAs": "[use-this-for-authentication]",
         "excludes":[],
         "policyEntry":"Aenean pretium lacus tincidunt porttitor sollicitudin, [organisation-name] Aliquam non ullamcorper nisi, a tincidunt quam [security-contact-name].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -340,9 +312,7 @@ var section2 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Sed dignissim porttitor ultricies. Aliquam vulputate mollis lacus, et accumsan mauris venenatis at. Vivamus cursus scelerisque nibh vel hendrerit. Integer gravida lorem quis purus varius, at finibus justo efficitur. Morbi at sem quis ipsum dignissim auctor."},
-      {"implementation":"Vivamus commodo tincidunt risus, sagittis vulputate urna blandit in. Cras laoreet convallis maximus."},
       {"more": [""]}
     ]
   },
@@ -353,7 +323,6 @@ var section2 = [
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -361,7 +330,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"- Sint maxime id esse aut. Sunt dolorum labore odio facere [organisation-name] devices: [organisation-name] staff sint maxime id esse aut. Sunt dolorum labore odio facere.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -376,7 +344,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":".",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -387,9 +354,7 @@ var section2 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
-      {"implementation":"Sint maxime id esse aut. Sunt dolorum labore odio facere"},
       {"more": [""]}
     ]
   },
@@ -400,7 +365,6 @@ var section2 = [
     "required":false,
     "policyEntry":"[organisation-name] sint maxime id esse aut. Sunt dolorum labore odio facere:",
     "appendixEntry":"Sint maxime id esse aut.",
-    "routineEntry":"",
     "answers":[
       {
         "type":"textarea", // check for this before making an input field
@@ -409,7 +373,6 @@ var section2 = [
         "storeAs":"[do-this-if-hacked]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -420,9 +383,7 @@ var section2 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Vestibulum vulputate sed odio sit amet suscipit. Nunc molestie sollicitudin dolor, sit amet vehicula nulla consectetur sit amet. Vestibulum tristique malesuada suscipit."},
-      {"implementation":" Nulla ut enim sed dolor ullamcorper mattis eu sed neque. Aenean placerat erat et metus ultrices, ac sagittis tortor aliquam. Nulla id semper sem. Maecenas luctus varius orci eget consectetur."},
       {"more": [""]}
     ]
   }

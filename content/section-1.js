@@ -12,7 +12,6 @@ var section1 = [
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -20,7 +19,6 @@ var section1 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"[organisation-name] penatibus et magnis dis parturient montes, nascetur ridiculus mus. Contact [security-contact-name].",
-        "routineEntry":"Sending an email containing confidential information? Hide it from prying eyes by encrypting it with your PGP key.",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -35,7 +33,6 @@ var section1 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"[organisation-name] suspendisse tempus tristique arcu ut iaculis. Curabitur ac auctor enim.",
-        "routineEntry":"If you have a PGP key, please use it to encrypt emails containing sensitive information.",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -50,7 +47,6 @@ var section1 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -61,9 +57,7 @@ var section1 = [
       }
     ],
     "tips":[
-      {"relevance":"Phasellus et mauris hendrerit, luctus eros sed, pretium nisl. "},
       {"meaning":"Vestibulum vulputate sed odio sit amet suscipit. Nunc molestie sollicitudin dolor, sit amet vehicula nulla consectetur sit amet. Vestibulum tristique malesuada suscipit."},
-      {"implementation":" Nulla ut enim sed dolor ullamcorper mattis eu sed neque. Aenean placerat erat et metus ultrices, ac sagittis tortor aliquam. Nulla id semper sem. Maecenas luctus varius orci eget consectetur."},
       {"more": [""]}
     ]
   },
@@ -74,7 +68,6 @@ var section1 = [
     "required":false,
     "policyEntry":"Quisque imperdiet ac ligula eget convallis. Duis mattis, justo at iaculis pulvinar, quam lacus vehicula purus, nec condimentum libero odio et ligula. Curabitur et finibus sem. Integer convallis volutpat felis, a fringilla mi pharetra non. Nulla placerat odio vitae tristique ornare: [use-these-browser-extensions].",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -82,7 +75,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[11],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -97,7 +89,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -112,7 +103,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -127,7 +117,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[11],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -142,7 +131,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -157,7 +145,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -172,7 +159,6 @@ var section1 = [
         "storeAs":"[use-these-browser-extensions]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -188,7 +174,6 @@ var section1 = [
         "storeAs": "[use-these-browser-extensions]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -199,9 +184,7 @@ var section1 = [
       }
     ],
     "tips":[
-      {"relevance":"Proin blandit mi odio, ac consequat dui gravida nec. Donec ultricies et velit eget mattis. Suspendisse laoreet ligula ac sapien congue, et volutpat neque vulputate."},
       {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
-      {"implementation":"Aliquam libero nisl, pharetra ut erat rutrum, accumsan interdum augue. Nulla nec fringilla turpis. Nunc mi augue, semper eu vulputate ut, egestas vel nibh."},
       {"more": [""]}
     ]
   },
@@ -212,7 +195,6 @@ var section1 = [
     "required":false,
     "policyEntry":"[organisation-name] sint maxime id esse aut. Sunt dolorum labore odio facere:",
     "appendixEntry":"Sint maxime id esse aut.",
-    "routineEntry":"",
     "answers":[
       {
         "type":"text",
@@ -221,7 +203,6 @@ var section1 = [
         "storeAs":"[use-these-for-direct-chat]",
         "excludes":[],
         "policyEntry":"[organisation-name] suspendisse tempus tristique arcu ut iaculis. Curabitur ac auctor enim.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Is [use-these-for-direct-chat] still ok?",
@@ -237,7 +218,6 @@ var section1 = [
         "storeAs":"[use-these-for-group-chat]",
         "excludes":[],
         "policyEntry":"- Nascetur ridiculus mus [use-these-for-group-chat].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -253,7 +233,6 @@ var section1 = [
         "storeAs":"[use-these-for-internal-chat]",
         "excludes":[],
         "policyEntry":"- Nascetur ridiculus mus [use-these-for-group-chat].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Is [use-these-for-direct-chat] still ok?",
@@ -269,7 +248,6 @@ var section1 = [
         "storeAs":"[use-these-for-external-chat]",
         "excludes":[],
         "policyEntry":"- Nascetur ridiculus mus [use-these-for-group-chat].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Is [use-these-for-direct-chat] still ok?",
@@ -280,9 +258,7 @@ var section1 = [
       }
     ],
     "tips":[
-      {"relevance":"Phasellus et mauris hendrerit, luctus eros sed, pretium nisl. "},
       {"meaning":"Vestibulum vulputate sed odio sit amet suscipit. Nunc molestie sollicitudin dolor, sit amet vehicula nulla consectetur sit amet. Vestibulum tristique malesuada suscipit."},
-      {"implementation":" Nulla ut enim sed dolor ullamcorper mattis eu sed neque. Aenean placerat erat et metus ultrices, ac sagittis tortor aliquam. Nulla id semper sem. Maecenas luctus varius orci eget consectetur."},
       {"more": [""]}
     ]
   },
@@ -293,7 +269,6 @@ var section1 = [
     "required":false,
     "policyEntry":"Quisque imperdiet ac ligula eget convallis. Duis mattis, justo at iaculis pulvinar, quam lacus vehicula purus, nec condimentum libero odio et ligula. Curabitur et finibus sem. Integer convallis volutpat felis, a fringilla mi pharetra non. Nulla placerat odio vitae tristique ornare: [use-these-browser-extensions].",
     "appendixEntry": "To check whether a link or attachment contains known malware, upload it to VirusTotal; a service owned by Google which reads the file and detects familiar malicious code. It won’t find every attack, only the known ones it’s seen before, but it’s a valuable tool nonetheless.",
-    "routineEntry":"",
     "answers":[
       {
         "type":"textarea",
@@ -302,7 +277,6 @@ var section1 = [
         "storeAs":"[do-this-if-phished]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Are all of the incident response plans up-to-date?",
@@ -313,9 +287,7 @@ var section1 = [
       }
     ],
     "tips":[
-      {"relevance":"Proin blandit mi odio, ac consequat dui gravida nec. Donec ultricies et velit eget mattis. Suspendisse laoreet ligula ac sapien congue, et volutpat neque vulputate."},
       {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
-      {"implementation":"Aliquam libero nisl, pharetra ut erat rutrum, accumsan interdum augue. Nulla nec fringilla turpis. Nunc mi augue, semper eu vulputate ut, egestas vel nibh."},
       {"more": ["how to avoid a phishing attack", "what is spear phishing", "report google phishing email"]}
     ]
   }

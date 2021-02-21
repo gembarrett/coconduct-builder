@@ -5,27 +5,26 @@ var section0 = [
     "title": "",
     "steps":[
       {
-        "title":"Part 1",
-        "text":"Part 1 is all about the first part. It's the beginning of the process."
+        "title":"Get informed",
+        "text":"Click on the question to learn more about the topic and useful search terms for doing your own research."
       },
       {
-        "title":"Part 2",
-        "text":"Part 2 is all about the middle bit. It's the second area of the tool."
+        "title":"Build your Code of Conduct",
+        "text":"Each question offers multiple answers, and if you don't see the one that covers your situation you can enter into the editable buttons (the ones with a dotted border)."
       },
       {
-        "title":"Part 3",
-        "text":"Part 3 is where the process wraps up and we all go home. It's the end bit."
+        "title":"Use your Code of Conduct",
+        "text":"Once you've built your policy, you can edit and download your Code of Conduct, along with an appendix of complementary resources to help with implementing it."
       }
     ],
   },
   {
     "isQuestion": true,
     "id":"q1",
-    "q":"Animi tenetur dicta et et molestiae eaque quae?",
+    "q":"Let's double-check the name of the space this Code of Conduct applies to:",
     "required":true,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"text",
@@ -34,7 +33,6 @@ var section0 = [
         "storeAs":"[organisation-name]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry": [
           {
             "reviewList":"",
@@ -45,10 +43,8 @@ var section0 = [
       }
     ],
     "tips":[
-      {"relevance":""},
-      {"meaning":"Animi tenetur dicta et et molestiae eaque quae means animi tenetur dicta et et molestiae eaque quae."},
-      {"implementation":""},
-      {"more":""}
+      {"meaning":"Put the name on the Code of Conduct to make it specific to that space. If it's generic or used across multiple different spaces then it shows a lack of effort and motivation to create a safe space."},
+      {"more":"why should I have a code of conduct"}
     ]
   },
   {
@@ -58,7 +54,6 @@ var section0 = [
     "required":true,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -66,7 +61,6 @@ var section0 = [
         "storeAs":"[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -81,7 +75,6 @@ var section0 = [
         "storeAs":"[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -96,7 +89,6 @@ var section0 = [
         "storeAs": "[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -112,7 +104,6 @@ var section0 = [
         "storeAs": "[who-policy-applies-to]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -123,9 +114,7 @@ var section0 = [
       }
     ],
     "tips":[
-      {"relevance":""},
-      {"meaning":""},
-      {"implementation":"Just do reprehenderit sit iste libero nulla dolores voluptatum quod."},
+      {"meaning":"y tho"},
       {"more":""}
     ]
   },
@@ -136,7 +125,6 @@ var section0 = [
     "required":true,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -144,7 +132,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[41],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -159,7 +146,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -174,7 +160,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[18,24],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -185,9 +170,7 @@ var section0 = [
       },
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Quis enim ratione esse aliquam itaque cum est cupiditate though."},
-      {"implementation":""},
       {"more":["lorem ipsum"]}
     ]
   },
@@ -198,7 +181,6 @@ var section0 = [
     "required":true,
     "policyEntry":"Repudiandae officia vitae corporis accusamus, please contact: ",
     "appendixEntry":"",
-    "routineEntry":"Repudiandae officia vitae corporis accusamus? Ask [security-contact-name], [security-contact-role]!",
     "answers":[
       {
         "type":"text",
@@ -207,7 +189,6 @@ var section0 = [
         "storeAs":"[security-contact-name]",
         "excludes":[],
         "policyEntry":"[security-contact-name]",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Is [security-contact-name] still responsible?",
@@ -223,7 +204,6 @@ var section0 = [
         "storeAs":"[security-contact-role]",
         "excludes":[],
         "policyEntry":"([security-contact-role]).",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -239,7 +219,6 @@ var section0 = [
         "storeAs":"[security-contact-pronouns]",
         "excludes":[],
         "policyEntry":"Their pronouns are [security-contact-pronouns].",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Does [security-contact-name] still use [security-contact-pronouns] pronouns?",
@@ -255,7 +234,6 @@ var section0 = [
         "storeAs":"[security-contact-email]",
         "excludes":[],
         "policyEntry":"Email: [security-contact-email]",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Is [security-contact-name]'s email address up-to-date?",
@@ -271,7 +249,6 @@ var section0 = [
         "storeAs":"[security-contact-phone]",
         "excludes":[],
         "policyEntry":"Phone: [security-contact-phone]",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"Is [security-contact-name]'s phone number correct?",
@@ -282,9 +259,7 @@ var section0 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Repudiandae officia vitae corporis accusamus again."},
-      {"implementation":""},
       {"more":["lorem ipsum"]},
     ]
   },
@@ -295,7 +270,6 @@ var section0 = [
     "required":true,
     "policyEntry":"Saepe molestias at rerum commodi officiis quo quidem by [security-contact-name] ([security-contact-role]) on a [how-often-policy-reviewed] basis.",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -303,7 +277,6 @@ var section0 = [
         "storeAs": "[how-often-policy-reviewed]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -318,7 +291,6 @@ var section0 = [
         "storeAs": "[how-often-policy-reviewed]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -333,7 +305,6 @@ var section0 = [
         "storeAs": "[how-often-policy-reviewed]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -348,7 +319,6 @@ var section0 = [
         "storeAs": "[how-often-policy-reviewed]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -359,9 +329,7 @@ var section0 = [
       },
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Recusandae alias magnam nihil. Ad nisi et eum."},
-      {"implementation":""},
       {"more":["lorem ipsum"]}
     ]
   },
@@ -372,7 +340,6 @@ var section0 = [
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -380,7 +347,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -395,7 +361,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -410,7 +375,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -425,7 +389,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -440,7 +403,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -455,7 +417,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -471,7 +432,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -482,9 +442,7 @@ var section0 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":"Ut provident nobis quo consequuntur necessitatibus nulla non iusto."},
-      {"implementation":""},
       {"more":[]}
     ]
   },
@@ -495,7 +453,6 @@ var section0 = [
     "required":true,
     "policyEntry":"[organisation-name] sint maxime id esse aut. Sunt dolorum labore odio facere:",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -503,7 +460,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -518,7 +474,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"- Sint maxime id esse aut. Sunt dolorum labore odio facere [organisation-name] devices: [organisation-name] staff sint maxime id esse aut. Sunt dolorum labore odio facere.",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -533,7 +488,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -548,7 +502,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[7],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -559,9 +512,7 @@ var section0 = [
       }
     ],
     "tips":[
-      {"relevance":""},
       {"meaning":""},
-      {"implementation":"Sint maxime id esse aut. Sunt dolorum labore odio facere"},
       {"more":[]}
     ]
   },
@@ -572,7 +523,6 @@ var section0 = [
     "required":false,
     "policyEntry":"[organisation-name] fugit dolore non voluptas voluptatem dolor quos [privacy-peripherals-provided] to use on your devices.",
     "appendixEntry":"",
-    "routineEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -580,7 +530,6 @@ var section0 = [
         "storeAs": "[privacy-peripherals-provided]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -595,7 +544,6 @@ var section0 = [
         "storeAs": "[privacy-peripherals-provided]",
         "excludes":[],
         "policyEntry":"",
-        "routineEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -606,9 +554,7 @@ var section0 = [
       }
     ],
     "tips":[
-      {"relevance":"Fugit dolore non voluptas voluptatem dolor quos."},
-      {"meaning":""},
-      {"implementation":""},
+      {"meaning":"y tho"},
       {"more":[]}
     ]
   }
