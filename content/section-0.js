@@ -23,14 +23,14 @@ var section0 = [
     "id":"q1",
     "q":"What's the name of the space this Code of Conduct applies to?",
     "required":true,
-    "policyEntry":"",
+    "policyEntry":"[space-name] Code of Conduct",
     "appendixEntry":"",
     "answers":[
       {
         "type":"text",
         "answerText":"",
         "placeholder":"Example",
-        "storeAs":"[organisation-name]",
+        "storeAs":"[space-name]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry": [
@@ -50,15 +50,15 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q2",
-    "q":"EVENT: Reprehenderit sit iste libero nulla dolores voluptatum quod?",
+    "q":"Which specific spaces does this Code of Conduct apply to?",
     "required":true,
-    "policyEntry":"",
+    "policyEntry":"This Code of Conduct applies in the following event spaces: [where-policy-applies].",
     "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"Q",
-        "storeAs":"[who-policy-applies-to]",
+        "answerText":"Conference",
+        "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -71,8 +71,8 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"W",
-        "storeAs":"[who-policy-applies-to]",
+        "answerText":"Meetups",
+        "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -85,8 +85,8 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"E",
-        "storeAs": "[who-policy-applies-to]",
+        "answerText":"Related social events",
+        "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -100,8 +100,8 @@ var section0 = [
       {
         "type":"checkbox",
         "editable": true,
-        "answerText":"another",
-        "storeAs": "[who-policy-applies-to]",
+        "answerText":"another synchronous space",
+        "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -121,16 +121,16 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q3",
-    "q":"PROJECT: Quis enim ratione esse aliquam itaque cum est cupiditate?",
+    "q":"Which specific spaces does this Code of Conduct apply to?",
     "required":true,
-    "policyEntry":"",
+    "policyEntry":"This Code of Conduct applies in the following project spaces: [where-policy-applies].",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"radio",
-        "answerText":"Yes.",
-        "storeAs": "",
-        "excludes":[41],
+        "type":"checkbox",
+        "answerText":"Code repository",
+        "storeAs":"[where-policy-applies]",
+        "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
           {
@@ -141,9 +141,9 @@ var section0 = [
         ],
       },
       {
-        "type":"radio",
-        "answerText":"Some.",
-        "storeAs": "",
+        "type":"checkbox",
+        "answerText":"Mailing list",
+        "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -155,10 +155,25 @@ var section0 = [
         ]
       },
       {
-        "type":"radio",
-        "answerText":"No.",
-        "storeAs": "",
-        "excludes":[18,24],
+        "type":"checkbox",
+        "answerText":"Slack group",
+        "storeAs":"[where-policy-applies]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "editable": true,
+        "answerText":"another asynchronous space",
+        "storeAs":"[where-policy-applies]",
+        "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
           {
@@ -177,81 +192,34 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q4",
-    "q":"EVENT: Repudiandae officia vitae corporis accusamus?",
+    "q":"Will your event sponsors have stands, booths or merchandise?",
     "required":true,
-    "policyEntry":"Repudiandae officia vitae corporis accusamus, please contact: ",
+    "policyEntry":"",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"text",
-        "answerText":"Name",
-        "placeholder":"e.g. Alice Smith",
-        "storeAs":"[security-contact-name]",
+        "type":"radio",
+        "answerText":"Yes",
+        "storeAs":"",
         "excludes":[],
-        "policyEntry":"[security-contact-name]",
+        "policyEntry":"Staff representing the sponsors must also adhere to the event's Code of Conduct. Any advertising material, including staff clothing, must be appropriate for a professional, inclusive atmosphere.",
         "appendixEntry":[
           {
-            "reviewList":"Is [security-contact-name] still responsible?",
-            "tipList": "",
+            "reviewList":"Do you still have sponsors and are they aware of the Code of Conduct requirements?",
+            "tipList": "Review the sponsors advertising material, such as t-shirt and booth designs, before the event if possible.",
             "linksList": ""
           }
         ],
       },
       {
-        "type":"text",
-        "answerText":"Job title or department",
-        "placeholder":"e.g. Security Officer",
-        "storeAs":"[security-contact-role]",
+        "type":"radio",
+        "answerText":"No",
+        "storeAs":"",
         "excludes":[],
-        "policyEntry":"([security-contact-role]).",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"text",
-        "answerText":"Pronouns",
-        "placeholder": "e.g. they/them",
-        "storeAs":"[security-contact-pronouns]",
-        "excludes":[],
-        "policyEntry":"Their pronouns are [security-contact-pronouns].",
-        "appendixEntry":[
-          {
-            "reviewList":"Does [security-contact-name] still use [security-contact-pronouns] pronouns?",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"text",
-        "answerText":"Email",
-        "placeholder": "e.g. example@organization.com",
-        "storeAs":"[security-contact-email]",
-        "excludes":[],
-        "policyEntry":"Email: [security-contact-email]",
-        "appendixEntry":[
-          {
-            "reviewList":"Is [security-contact-name]'s email address up-to-date?",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"text",
-        "answerText":"Phone",
-        "placeholder": "e.g. +1 (234) 567-890",
-        "storeAs":"[security-contact-phone]",
-        "excludes":[],
-        "policyEntry":"Phone: [security-contact-phone]",
-        "appendixEntry":[
-          {
-            "reviewList":"Is [security-contact-name]'s phone number correct?",
             "tipList": "",
             "linksList": ""
           }
@@ -266,59 +234,17 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q5",
-    "q":"Saepe molestias at rerum commodi officiis quo quidem?",
+    "q":"Does your event have an online space for attendees to interact?",
     "required":true,
-    "policyEntry":"Saepe molestias at rerum commodi officiis quo quidem by [security-contact-name] ([security-contact-role]) on a [how-often-policy-reviewed] basis.",
+    "policyEntry":"",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"checkbox",
-        "answerText":"annual",
-        "storeAs": "[how-often-policy-reviewed]",
+        "type":"radio",
+        "answerText":"Yes",
+        "storeAs": "",
         "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "Recusandae alias magnam nihil. Ad nisi et eum. [date+12], [date+24], [date+36]",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"6-monthly",
-        "storeAs": "[how-often-policy-reviewed]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "Recusandae alias magnam nihil. Ad nisi et eum. [date+6], [date+12], [date+18]",
-            "linksList": ""
-          }
-        ],
-      },
-      {
-        "type":"checkbox",
-        "answerText":"quarterly",
-        "storeAs": "[how-often-policy-reviewed]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "Recusandae alias magnam nihil. Ad nisi et eum. [date+3], [date+6], [date+9]",
-            "linksList": ""
-          }
-        ],
-      },
-      {
-        "type":"checkbox",
-        "answerText":'"as threats arise"',
-        "storeAs": "[how-often-policy-reviewed]",
-        "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"[space-name] will have an online aspect to the event, and attendees who use it are asked to respect each other as they would in an offline capacity as the rules of this Code of Conduct still apply.",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -326,6 +252,20 @@ var section0 = [
             "linksList": ""
           }
         ]
+      },
+      {
+        "type":"radio",
+        "answerText":"No",
+        "storeAs": "",
+        "excludes":[18],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ],
       },
     ],
     "tips":[
@@ -333,229 +273,4 @@ var section0 = [
       {"more":["lorem ipsum"]}
     ]
   },
-  {
-    "isQuestion": true,
-    "id":"q6",
-    "q":"EVENT: Ut provident nobis quo consequuntur necessitatibus nulla non iusto?",
-    "required":false,
-    "policyEntry":"",
-    "appendixEntry":"",
-    "answers":[
-      {
-        "type":"checkbox",
-        "answerText":"R",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Windows 10: https://spreadprivacy.com/windows-10-privacy-tips"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"T",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "OS X: https://spreadprivacy.com/mac-privacy-tips"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"Y",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Linux: https://spreadprivacy.com/linux-privacy-tips"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"U",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Chrome OS: https://www.makeuseof.com/tag/privacy-settings-chrome-os-google-chrome"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"I",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Android: https://spreadprivacy.com/android-privacy-tips"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"O",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "iOS: https://spreadprivacy.com/iphone-privacy-tips"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "editable": true,
-        "answerText":"another system",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":"Ut provident nobis quo consequuntur necessitatibus nulla non iusto."},
-      {"more":[]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q7",
-    "q":"Sint maxime id esse aut. Sunt dolorum labore odio facere?",
-    "required":true,
-    "policyEntry":"[organisation-name] sint maxime id esse aut. Sunt dolorum labore odio facere:",
-    "appendixEntry":"",
-    "answers":[
-      {
-        "type":"checkbox",
-        "answerText":"C",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"V",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"- Sint maxime id esse aut. Sunt dolorum labore odio facere [organisation-name] devices: [organisation-name] staff sint maxime id esse aut. Sunt dolorum labore odio facere.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"B",
-        "storeAs": "",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"N",
-        "storeAs": "",
-        "excludes":[7],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":""},
-      {"more":[]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q8",
-    "q":"PROJECT: Fugit dolore non voluptas voluptatem dolor quos?",
-    "required":false,
-    "policyEntry":"[organisation-name] fugit dolore non voluptas voluptatem dolor quos [privacy-peripherals-provided] to use on your devices.",
-    "appendixEntry":"",
-    "answers":[
-      {
-        "type":"checkbox",
-        "answerText":"A",
-        "storeAs": "[privacy-peripherals-provided]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"S",
-        "storeAs": "[privacy-peripherals-provided]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":"y tho"},
-      {"more":[]}
-    ]
-  }
 ]

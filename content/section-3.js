@@ -1,121 +1,65 @@
 var section3 = [
   {
     "isQuestion": false,
-    "id":"q21",
-    "title": "Final section: More Things",
+    "id":"q23",
+    "title": "Final section: Redmediation",
     "paragraph":["Fusce vitae tellus quis magna molestie cursus in non justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat est quis magna dictum laoreet. Sed malesuada commodo quam.", "Phasellus sed magna pellentesque, lacinia velit sed, congue velit. Vivamus consectetur consequat posuere. Praesent et tempor metus, ac mollis ipsum. Cras imperdiet vestibulum sapien nec vestibulum.", "Phasellus ut turpis consequat purus accumsan consectetur. Cras maximus sem ut consectetur laoreet. Quisque condimentum urna nec metus hendrerit, at interdum purus tempor."]
   },
   {
     "isQuestion": true,
-    "id":"q22",
-    "q":"Pellentesque nunc est, suscipit eu nulla in, imperdiet congue massa?",
+    "id":"q24",
+    "q":"What are the potential remedies for Code of Conduct violations?",
     "required":true,
-    "policyEntry":"Nullam orci urna, ornare eleifend condimentum sed, euismod sit amet justo [organisation-name] Duis elit magna, facilisis eget venenatis in, lacinia vitae libero. Nunc eu rhoncus elit [biometric-authentication-options].",
-    "appendixEntry":"Be aware that touchscreen devices are susceptible to holding fingerprint marks which can be used to guess recently-used key sequences.",
-    "answers":[
-      {
-        "type":"checkbox",
-        "answerText":"F",
-        "storeAs":"[biometric-authentication-options]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"R",
-        "storeAs":"[biometric-authentication-options]",
-        "excludes":[19],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":""},
-      {"more": [""]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q23",
-    "q":"Duis tincidunt leo at dictum molestie?",
-    "required":false,
-    "policyEntry":"Aenean suscipit orci porta quam ullamcorper, in tempor neque egestas. Fusce a nisl venenatis neque tincidunt facilisis: [we-use-this-device-manager].",
+    "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
     "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"F",
-        "storeAs":"[we-use-this-device-manager]",
+        "answerText":"Ejection without refund",
+        "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"- we reserve the right to eject without refund from [space-name]",
         "appendixEntry":[
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Flock Agent for macOS & Linux system 'health checks': https://github.com/firstlookmedia/flock-agent"
+            "linksList": ""
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"S",
-        "storeAs":"[we-use-this-device-manager]",
+        "answerText":"Ban from future events",
+        "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"- if necessary, we will take steps enforce a ban from future [space-name] events",
         "appendixEntry":[
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Stethoscope for Windows & macOS systems: https://ragtag.org/stethoscope"
+            "linksList": ""
           }
         ]
       },
       {
         "type":"checkbox",
-        "answerText":"A",
-        "storeAs":"[we-use-this-device-manager]",
+        "answerText":"Call police",
+        "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"- in extreme cases where a crime has been committed, and if the victim consents, then it may be appropriate to involve the police",
         "appendixEntry":[
           {
             "reviewList":"",
             "tipList": "",
-            "linksList": "Apple MDM documentation: https://developer.apple.com/documentation/devicemanagement"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"G",
-        "storeAs":"[we-use-this-device-manager]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Google Endpoint Management: https://gsuite.google.com/products/admin/endpoint"
+            "linksList": ""
           }
         ]
       },
       {
         "type":"checkbox",
         "editable":true,
-        "answerText":"another",
-        "storeAs":"[we-use-this-device-manager]",
+        "answerText":"another action",
+        "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -128,66 +72,24 @@ var section3 = [
       }
     ],
     "tips":[
-      {"meaning":"Aenean accumsan lacus malesuada porttitor feugiat. Ut fringilla, magna sit amet molestie vehicula, nunc dui vestibulum eros, a blandit augue neque eget neque. Morbi ullamcorper, lectus ultricies interdum semper, augue tortor semper sem, eu ullamcorper dolor dolor sed dolor."},
-      {"more": [""]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q24",
-    "q":"Curabitur sit amet iaculis nibh?",
-    "required":false,
-    "policyEntry":"[organisation-name] Cras est enim, feugiat vel pharetra eu, lobortis quis nisi [we-use-this-backup-storage].",
-    "appendixEntry":"",
-    "answers":[
-      {
-        "type":"checkbox",
-        "answerText":"P",
-        "storeAs":"[we-use-this-backup-storage]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"C",
-        "storeAs":"[we-use-this-backup-storage]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"Does your cloud storage provider still provide the most appropriate package for your data or is it time to migrate?",
-            "tipList": "Advise staff on how to recognise a legitimate automatic backup so that suspicious network activity can be flagged quickly.",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":"Ut porttitor augue mi, eget elementum lacus luctus et. Donec blandit urna libero, et congue tortor tristique eu."},
+      {"meaning":"Make it clear the penalty for creating a hostile environment."},
       {"more": [""]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q25",
-    "q":"Vestibulum ante ipsum primis in faucibus?",
-    "required":true,
-    "policyEntry":"Quisque congue diam sed magna placerat fringilla. Phasellus sed commodo dui [how-often-backups-done] basis.",
+    "q":"What are the potential remedies for Code of Conduct violations?",
+    "required":false,
+    "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"radio",
-        "answerText":"H",
-        "storeAs":"[how-often-backups-done]",
+        "type":"checkbox",
+        "answerText":"Temporary removal",
+        "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"- being temporarily removed from the space",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -197,11 +99,11 @@ var section3 = [
         ]
       },
       {
-        "type":"radio",
-        "answerText":"D",
-        "storeAs":"[how-often-backups-done]",
+        "type":"checkbox",
+        "answerText":"Future ban",
+        "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"- being permanently banned from the space",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -211,24 +113,10 @@ var section3 = [
         ]
       },
       {
-        "type":"radio",
-        "answerText":"W",
-        "storeAs":"[how-often-backups-done]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"radio",
+        "type":"checkbox",
         "editable":true,
-        "answerText":"another",
-        "storeAs":"[how-often-backups-done]",
+        "answerText":"another action",
+        "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -241,24 +129,24 @@ var section3 = [
       }
     ],
     "tips":[
-      {"meaning":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."},
+      {"meaning":"Make it clear the penalty for creating a hostile environment."},
       {"more": [""]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q26",
-    "q":"Integer interdum, risus vulputate sodales faucibus, nisi lectus feugiat justo, eget fermentum magna metus id enim?",
+    "q":"What are the alternative forms of help for attendees in distress?",
     "required":false,
-    "policyEntry":"[organisation-name] Sed porta ex in justo bibendum accumsan. Vestibulum mattis mauris sed lacus varius, feugiat iaculis dui lacinia. Donec imperdiet ultrices leo quis ornare: ",
+    "policyEntry":"If you find yourself in immediate need of help, you can contact: [emergency]",
     "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"B",
-        "storeAs":"",
+        "answerText":"Emergency services",
+        "storeAs":"[emergency]",
         "excludes":[],
-        "policyEntry":"- B",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -269,10 +157,10 @@ var section3 = [
       },
       {
         "type":"checkbox",
-        "answerText":"R",
-        "storeAs":"",
+        "answerText":"Venue security",
+        "storeAs":"[emergency]",
         "excludes":[],
-        "policyEntry":"- R.",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -283,10 +171,10 @@ var section3 = [
       },
       {
         "type":"checkbox",
-        "answerText":"M",
-        "storeAs":"",
+        "answerText":"Local taxi",
+        "storeAs":"[emergency]",
         "excludes":[],
-        "policyEntry":"- M.",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -297,52 +185,8 @@ var section3 = [
       },
       {
         "type":"checkbox",
-        "answerText":"D",
-        "storeAs":"",
-        "excludes":[],
-        "policyEntry":"- D.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "editable":true,
-        "answerText":"another",
-        "storeAs":"[alt-backup-security]",
-        "excludes":[],
-        "policyEntry":"- [alt-backup-security]",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":"Suspendisse pretium quam vestibulum justo vestibulum dapibus. Morbi ultricies lectus id mi lobortis, tristique iaculis nisl volutpat. Etiam ut nisl congue, porttitor est in, ultrices magna. ."},
-      {"more": [""]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q27",
-    "q":"Quisque tempor tortor elementum sem pulvinar, sed consectetur tellus vulputate?",
-    "required":false,
-    "policyEntry":"Quisque imperdiet ac ligula eget convallis. Duis mattis, justo at iaculis pulvinar, quam lacus vehicula purus, nec condimentum libero odio et ligula. Curabitur et finibus sem. Integer convallis volutpat felis, a fringilla mi pharetra non. Nulla placerat odio vitae tristique ornare:",
-    "appendixEntry": "",
-    "answers":[
-      {
-        "type":"textarea",
-        "answerText":"",
-        "placeholder":"e.g.",
-        "storeAs":"[do-this-if-seized]",
+        "answerText":"Ride-sharing services",
+        "storeAs":"[emergency]",
         "excludes":[],
         "policyEntry":"",
         "appendixEntry":[
@@ -355,7 +199,36 @@ var section3 = [
       }
     ],
     "tips":[
-      {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
+      {"meaning":"Attendees may need more urgent help than can be provided by event staff, so provide them with alternatives for the local area. Don't assume that people know the local emergency services number or which ride-share services work in the area."},
+      {"more": [""]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q27",
+    "q":"Where can people send questions (not reports) about this Code of Conduct?",
+    "required":false,
+    "policyEntry":"If you have questions about this Code of Conduct, you can email: [questions-to]",
+    "appendixEntry": "",
+    "answers":[
+      {
+        "type":"text",
+        "answerText":"",
+        "placeholder":"Email address for questions",
+        "storeAs":"[questions-to]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      }
+    ],
+    "tips":[
+      {"meaning":"If people have questions about your Code of Conduct policy, for example if they need clarification or want to help with translation, then they should be able to send an email somewhere."},
       {"more": [""]}
     ]
   }

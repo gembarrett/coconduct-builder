@@ -1,14 +1,72 @@
 var section1 = [
   {
     "isQuestion": false,
-    "id":"q9",
-    "title": "Next section: Things",
+    "id":"q6",
+    "title": "Next section: Purpose",
     "paragraph":["Dolor debitis illo soluta mollitia aperiam explicabo perspiciatis. Sapiente ea consequatur aut et laboriosam ex a quaerat. Culpa voluptas dicta recusandae sequi vel nihil voluptas. Sed non qui est sed.", "Nihil eligendi alias omnis explicabo sint. Dolores voluptas aut quae cum. Vitae provident quibusdam dolorem molestiae. Est molestias et aut sequi repudiandae.","Repellat ut ut possimus voluptates et laboriosam tenetur. Quam cum deleniti harum necessitatibus. Consectetur ut voluptatem velit atque et numquam reiciendis vel. Rerum maxime eos tenetur. Est et ut asperiores aut."]
   },
   {
     "isQuestion": true,
-    "id":"q10",
-    "q":"Maecenas fermentum placerat quam, vitae finibus nisi laoreet ut. Orci varius natoque?",
+    "id":"q7",
+    "q":"Which additional groups does this Code of Conduct aim to protect?",
+    "required":false,
+    "policyEntry":"[space-name] aims to create a welcoming, inclusive space for [welcome-people]",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"textarea",
+        "answerText":"",
+        "placeholder":"This box will contain all the people who should be mentioned here so people can add to the list",
+        "storeAs":"[welcome-people]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ],
+      }
+    ],
+    "tips":[
+      {"meaning":""},
+      {"more":[]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q8",
+    "q":"Which additional behaviours will not be tolerated?",
+    "required":true,
+    "policyEntry":"Any behaviour which contributes to an unwelcoming or hostile environment within [space-name] will not be tolerated. This includes behaviour such as [unwelcome-behaviour]",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"textarea",
+        "answerText":"",
+        "placeholder":"This box will contain all the behaviours that should be mentioned here so people can add to the list",
+        "storeAs":"[unwelcome-behaviour]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ],
+      }
+    ],
+    "tips":[
+      {"meaning":""},
+      {"more":[]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q9",
+    "q":"Do you anticipate presentations that require the inclusion of pornography or graphic representations of traumatic events?",
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
@@ -16,23 +74,52 @@ var section1 = [
       {
         "type":"radio",
         "answerText":"Yes",
-        "storeAs":"",
+        "storeAs": "",
         "excludes":[],
-        "policyEntry":"[organisation-name] penatibus et magnis dis parturient montes, nascetur ridiculus mus. Contact [security-contact-name].",
+        "policyEntry":"Due to the focus of [space-name] it is likely that there will be presentations which require the inclusion of pornography or graphic representations of traumatic events. Trigger warnings will be given prior to these presentations to give attendees a chance to excuse themselves if necessary.",
         "appendixEntry":[
           {
             "reviewList":"",
             "tipList": "",
             "linksList": ""
           }
-        ],
+        ]
       },
       {
         "type":"radio",
-        "answerText":"Some",
-        "storeAs":"",
+        "answerText":"No",
+        "storeAs": "",
         "excludes":[],
-        "policyEntry":"[organisation-name] suspendisse tempus tristique arcu ut iaculis. Curabitur ac auctor enim.",
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      }
+    ],
+    "tips":[
+      {"meaning":"It may be relevant to your event to have presentations which feature pornography or graphic imagery, for instance if the focus is on human rights, sex workers rights or centres around similar topics. A trigger warning should still be shared with those planning to watch prior to the presentation. However, if the use of such imagery is not relevant to the talk or the event as a whole, then it could be alienating for unecessarily upsetting to the attendees and should therefore be removed."},
+      {"more":[]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q10",
+    "q":"Are there any additional exceptions to the rules?",
+    "required":false,
+    "policyEntry":"There are certain behaviours which, if reported, will not be acted upon. This includes [exceptions]",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"textarea",
+        "answerText":"",
+        "placeholder":"This box will contain all the exceptions that should be mentioned here so people can add to the list",
+        "storeAs":"[exceptions]",
+        "excludes":[],
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -40,6 +127,176 @@ var section1 = [
             "linksList": ""
           }
         ],
+      }
+    ],
+    "tips":[
+      {"meaning":"Reverse-isms, such as reverse racism, may get reported when people find themselves called out for bad behaviour. It's best to explicitly state that such reactions will not be treated as a violation of the Code of Conduct in order to discourage such reports."},
+      {"more": [""]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q11",
+    "q":"Where will people be able to find this Code of Conduct?",
+    "required":false,
+    "policyEntry":"This Code of Conduct will be available to attendees via [find-the-policy]",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"checkbox",
+        "answerText":"our website",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"the ticket purchase process",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"at the venue",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "editable": true,
+        "answerText":"another place",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      }
+    ],
+    "tips":[
+      {"meaning":"Make your Code of Conduct available to people in as many ways as possible."},
+      {"more": [""]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q12",
+    "q":"Where will people be able to find this Code of Conduct?",
+    "required":false,
+    "policyEntry":"This Code of Conduct can be viewed at [find-the-policy]",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"checkbox",
+        "answerText":"in the repository",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"on the website",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"in the Slack channel",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "editable": true,
+        "answerText":"another place",
+        "storeAs":"[find-the-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      }
+    ],
+    "tips":[
+      {"meaning":"Make your Code of Conduct available to people in as many ways as possible."},
+      {"more": [""]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q13",
+    "q":"Are previous versions of this Code of Conduct available online?",
+    "required":false,
+    "policyEntry":"",
+    "appendixEntry": "",
+    "answers":[
+      {
+        "type":"radio",
+        "answerText":"Yes",
+        "storeAs":"",
+        "excludes":[],
+        "policyEntry":"Previous versions of this Code of Conduct are available online.",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
       },
       {
         "type":"radio",
@@ -57,238 +314,8 @@ var section1 = [
       }
     ],
     "tips":[
-      {"meaning":"Vestibulum vulputate sed odio sit amet suscipit. Nunc molestie sollicitudin dolor, sit amet vehicula nulla consectetur sit amet. Vestibulum tristique malesuada suscipit."},
+      {"meaning":"Previous versions provide transparency and show that you are keeping the Code of Conduct updated."},
       {"more": [""]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q11",
-    "q":"Quisque tempor tortor elementum sem pulvinar, sed consectetur tellus vulputate?",
-    "required":false,
-    "policyEntry":"Quisque imperdiet ac ligula eget convallis. Duis mattis, justo at iaculis pulvinar, quam lacus vehicula purus, nec condimentum libero odio et ligula. Curabitur et finibus sem. Integer convallis volutpat felis, a fringilla mi pharetra non. Nulla placerat odio vitae tristique ornare: [use-these-browser-extensions].",
-    "appendixEntry":"",
-    "answers":[
-      {
-        "type":"checkbox",
-        "answerText":"A",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[11],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Privacy Badger website: https://www.eff.org/privacybadger"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"F",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "GitHub for Privacy Possum: https://github.com/cowlicks/privacypossum"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"W",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "GitHub for uBlock: https://github.com/gorhill/uBlock"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"R",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[11],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Better website: https://better.fyi"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"V",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "HTTPSEverywhere website: https://www.eff.org/https-everywhere"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"N",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "DuckDuckGo Privacy Essentials description: https://spreadprivacy.com/privacy-simplified"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"X",
-        "storeAs":"[use-these-browser-extensions]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "Password Alert FAQ: https://support.google.com/a/answer/6197508"
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "editable": true,
-        "answerText":"another add-on",
-        "storeAs": "[use-these-browser-extensions]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
-      {"more": [""]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q12",
-    "q":"Sint maxime id esse aut. Sunt dolorum labore odio facere?",
-    "required":false,
-    "policyEntry":"[organisation-name] sint maxime id esse aut. Sunt dolorum labore odio facere:",
-    "appendixEntry":"Sint maxime id esse aut.",
-    "answers":[
-      {
-        "type":"text",
-        "answerText":"1",
-        "placeholder":"e.g.",
-        "storeAs":"[use-these-for-direct-chat]",
-        "excludes":[],
-        "policyEntry":"[organisation-name] suspendisse tempus tristique arcu ut iaculis. Curabitur ac auctor enim.",
-        "appendixEntry":[
-          {
-            "reviewList":"Is [use-these-for-direct-chat] still ok?",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
-      },
-      {
-        "type":"text",
-        "answerText":"T",
-        "placeholder":"e.g.",
-        "storeAs":"[use-these-for-group-chat]",
-        "excludes":[],
-        "policyEntry":"- Nascetur ridiculus mus [use-these-for-group-chat].",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
-      },
-      {
-        "type":"text",
-        "answerText":"I",
-        "placeholder":"e.g.",
-        "storeAs":"[use-these-for-internal-chat]",
-        "excludes":[],
-        "policyEntry":"- Nascetur ridiculus mus [use-these-for-group-chat].",
-        "appendixEntry":[
-          {
-            "reviewList":"Is [use-these-for-direct-chat] still ok?",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
-      },
-      {
-        "type":"text",
-        "answerText":"E",
-        "placeholder":"e.g.",
-        "storeAs":"[use-these-for-external-chat]",
-        "excludes":[],
-        "policyEntry":"- Nascetur ridiculus mus [use-these-for-group-chat].",
-        "appendixEntry":[
-          {
-            "reviewList":"Is [use-these-for-direct-chat] still ok?",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
-      }
-    ],
-    "tips":[
-      {"meaning":"Vestibulum vulputate sed odio sit amet suscipit. Nunc molestie sollicitudin dolor, sit amet vehicula nulla consectetur sit amet. Vestibulum tristique malesuada suscipit."},
-      {"more": [""]}
-    ]
-  },
-  {
-    "isQuestion": true,
-    "id":"q13",
-    "q":"Quisque tempor tortor elementum sem pulvinar, sed consectetur tellus vulputate?",
-    "required":false,
-    "policyEntry":"Quisque imperdiet ac ligula eget convallis. Duis mattis, justo at iaculis pulvinar, quam lacus vehicula purus, nec condimentum libero odio et ligula. Curabitur et finibus sem. Integer convallis volutpat felis, a fringilla mi pharetra non. Nulla placerat odio vitae tristique ornare: [use-these-browser-extensions].",
-    "appendixEntry": "To check whether a link or attachment contains known malware, upload it to VirusTotal; a service owned by Google which reads the file and detects familiar malicious code. It won’t find every attack, only the known ones it’s seen before, but it’s a valuable tool nonetheless.",
-    "answers":[
-      {
-        "type":"textarea",
-        "answerText":"",
-        "placeholder":"e.g.",
-        "storeAs":"[do-this-if-phished]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"Are all of the incident response plans up-to-date?",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
-    ],
-    "tips":[
-      {"meaning":"Sed fringilla, nulla eget sagittis consectetur, augue turpis ornare augue, id semper nisi sem et nibh. Donec commodo sollicitudin nulla eget luctus. Praesent a ante id nunc porta euismod non sed est. Fusce aliquet tellus eu ullamcorper cursus. Maecenas id imperdiet ligula. Pellentesque consectetur felis libero."},
-      {"more": ["how to avoid a phishing attack", "what is spear phishing", "report google phishing email"]}
     ]
   }
 ];
