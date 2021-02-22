@@ -21,7 +21,7 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q1",
-    "q":"Let's double-check the name of the space this Code of Conduct applies to:",
+    "q":"What's the name of the space this Code of Conduct applies to?",
     "required":true,
     "policyEntry":"",
     "appendixEntry":"",
@@ -44,7 +44,7 @@ var section0 = [
     ],
     "tips":[
       {"meaning":"Put the name on the Code of Conduct to make it specific to that space. If it's generic or used across multiple different spaces then it shows a lack of effort and motivation to create a safe space."},
-      {"more":"why should I have a code of conduct"}
+      {"more":["why should I have a code of conduct"]}
     ]
   },
   {
