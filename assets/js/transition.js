@@ -33,7 +33,7 @@ function signPosts(type,from) {
   // event
   if (type === 'ev'){
     // exclude these project questions
-    currentState.exclusions = [3,8];
+    currentState.exclusions = [3, 12, 16, 21, 25];
     // if coming from home page
     if (from === 'h'){
       // grab the name
@@ -42,7 +42,7 @@ function signPosts(type,from) {
       startQuestions();
     }
   } else { // project
-    currentState.exclusions = [2,4,6];
+    currentState.exclusions = [2, 4, 5, 9, 11, 15, 18, 20, 24, 26];
     // if coming from home page
     if (from === 'h'){
       // grab the name
