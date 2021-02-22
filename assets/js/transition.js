@@ -29,12 +29,41 @@ function checkForName() {
   }
 }
 
-function signPosts(type) {
+function signPosts(type,from) {
+  // event
   if (type === 'ev'){
+    // exclude these project questions
     currentState.exclusions = [3,8];
-    getNameFromHome();
-  } else {
+    // if coming from home page
+    if (from === 'h'){
+      // grab the name
+      getNameFromHome();
+    } else { // if coming from build refresh
+      startQuestions();
+    }
+  } else { // project
     currentState.exclusions = [2,4,6];
-    getNameFromHome()
+    // if coming from home page
+    if (from === 'h'){
+      // grab the name
+      getNameFromHome();
+    } else { // if coming from build re
+      startQuestions();
+    }
   }
+}
+
+function startQuestions(){
+  // if there are event/project buttons then hide them
+  if (document.querySelectorAll('.routes')){
+    routes = (document.querySelectorAll('.routes'));
+    for (var r = 0; r<routes.length;r++){
+      routes[r].remove();
+    }
+  }
+  // show the submit button
+  next = document.querySelector('#submitAnswers');
+  next.classList.remove('hide');
+  // then click it
+  next.click();
 }

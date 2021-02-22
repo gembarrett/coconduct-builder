@@ -127,7 +127,20 @@ templates.questionsTemplate = function(data, params){
       // no closing div, just closing form
       content += question.isQ ? '</div></form>' : '</form>';
   }
+
   pause = '<div><button title="Click to get a snapshot link you can use to finish this process later. Using this link will pre-select your current answers. Note that no text answers are included in the snapshot" id="snapshotPolicy" disabled class="btn btn-tert" title="Click or press U to get a URL for returning to this process later">Get snapshot</button><div id="snapshotGroup" class="hidden"><div><input id="snapshotLink" type="text" readonly value="No snapshot available"><i title="Click to copy this snapshot link" id="copyBtn" class="fas fa-copy"></i></div><p>Need to pause this process? Use your snapshot link to pre-select your answers on your return. Note that no text entries are included in this snapshot, and this link is not stored.</p></div></div>';
-  content += '<div class="btn-wrap wrap-r">'+pause+'<div><button disabled id="previewPolicy" class="previewButton btn btn-seco" title="Click or press P to view your policy preview">Preview</button><button id="submitAnswers" onclick="handleSubmit()" class="nextButton btn btn-prim" title="Click or press Enter to go to the next question">Got it!</button></div></div></div>';
+
+  content += '<div class="btn-wrap wrap-r">'+pause+'<div><button disabled id="previewPolicy" class="previewButton btn btn-seco" title="Click or press P to view your policy preview">Preview</button>';
+
+  if (currentState.exclusions.length < 1) {
+    // show the event and project buttons, hide the "Got it!" option
+    routes = `<button class="btn btn-prim routes" id="submit-build-event" onclick="signPosts(\'ev\')">`+ros[0].buttons[0].name+`</button><button class="btn btn-seco routes" id="submit-build-project" onclick="signPosts('pr')">`+ros[0].buttons[1].name+`</button>`;
+
+    content += routes+'<button id="submitAnswers" onclick="handleSubmit()" class="nextButton btn hide btn-prim" title="Click or press Enter to go to the next question">Got it!</button></div></div></div>';
+  } else {
+    content += '<button id="submitAnswers" onclick="handleSubmit()" class="nextButton btn btn-prim" title="Click or press Enter to go to the next question">Got it!</button></div></div></div>';
+  }
+
+
   return content;
 };

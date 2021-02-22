@@ -117,9 +117,6 @@
   #intro {
     padding: 4em 4em 6em;
   }
-  #logoContainer {
-    align-items: flex-start;
-  }
   #intro h1 {
     margin-top: 0em;
     margin-bottom: 1.4em;
@@ -144,17 +141,6 @@
 }
 
 @media (max-width:768px) {
-  #logoContainer {
-    align-items: center;
-  }
-  #logoContainer > div {
-    margin-right: 2em;
-    margin-bottom: 2em;
-  }
-  #logoContainer h1 {
-    font-size: 1.5em;
-    width:auto;
-  }
   .window {
     flex-direction: column;
   }
@@ -381,15 +367,6 @@
   }
   .buildPage .btn-wrap.wrap-r div:last-child {
     justify-content: space-evenly;
-  }
-  #logoContainer {
-    flex-direction: column;
-  }
-  #logoContainer > div {
-    margin-right: 0;
-  }
-  #logoContainer h1 {
-    text-align: center;
   }
   #intro .btn {
     margin-top:2em;
