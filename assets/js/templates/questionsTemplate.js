@@ -134,7 +134,7 @@ templates.questionsTemplate = function(data, params){
 
   if (currentState.exclusions.length < 1) {
     // show the event and project buttons, hide the "Got it!" option
-    routes = `<button class="btn btn-prim routes" id="submit-build-event" onclick="signPosts(\'ev\')">`+ros[0].buttons[0].name+`</button><button class="btn btn-seco routes" id="submit-build-project" onclick="signPosts('pr')">`+ros[0].buttons[1].name+`</button>`;
+    routes = `<button class="btn btn-prim routes" id="submit-build-event" onclick="signPosts(\'ev\', \'ref\')">`+ros[0].buttons[0].name+`</button><button class="btn btn-seco routes" id="submit-build-project" onclick="signPosts('pr', 'ref')">`+ros[0].buttons[1].name+`</button>`;
 
     content += routes+'<button id="submitAnswers" onclick="handleSubmit()" class="nextButton btn hide btn-prim" title="Click or press Enter to go to the next question">Got it!</button></div></div></div>';
   } else {

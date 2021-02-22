@@ -47,7 +47,7 @@ function compileDoc(p,a){
       // if there's data
       if (found){
         switch (true) {
-          // questions 0-5 are for context
+          // section 0
           case qRef < 6:
             contextP = getPolicyContent(qRef, prevQ, aRef, contextP, found);
             // if we need the appendix and routines too
@@ -56,86 +56,24 @@ function compileDoc(p,a){
             }
             break;
           // add case for teaming name & pos @ 9
-          // questions 6-8 are for devices
-          case qRef < 9:
+          // section 1
+          case qRef < 14:
             deviceP = getPolicyContent(qRef, prevQ, aRef, deviceP, found);
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
             }
             break;
-          // questions 9-12 are for comms
-          case qRef < 13:
+          // section 2
+          case qRef < 23:
             commsP = getPolicyContent(qRef, prevQ, aRef, commsP, found);
             // if we need the appendix and routines too
             if (a) {
               appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
             }
             break;
-          // question 13 is inc resp
-          case qRef < 14:
-            incResP = getPolicyContent(qRef, prevQ, aRef, incResP, found);
-            break;
-          // questions 14-19 are for accounts
-          case qRef < 20:
-            acctsP = getPolicyContent(qRef, prevQ, aRef, acctsP, found);
-            // if we need the appendix and routines too
-            if (a) {
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
-            break;
-          // question 20 is for inc resp
-          case qRef < 21:
-            incResP = getPolicyContent(qRef, prevQ, aRef, incResP, found);
-            break;
-          // add case for inserting Backups heading @ 22
-          // questions 22-26 are for devices
-          case qRef < 27:
-            deviceP = getPolicyContent(qRef, prevQ, aRef, deviceP, found);
-            // if we need the appendix and routines too
-            if (a) {
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
-            break;
-          // question 27 is for inc resp
+          // section 3
           case qRef < 28:
-            incResP = getPolicyContent(qRef, prevQ, aRef, incResP, found);
-            break;
-          // add case for teaming name & pos @ 33
-          // questions 28-33 are for travel
-          case qRef < 34:
-            travelP = getPolicyContent(qRef, prevQ, aRef, travelP, found);
-            // if we need the appendix and routines too
-            if (a) {
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
-            break;
-          // question 34 is for inc resp
-          case qRef < 35:
-            incResP = getPolicyContent(qRef, prevQ, aRef, incResP, found);
-            break;
-          // questions 35-41 are for environmental security
-          case qRef < 42:
-            envP = getPolicyContent(qRef, prevQ, aRef, envP, found);
-            // if we need appendix and routines
-            if (a){
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
-            break;
-          // question 42 is for inc resp
-          case qRef < 43:
-            incResP = getPolicyContent(qRef, prevQ, aRef, incResP, found);
-            break;
-          // questions 43-47 are for network security
-          case qRef < 48:
-            networkP = getPolicyContent(qRef, prevQ, aRef, networkP, found);
-            // if we need appendix and routines
-            if (a){
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
-            break;
-          // question 48 is for inc resp
-          case qRef <49:
             incResP = getPolicyContent(qRef, prevQ, aRef, incResP, found);
             break;
           default:

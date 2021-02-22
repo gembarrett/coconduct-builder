@@ -107,6 +107,7 @@ function collectAnswers(isEdited){
       } else {
         // get the input fields
         var inputFields = checkForInputs(questions[c]);
+
         // if there are input fields
         if (inputFields !== false){
 
@@ -138,7 +139,7 @@ function collectAnswers(isEdited){
   currentState.answers = ans;
   // collect any excluded question numbers
   if (exc.length > 0){
-    currentState.exclusions = exc;
+    currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(exc)));
   }
 }
 
@@ -157,8 +158,10 @@ function collectExclusions(id){
       // add them to the array
       exc = updateExc(q.data.answers[id], exc);
     }
+    // if this question has exclusions
     if (exc.length > 0){
-      currentState.exclusions = exc.concat(currentState.exclusions);
+      //  take those exclusions and concatenate them with the current exclusions
+      currentState.exclusions.push(exc[0]);
     }
   } else {
     console.log('none found');
@@ -168,7 +171,7 @@ function collectExclusions(id){
 
 function findContent(q){
   switch (true) {
-    case q < 9:
+    case q < 6:
       q = 'q'+q;
       return sections[0].find(question => question.id === q);
       break;
@@ -176,25 +179,13 @@ function findContent(q){
       q = 'q'+q;
       return sections[1].find(question => question.id === q);
       break;
-    case q < 21:
+    case q < 23:
       q = 'q'+q;
       return sections[2].find(question => question.id === q);
       break;
     case q < 28:
       q = 'q'+q;
       return sections[3].find(question => question.id === q);
-      break;
-    case q < 35:
-      q = 'q'+q;
-      return sections[4].find(question => question.id === q);
-      break;
-    case q < 43:
-      q = 'q'+q;
-      return sections[5].find(question => question.id === q);
-      break;
-    case q < 49:
-      q = 'q'+q;
-      return sections[6].find(question => question.id === q);
       break;
     default:
       console.log('Question not found');
