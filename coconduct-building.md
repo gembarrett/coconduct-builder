@@ -10,11 +10,6 @@
 - Community website's URL (e.g. www.awesomeconf.com)
 - Code of Conduct's URL (if different from above, e.g. www.awesomeconf.com/participation)
 
-## Are you happy to be added to the list of communities using this tool?
-- Yes, please use the previous info in the list
-- Yes, please email me at ____ for appropriate info to use
-- No, I'd rather my community wasn't listed
-
 ## Who does this Code of Conduct apply to?
 > ____ is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of community members in any form.
 
