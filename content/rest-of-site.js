@@ -5,11 +5,11 @@ var ros = [
     "buttons":[
       {
         "name":"Event",
-        "desc": "Use this tool to build a Code of Conduct policy for a conference, meetup or related social gathering."
+        "desc": "Use this tool to build a Code of Conduct policy for things like conferences, meetups and workshops."
       },
       {
         "name":"Project",
-        "desc": "Use this tool to build a Code of Conduct policy for a code repository, mailing list or other online community space."
+        "desc": "Use this tool to build a Code of Conduct policy for things like code repositories, mailing lists and forums."
       }
     ],
     "what":[
