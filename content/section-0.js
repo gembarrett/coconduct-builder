@@ -206,7 +206,7 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q4",
-    "q":"Will your event sponsors have stands, booths or merchandise?",
+    "q":"Is it appropriate for sponsors and exhibitors to use sexualised images, activities or clothing at your event?",
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
@@ -216,11 +216,11 @@ var section0 = [
         "answerText":"Yes",
         "storeAs":"",
         "excludes":[],
-        "policyEntry":"Staff representing the sponsors must also adhere to the event's Code of Conduct. Any advertising material, including staff clothing, must be appropriate for a professional, inclusive atmosphere.",
+        "policyEntry":"",
         "appendixEntry":[
           {
-            "reviewList":"Do you still have sponsors and are they aware of the Code of Conduct requirements?",
-            "tipList": "Review the sponsors advertising material, such as t-shirt and booth designs, before the event if possible.",
+            "reviewList":"",
+            "tipList": "",
             "linksList": ""
           }
         ],
@@ -230,18 +230,18 @@ var section0 = [
         "answerText":"No",
         "storeAs":"",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"All exhibitors in the venue, sponsor booths, or similar activities are also subject to this Code of Conduct. Unless it is relevant to their product or otherwise appropriate for the context of the [space-name] event, exhibitors should not use sexualized images, activities, or other material and booth staff (including volunteers) should not use sexualized uniforms, or otherwise create a sexualized environment.",
         "appendixEntry":[
           {
-            "reviewList":"",
-            "tipList": "",
+            "reviewList":"Do you have any new sponsors or exhibitors who may be unaware of the Code of Conduct?",
+            "tipList": "Review the sponsors advertising material, such as t-shirt and booth designs, before the event if possible.",
             "linksList": ""
           }
         ]
       }
     ],
     "tips":[
-      {"meaning":"Repudiandae officia vitae corporis accusamus again."},
+      {"meaning":"The use of promotional techniques such as 'booth babes' and sexualised imagery may not be appopriate for your event as it can create an unwelcome atmosphere for femme-presenting people. However, if your event centres on sexual topics, or your sponsors' products are related to sexual activities, then discouragement doesn't make sense."},
       {"more":["lorem ipsum"]},
     ]
   },
