@@ -9,7 +9,7 @@ var section2 = [
     "isQuestion": true,
     "id":"q15",
     "q":"How can people report a violation of the Code of Conduct?",
-    "required":true,
+    "required": false,
     "policyEntry":"You can report a Code of Conduct violation through the following channels: [report-via]",
     "appendixEntry":"",
     "answers":[
@@ -165,7 +165,7 @@ var section2 = [
     "isQuestion": true,
     "id":"q17",
     "q":"Can people make anonymous reports?",
-    "required":true,
+    "required": false,
     "policyEntry":"",
     "appendixEntry":"",
     "answers":[

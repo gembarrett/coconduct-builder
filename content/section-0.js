@@ -22,7 +22,7 @@ var section0 = [
     "isQuestion": true,
     "id":"q1",
     "q":"What's the name of the space this Code of Conduct applies to?",
-    "required":true,
+    "required":false,
     "policyEntry":"[space-name] Code of Conduct",
     "appendixEntry":"",
     "answers":[
@@ -51,13 +51,13 @@ var section0 = [
     "isQuestion": true,
     "id":"q2",
     "q":"Which specific spaces does this Code of Conduct apply to?",
-    "required":true,
-    "policyEntry":"This Code of Conduct applies in the following event spaces: [where-policy-applies].",
+    "required":false,
+    "policyEntry":"This Code of Conduct applies to all [space-name] spaces, including [where-policy-applies]",
     "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"Conference",
+        "answerText":"conferences",
         "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
@@ -71,7 +71,7 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"Meetups",
+        "answerText":"meetups",
         "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
@@ -85,7 +85,21 @@ var section0 = [
       },
       {
         "type":"checkbox",
-        "answerText":"Related social events",
+        "answerText":"workshops",
+        "storeAs":"[where-policy-applies]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"related social events",
         "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
@@ -114,7 +128,7 @@ var section0 = [
       }
     ],
     "tips":[
-      {"meaning":"y tho"},
+      {"meaning":"Specify where your Code of Conduct applies so people know when professional behaviour is expected."},
       {"more":""}
     ]
   },
@@ -122,13 +136,13 @@ var section0 = [
     "isQuestion": true,
     "id":"q3",
     "q":"Which specific spaces does this Code of Conduct apply to?",
-    "required":true,
-    "policyEntry":"This Code of Conduct applies in the following project spaces: [where-policy-applies].",
+    "required":false,
+    "policyEntry":"This Code of Conduct applies to all [space-name] spaces, including [where-policy-applies]",
     "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"Code repository",
+        "answerText":"code repository",
         "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
@@ -193,7 +207,7 @@ var section0 = [
     "isQuestion": true,
     "id":"q4",
     "q":"Will your event sponsors have stands, booths or merchandise?",
-    "required":true,
+    "required":false,
     "policyEntry":"",
     "appendixEntry":"",
     "answers":[
@@ -235,7 +249,7 @@ var section0 = [
     "isQuestion": true,
     "id":"q5",
     "q":"Does your event have an online space for attendees to interact?",
-    "required":true,
+    "required":false,
     "policyEntry":"",
     "appendixEntry":"",
     "answers":[

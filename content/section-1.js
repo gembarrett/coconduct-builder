@@ -10,16 +10,16 @@ var section1 = [
     "id":"q7",
     "q":"Which additional groups does this Code of Conduct aim to protect?",
     "required":false,
-    "policyEntry":"[space-name] aims to create a welcoming, inclusive space for [welcome-people]",
+    "policyEntry":"[space-name] is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of community members in any form.",
     "appendixEntry":"",
     "answers":[
       {
         "type":"textarea",
         "answerText":"",
-        "placeholder":"This box will contain all the people who should be mentioned here so people can add to the list",
+        "placeholder":"Use this space to type in any particular groups of people that you'd like to create a welcoming space for.",
         "storeAs":"[welcome-people]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"In particular, we are aiming to create a welcoming, inclusive space for [welcome-people]",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -38,7 +38,7 @@ var section1 = [
     "isQuestion": true,
     "id":"q8",
     "q":"Which additional behaviours will not be tolerated?",
-    "required":true,
+    "required": false,
     "policyEntry":"Any behaviour which contributes to an unwelcoming or hostile environment within [space-name] will not be tolerated. This includes behaviour such as [unwelcome-behaviour]",
     "appendixEntry":"",
     "answers":[

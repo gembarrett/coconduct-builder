@@ -9,7 +9,7 @@ var section3 = [
     "isQuestion": true,
     "id":"q24",
     "q":"What are the potential remedies for Code of Conduct violations?",
-    "required":true,
+    "required": false,
     "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
     "appendixEntry":"",
     "answers":[
