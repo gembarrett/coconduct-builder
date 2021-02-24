@@ -15,7 +15,7 @@ function copyUrl(){
 
 function getSnapshotURL(){
   // var snapshotUrl = "https://usesoap.app/#b";
-  var snapshotUrl = thisEnv+"/#b-"+soapv+"-p";
+  var snapshotUrl = thisEnv+"/#b-"+current+"-p";
   var qNo = "0";
   for (var i = 0; i < currentState.answers.length; i++){
     // if we're on the same question

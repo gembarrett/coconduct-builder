@@ -219,7 +219,7 @@ var section1 = [
       {
         "type":"text",
         "answerText":"another place",
-        "placeholder":"e.g. Alice Smith",
+        "placeholder":"e.g. pinned tweet",
         "storeAs":"[find-the-policy]",
         "excludes":[],
         "policyEntry":"",
