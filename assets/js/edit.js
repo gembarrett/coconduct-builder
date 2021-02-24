@@ -168,22 +168,22 @@ function collectExclusions(id){
   }
 }
 
-
+// CHANGE THIS WHEN UPDATING QUESTION NUMBERS
 function findContent(q){
   switch (true) {
-    case q < 6:
+    case q < 8:
       q = 'q'+q;
       return sections[0].find(question => question.id === q);
       break;
-    case q < 14:
+    case q < 17:
       q = 'q'+q;
       return sections[1].find(question => question.id === q);
       break;
-    case q < 23:
+    case q < 26:
       q = 'q'+q;
       return sections[2].find(question => question.id === q);
       break;
-    case q < 28:
+    case q < 31:
       q = 'q'+q;
       return sections[3].find(question => question.id === q);
       break;

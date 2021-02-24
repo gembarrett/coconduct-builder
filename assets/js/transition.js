@@ -29,11 +29,12 @@ function checkForName() {
   }
 }
 
+// CHANGE THIS WHEN UPDATING QUESTION NUMBERS
 function signPosts(type,from) {
   // event
   if (type === 'ev'){
     // exclude these project questions
-    currentState.exclusions = [3, 12, 16, 21, 25];
+    currentState.exclusions = [3, 15, 19, 24, 28];
     // if coming from home page
     if (from === 'h'){
       // grab the name
@@ -42,7 +43,7 @@ function signPosts(type,from) {
       startQuestions();
     }
   } else { // project
-    currentState.exclusions = [2, 4, 5, 9, 11, 15, 18, 20, 24, 26];
+    currentState.exclusions = [2, 4, 5, 6, 11, 12, 14, 18, 21, 23, 27, 29];
     // if coming from home page
     if (from === 'h'){
       // grab the name

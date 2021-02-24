@@ -1,13 +1,13 @@
 var section3 = [
   {
     "isQuestion": false,
-    "id":"q23",
-    "title": "Final section: Redmediation",
+    "id":"q26",
+    "title": "Final section: Remediation",
     "paragraph":["Fusce vitae tellus quis magna molestie cursus in non justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat est quis magna dictum laoreet. Sed malesuada commodo quam.", "Phasellus sed magna pellentesque, lacinia velit sed, congue velit. Vivamus consectetur consequat posuere. Praesent et tempor metus, ac mollis ipsum. Cras imperdiet vestibulum sapien nec vestibulum.", "Phasellus ut turpis consequat purus accumsan consectetur. Cras maximus sem ut consectetur laoreet. Quisque condimentum urna nec metus hendrerit, at interdum purus tempor."]
   },
   {
     "isQuestion": true,
-    "id":"q24",
+    "id":"q27",
     "q":"What are the potential remedies for Code of Conduct violations?",
     "required": false,
     "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
@@ -78,7 +78,7 @@ var section3 = [
   },
   {
     "isQuestion": true,
-    "id":"q25",
+    "id":"q28",
     "q":"What are the potential remedies for Code of Conduct violations?",
     "required":false,
     "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
@@ -135,7 +135,7 @@ var section3 = [
   },
   {
     "isQuestion": true,
-    "id":"q26",
+    "id":"q29",
     "q":"What are the alternative forms of help for attendees in distress?",
     "required":false,
     "policyEntry":"If you find yourself in immediate need of help, you can contact: [emergency]",
@@ -205,7 +205,7 @@ var section3 = [
   },
   {
     "isQuestion": true,
-    "id":"q27",
+    "id":"q30",
     "q":"Where can people send questions (not reports) about this Code of Conduct?",
     "required":false,
     "policyEntry":"If you have questions about this Code of Conduct, you can email: [questions-to]",

@@ -287,4 +287,88 @@ var section0 = [
       {"more":["lorem ipsum"]}
     ]
   },
+  {
+    "isQuestion": true,
+    "id":"q6",
+    "q":"Will there be photography or filming at your event?",
+    "required":false,
+    "policyEntry":"",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"radio",
+        "answerText":"Yes",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"radio",
+        "answerText":"No",
+        "storeAs": "",
+        "excludes":[11],
+        "policyEntry":"We do not expect any professional photography or filming to take place at [space-name]. However, attendees should be respectful of others nearby whenever they are taking photos or filming.",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ],
+      },
+    ],
+    "tips":[
+      {"meaning":"Recusandae alias magnam nihil. Ad nisi et eum."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q7",
+    "q":"Does your event employ the Chatham House rule?",
+    "required":false,
+    "policyEntry":"",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"radio",
+        "answerText":"Yes",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"Unless explicitly stated otherwise, conversations at [space-name] will take place under the Chatham House Rule. The rule states: \"When a meeting, or part thereof, is held under the Chatham House Rule, participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.\" This includes sharing information in note-taking documents and on social media. If you choose to share information on social media, reflect on possible ways a person may be indirectly identified even if you do not use their name or affiliation.",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": "https://www.chathamhouse.org/about-us/chatham-house-rule"
+          }
+        ]
+      },
+      {
+        "type":"radio",
+        "answerText":"No",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ],
+      },
+    ],
+    "tips":[
+      {"meaning":"Chatham House rule means you can share the information you hear at the event, but not the identity of the person who said it. Consider other people's privacy."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
 ]

@@ -1,13 +1,13 @@
 var section2 = [
   {
     "isQuestion": false,
-    "id":"q14",
+    "id":"q17",
     "title": "Next section: Reporting",
     "paragraph":["In quis lacus imperdiet justo euismod vulputate eu a leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer blandit mauris vel est euismod, vitae rhoncus nisi tincidunt. Sed non sagittis orci, in varius sem.", "Phasellus et elit ac felis egestas semper. Nullam porttitor lorem sodales volutpat iaculis. Duis facilisis maximus lorem eget laoreet. Curabitur dignissim varius quam sed bibendum. Cras placerat, augue eget lobortis fermentum, neque mi fermentum nisl, non porta magna tellus at ipsum. Quisque fringilla aliquam erat a aliquam.", "Ut malesuada imperdiet lorem, sit amet semper velit commodo ac. Nam interdum gravida nunc, id consequat ex faucibus ultrices. Cras et sem eros. Proin erat sapien, lobortis vitae metus vel, viverra lacinia lorem."]
   },
   {
     "isQuestion": true,
-    "id":"q15",
+    "id":"q18",
     "q":"How can people report a violation of the Code of Conduct?",
     "required": false,
     "policyEntry":"You can report a Code of Conduct violation through the following channels: [report-via]",
@@ -92,7 +92,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q16",
+    "id":"q19",
     "q":"How can people report a violation of the Code of Conduct?",
     "required":false,
     "policyEntry":"You can report a Code of Conduct violation through the following channels: [report-via]",
@@ -163,7 +163,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q17",
+    "id":"q20",
     "q":"Can people make anonymous reports?",
     "required": false,
     "policyEntry":"",
@@ -174,7 +174,7 @@ var section2 = [
         "answerText":"Yes",
         "storeAs":"",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"> We can't follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -205,7 +205,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q18",
+    "id":"q21",
     "q":"Do you have moderators for the online space?",
     "required":false,
     "policyEntry":"",
@@ -247,7 +247,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q19",
+    "id":"q22",
     "q":"Do you have a designated person or team handling reports?",
     "required":false,
     "policyEntry":"",
@@ -289,7 +289,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q20",
+    "id":"q23",
     "q":"How can people recognise who to approach for help?",
     "required":false,
     "policyEntry":"If you need help and you're not sure who to approach, here's a few things to look for. [help-identifiers]",
@@ -360,7 +360,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q21",
+    "id":"q24",
     "q":"How can people recognise who to approach for help?",
     "required":false,
     "policyEntry":"If you need help and you're not sure who to approach, here's a few things to look for. [help-identifiers]",
@@ -417,7 +417,7 @@ var section2 = [
   },
   {
     "isQuestion": true,
-    "id":"q22",
+    "id":"q25",
     "q":"Can you describe the process for handling reports?",
     "required":false,
     "policyEntry":"[space-name] has developed the following process for handling reports of Code of Conduct violations: [process]",

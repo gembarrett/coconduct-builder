@@ -1,13 +1,13 @@
 var section1 = [
   {
     "isQuestion": false,
-    "id":"q6",
+    "id":"q8",
     "title": "Next section: Purpose",
     "paragraph":["Dolor debitis illo soluta mollitia aperiam explicabo perspiciatis. Sapiente ea consequatur aut et laboriosam ex a quaerat. Culpa voluptas dicta recusandae sequi vel nihil voluptas. Sed non qui est sed.", "Nihil eligendi alias omnis explicabo sint. Dolores voluptas aut quae cum. Vitae provident quibusdam dolorem molestiae. Est molestias et aut sequi repudiandae.","Repellat ut ut possimus voluptates et laboriosam tenetur. Quam cum deleniti harum necessitatibus. Consectetur ut voluptatem velit atque et numquam reiciendis vel. Rerum maxime eos tenetur. Est et ut asperiores aut."]
   },
   {
     "isQuestion": true,
-    "id":"q7",
+    "id":"q9",
     "q":"Which additional groups does this Code of Conduct aim to protect?",
     "required":false,
     "policyEntry":"[space-name] is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of community members in any form.",
@@ -36,7 +36,7 @@ var section1 = [
   },
   {
     "isQuestion": true,
-    "id":"q8",
+    "id":"q10",
     "q":"Which additional behaviours will not be tolerated?",
     "required": false,
     "policyEntry":"Harassment includes, but is not limited to the following: * Offensive comments which reinforce social structures of domination and/or are related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion. * Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment. * Deliberate misgendering or use of ‘dead’ or rejected names. *  Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate. *  Physical contact and simulated physical contact (eg, textual descriptions like “*hug*” or “*backrub*”) without consent or after a request to stop. *  Threats of violence. *  Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm. *  Deliberate intimidation. *  Stalking or following. *  Harassing photography or recording, including logging online activity for harassment purposes. *  Sustained disruption of discussion, talks or other events. *  Unwelcome sexual attention. *  Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others *  Continued one-on-one communication after requests to cease. *  Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse. *  Publication of non-harassing private communication. *  Publishing another persons private information, such as physical or electronic addresses, without explicit permission *  Advocating for, or encouraging, any of the above behaviour",
@@ -65,7 +65,36 @@ var section1 = [
   },
   {
     "isQuestion": true,
-    "id":"q9",
+    "id":"q11",
+    "q":"How do you plan to respect the wishes of attendees who don’t want to be photographed or filmed?",
+    "required": false,
+    "policyEntry":"Attendees should expect to encounter some photography and filming at [space-name]. [photo-policy]",
+    "appendixEntry":"",
+    "answers":[
+      {
+        "type":"textarea",
+        "answerText":"",
+        "placeholder":"Use this space to type in any particular actions that you're taking. For instance, some conferences use different patterned lanyard ribbons to easily identify those who should not be photographed or filmed.",
+        "storeAs":"[photo-policy]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ],
+      }
+    ],
+    "tips":[
+      {"meaning":""},
+      {"more":[]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q12",
     "q":"Do you anticipate presentations that require the inclusion of pornography or graphic representations of traumatic events?",
     "required":false,
     "policyEntry":"",
@@ -107,7 +136,7 @@ var section1 = [
   },
   {
     "isQuestion": true,
-    "id":"q10",
+    "id":"q13",
     "q":"Are there any additional exceptions to the Code of Conduct?",
     "required":false,
     "policyEntry":"We prioritise marginalised people’s safety over privileged people’s comfort. [space-name] will not act on complaints regarding: * ‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’ * Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.” * Communicating in a ‘tone’ you don’t find congenial * Criticising racist, sexist, cissexist, or otherwise oppressive behavior or assumptions",
@@ -136,15 +165,16 @@ var section1 = [
   },
   {
     "isQuestion": true,
-    "id":"q11",
+    "id":"q14",
     "q":"Where will people be able to find this Code of Conduct?",
     "required":false,
-    "policyEntry":"This Code of Conduct will be available to attendees via [find-the-policy]",
+    "policyEntry":"This Code of Conduct is available ",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"checkbox",
-        "answerText":"our website",
+        "type":"text",
+        "answerText":"Event website",
+        "placeholder":"e.g. at your-event.com",
         "storeAs":"[find-the-policy]",
         "excludes":[],
         "policyEntry":"",
@@ -157,8 +187,9 @@ var section1 = [
         ]
       },
       {
-        "type":"checkbox",
-        "answerText":"the ticket purchase process",
+        "type":"text",
+        "answerText":"Ticket purchase process",
+        "placeholder":"e.g. in the confirmation email",
         "storeAs":"[find-the-policy]",
         "excludes":[],
         "policyEntry":"",
@@ -171,8 +202,9 @@ var section1 = [
         ]
       },
       {
-        "type":"checkbox",
+        "type":"text",
         "answerText":"at the venue",
+        "placeholder":"e.g. read to you at lanyard collection",
         "storeAs":"[find-the-policy]",
         "excludes":[],
         "policyEntry":"",
@@ -185,9 +217,9 @@ var section1 = [
         ]
       },
       {
-        "type":"checkbox",
-        "editable": true,
+        "type":"text",
         "answerText":"another place",
+        "placeholder":"e.g. Alice Smith",
         "storeAs":"[find-the-policy]",
         "excludes":[],
         "policyEntry":"",
@@ -207,7 +239,7 @@ var section1 = [
   },
   {
     "isQuestion": true,
-    "id":"q12",
+    "id":"q15",
     "q":"Where will people be able to find this Code of Conduct?",
     "required":false,
     "policyEntry":"This Code of Conduct can be viewed at [find-the-policy]",
@@ -278,7 +310,7 @@ var section1 = [
   },
   {
     "isQuestion": true,
-    "id":"q13",
+    "id":"q16",
     "q":"Are previous versions of this Code of Conduct available online?",
     "required":false,
     "policyEntry":"",
