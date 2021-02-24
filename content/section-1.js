@@ -95,17 +95,17 @@ var section1 = [
   {
     "isQuestion": true,
     "id":"q12",
-    "q":"Do you anticipate presentations that require the inclusion of pornography or graphic representations of traumatic events?",
+    "q":"Do you anticipate presentations which involve discussion of sensitive topics?",
     "required":false,
-    "policyEntry":"",
+    "policyEntry":"Due to the focus of [space-name] attendees may attend presentations which involve the discussion of sensitive topics which may be triggering, upsetting or otherwise disturbing.",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"radio",
-        "answerText":"Yes",
+        "type":"checkbox",
+        "answerText":"pornography",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"Due to the focus of [space-name] it is likely that there will be presentations which require the inclusion of pornography or graphic representations of traumatic events. Trigger warnings will be given prior to these presentations to give attendees a chance to excuse themselves if necessary.",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -115,8 +115,107 @@ var section1 = [
         ]
       },
       {
-        "type":"radio",
-        "answerText":"No",
+        "type":"checkbox",
+        "answerText":"harassment",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"abuse",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"torture",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"rape",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"sexual assault",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"war",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"death",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"checkbox",
+        "editable":true,
+        "answerText":"Other",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",

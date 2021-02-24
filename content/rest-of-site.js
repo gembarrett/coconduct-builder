@@ -43,13 +43,13 @@ var ros = [
     "background":[
       {
         "head":"What's behind this project?",
-        "subhead":"This tool was originally conceived in 2016 as part of the Ford-Mozilla Open Web Fellowship, but was put on hold before it could be completed. In 2020, Gem Barrett revived the basic concept and launched a similar tool for building organisational security policies (https://usesoap.app). With the success of SOAP, Gem turned her focus back to the Code of Conduct Builder and it was finally launched in 2021.",
+        "subhead":"This tool was originally conceived in 2016 as part of the Ford-Mozilla Open Web Fellowship, but was put on hold before it could be completed. In 2020, Gem Barrett revived the basic concept and launched a similar tool for building organisational security policies (https://usesoap.app). With the success of SOAP, Gem turned her focus back to the Code of Conduct Builder and it was finally launched in 2021. However, this tool couldn't have been built if not for the hard work of those who have fastidiously developing Code of Conduct resources for several years. In particular, the contents of the following resources have been used in the content of this tool.",
         "list":"",
         "more":[],
         "links":[
           {
-            "name":"Great CoC article",
-            "url":""
+            "name":"Contributor Covenant was created by Coraline Ada Ehmke and is released under the CC BY 4.0 License.",
+            "url":"https://www.contributor-covenant.org/"
           },
           {
             "name": "Another CoC article",
