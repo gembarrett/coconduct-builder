@@ -71,9 +71,12 @@ function collectAnswers(isEdited){
       // get the input fields
       var inputFields = checkForInputs(questions[b]);
       // if there are input fields and we're not on the last question
+      // TODO is the last question caveat needed anymore?
       if ((inputFields !== false) && (b !== questions.length-1)){
         // grab the question number and data
         qData = getQData(inputFields[0]);
+        // if it's a required question then grab the policy content even if no answer in box
+        console.log(qData.data.required);
         // for each of the input fields
         for (var bb = 0; bb < inputFields.length; bb++){
           // get the ID

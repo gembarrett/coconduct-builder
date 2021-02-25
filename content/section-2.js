@@ -248,17 +248,18 @@ var section2 = [
   {
     "isQuestion": true,
     "id":"q22",
-    "q":"Do you have a designated person or team handling reports?",
+    "q":"Who is responsible for handling reports?",
     "required":false,
     "policyEntry":"",
     "appendixEntry":"",
     "answers":[
       {
-        "type":"radio",
-        "answerText":"Person",
-        "storeAs":"",
+        "type":"text",
+        "answerText":"Name",
+        "placeholder":"",
+        "storeAs":"[report-handlers]",
         "excludes":[],
-        "policyEntry":"There is a designated person who will handle reports in [space-name]",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -268,11 +269,12 @@ var section2 = [
         ]
       },
       {
-        "type":"radio",
-        "answerText":"Team",
-        "storeAs":"",
+        "type":"text",
+        "answerText":"Name",
+        "placeholder":"",
+        "storeAs":"[report-handlers]",
         "excludes":[],
-        "policyEntry":"We have a designated team for handling reports in [space-name]",
+        "policyEntry":"",
         "appendixEntry":[
           {
             "reviewList":"",
@@ -280,7 +282,67 @@ var section2 = [
             "linksList": ""
           }
         ]
-      }
+      },
+      {
+        "type":"text",
+        "answerText":"Name",
+        "placeholder":"",
+        "storeAs":"[report-handlers]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"text",
+        "answerText":"Name",
+        "placeholder":"",
+        "storeAs":"[report-handlers]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"text",
+        "answerText":"Name",
+        "placeholder":"",
+        "storeAs":"[report-handlers]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
+      {
+        "type":"text",
+        "answerText":"Name",
+        "placeholder":"",
+        "storeAs":"[report-handlers]",
+        "excludes":[],
+        "policyEntry":"",
+        "appendixEntry":[
+          {
+            "reviewList":"",
+            "tipList": "",
+            "linksList": ""
+          }
+        ]
+      },
     ],
     "tips":[
       {"meaning":""},

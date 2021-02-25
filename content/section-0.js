@@ -52,7 +52,7 @@ var section0 = [
     "id":"q2",
     "q":"Which specific spaces does this Code of Conduct apply to?",
     "required":false,
-    "policyEntry":"This Code of Conduct applies to all [space-name] spaces, including [where-policy-applies]",
+    "policyEntry":"This Code of Conduct applies to [space-name] [where-policy-applies]",
     "appendixEntry":"",
     "answers":[
       {

@@ -9,14 +9,14 @@ var section1 = [
     "isQuestion": true,
     "id":"q9",
     "q":"Which additional groups does this Code of Conduct aim to protect?",
-    "required":false,
+    "required":true,
     "policyEntry":"[space-name] is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of community members in any form.",
     "appendixEntry":"",
     "answers":[
       {
         "type":"textarea",
         "answerText":"",
-        "placeholder":"Use this space to type in any particular groups of people that you'd like to create a welcoming space for.",
+        "placeholder":"Click the Preview to see which marginalised groups are already included and then use this box to add more.",
         "storeAs":"[welcome-people]",
         "excludes":[],
         "policyEntry":"In particular, we are aiming to create a welcoming, inclusive space for [welcome-people]",
@@ -38,14 +38,14 @@ var section1 = [
     "isQuestion": true,
     "id":"q10",
     "q":"Which additional behaviours will not be tolerated?",
-    "required": false,
+    "required": true,
     "policyEntry":"Harassment includes, but is not limited to the following: * Offensive comments which reinforce social structures of domination and/or are related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion. * Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment. * Deliberate misgendering or use of ‘dead’ or rejected names. *  Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate. *  Physical contact and simulated physical contact (eg, textual descriptions like “*hug*” or “*backrub*”) without consent or after a request to stop. *  Threats of violence. *  Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm. *  Deliberate intimidation. *  Stalking or following. *  Harassing photography or recording, including logging online activity for harassment purposes. *  Sustained disruption of discussion, talks or other events. *  Unwelcome sexual attention. *  Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others *  Continued one-on-one communication after requests to cease. *  Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse. *  Publication of non-harassing private communication. *  Publishing another persons private information, such as physical or electronic addresses, without explicit permission *  Advocating for, or encouraging, any of the above behaviour",
     "appendixEntry":"",
     "answers":[
       {
         "type":"textarea",
         "answerText":"",
-        "placeholder":"Use this space to type in any particular behaviours that you're aiming to prevent.",
+        "placeholder":"Click the Preview to see which behaviours are already listed and then use this box to add more.",
         "storeAs":"[unwelcome-behaviour]",
         "excludes":[],
         "policyEntry":"In addition, [space-name] will not accept: [unwelcome-behaviour]",
@@ -66,7 +66,7 @@ var section1 = [
   {
     "isQuestion": true,
     "id":"q11",
-    "q":"How do you plan to respect the wishes of attendees who don’t want to be photographed or filmed?",
+    "q":"What efforts will you make to support the privacy of attendees who don’t want to be filmed or photographed?",
     "required": false,
     "policyEntry":"Attendees should expect to encounter some photography and filming at [space-name]. [photo-policy]",
     "appendixEntry":"",

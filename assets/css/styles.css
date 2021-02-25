@@ -7,6 +7,8 @@ light grey #d9d7cc
 orange #c76b33
 */
 
+/* 613953  C9A829  #611f53 C97029 */
+
 /* Structural styles */
 html, body {
   height:100%;
@@ -29,7 +31,7 @@ a.btn:hover {
 
 
 body {
-  font-family: "Helvetica", "OpenSans", sans-serif;
+  font-family: 'Signika Negative',"Helvetica", sans-serif;
   margin: 0;
   font-size: 16px;
   color: #333;
@@ -42,7 +44,7 @@ body {
 }
 
 p {
-  font-family: "Helvetica", "OpenSans", sans-serif;
+  font-family: 'Signika Negative',"Helvetica", sans-serif;
 }
 
 #head {
@@ -452,7 +454,7 @@ color: #A9bcd0;
 .homeSectionOverview{
   padding: 0 0 2em 3em;
   font-size: 1em;
-  font-family: "Helvetica", "OpenSans", sans-serif;
+  font-family: "Signika Negative", "Helvetica", sans-serif;
   width:100%;
 }
 .homeSectionOverview li {

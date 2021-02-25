@@ -1,7 +1,7 @@
 templates.intro = function(data){
   var text = ros[0];
   var buttons = text.buttons;
-  var spacenames = ['BestConf 8', 'Cool UnConf', 'awesome-tool repo', 'Techies With Pets listserv', 'JS Enbies Slack channel', 'Beer & Bits meetup'];
+  var spacenames = ['BestConf 8', 'Cool UnConf', 'awesome-tool', 'Techies With Pets', 'JS Enbies', 'Beer & Bits'];
   var rand = Math.floor((Math.random() * spacenames.length-1) + 1);
   var content = `
     <div id="intro" class="nav-start contain">

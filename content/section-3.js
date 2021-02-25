@@ -3,7 +3,7 @@ var section3 = [
     "isQuestion": false,
     "id":"q26",
     "title": "Final section: Remediation",
-    "paragraph":["Fusce vitae tellus quis magna molestie cursus in non justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat est quis magna dictum laoreet. Sed malesuada commodo quam.", "Phasellus sed magna pellentesque, lacinia velit sed, congue velit. Vivamus consectetur consequat posuere. Praesent et tempor metus, ac mollis ipsum. Cras imperdiet vestibulum sapien nec vestibulum.", "Phasellus ut turpis consequat purus accumsan consectetur. Cras maximus sem ut consectetur laoreet. Quisque condimentum urna nec metus hendrerit, at interdum purus tempor."]
+    "paragraph":["There has to be consequences otherwise the Code of Conduct is useless.", "Be aware that calling the police can end up making the situation much worse, in particular for black or brown folks."]
   },
   {
     "isQuestion": true,
