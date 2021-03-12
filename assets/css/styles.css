@@ -4,7 +4,6 @@ mid grey #62645f - no bg
 dark yellow #989553
 mid yellow #ccc182
 light grey #d9d7cc
-orange #c76b33
 */
 
 /* Structural styles */
@@ -164,7 +163,7 @@ body.buildPage #page {
 }
 
 .links a:hover, .links a.active, .prompt:hover, .prompt:active {
-  border-color: #066493;
+  border-color: #bababa;
 }
 .nav-scroll .links a:hover, .nav-scroll .links a.active {
   border-color: #066493;
@@ -179,13 +178,13 @@ body.buildPage #page {
   padding-left: 0;
 }
 .links li:last-child {
-  background-color: #f2eee2;
+  background-color: #eae8e9;
   font-weight: bold;
   padding:1em;
   white-space: nowrap;
 }
 .nav-start .links li:last-child a{
-  color:#066493;
+  color:#333;
 }
 
 .nav-scroll .links li:last-child {
@@ -292,7 +291,7 @@ color: #A9bcd0;
   margin-top:0;
   flex-direction: column;
 }
-#q0 {
+#q0.current {
   display: flex;
 }
 
@@ -467,6 +466,9 @@ color: #A9bcd0;
   margin-left: 1em;
   padding: 0;
 }
+.homeSectionOverview .btn {
+  display:block;
+}
 /* .window details {
   margin-top: 1em;
   font-size: initial;
@@ -635,11 +637,12 @@ details a {
   text-align: center;
   cursor: pointer;
   font-size: 1em;
+  font-weight: bold;
+
 }
 .btn-prim {
   background-color: #f0ef00;
   border-color: #f0ef00;
-  font-weight: bold;
 }
 .btn-prim:hover, .btn-seco:hover, #intro .btn-seco:hover{
   background-color: #A9BCD0;
@@ -685,7 +688,7 @@ details a {
 progress {
   width:100%;
   opacity: 0.5;
-  border: 1px solid #c76b33;
+  border: 1px solid #bababa;
   background: #1b263b;
   border: 0;
   display: block;
@@ -780,7 +783,7 @@ form input[type='checkbox'] + label {
     cursor: pointer;
     padding:1em;
     display:block;
-    border: 2px solid #c76b33;
+    border: 2px solid #bababa;
 }
 
 form input[type='radio'] + label{
@@ -793,8 +796,8 @@ form input[type='checkbox'] + label {
 form input:checked + label {
   background-color: #a9bcd0;
   color: #1b263b;
-  box-shadow: 0px 0px 1em #c76b33;
-  border-color: #c76b33;
+  box-shadow: 0px 0px 1em #bababa;
+  border-color: #bababa;
 }
 .form-el input + label:hover {
   opacity:0.6;
@@ -933,8 +936,8 @@ input[type="text"]:focus,
 textarea:focus,
 #homeLink:focus > img,
 .modalScrollbox {
-  box-shadow: 0px 0px 1em #c76b33;
-  border-color: #c76b33;
+  box-shadow: 0px 0px 1em #bababa;
+  border-color: #bababa;
 }
 
 /* reset style on logo link */
