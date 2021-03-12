@@ -1,25 +1,25 @@
 var ros = [
   {
-    "head":"Free and simple tools that enable event organisers and project maintainers to build better Code of Conduct policies.",
-    "subhead":"To get started, enter the name of your event or project:",
+    "head":"So you want to build a Code of Conduct.",
+    "subhead":"Great! Let's start with the name of your event or project:",
     "buttons":[
       {
         "name":"Event",
-        "desc": "Use this tool to build a Code of Conduct policy for things like conferences, meetups and workshops."
+        "desc": "Use this tool to build a Code of Conduct for events like conferences, meetups and workshops."
       },
       {
         "name":"Project",
-        "desc": "Use this tool to build a Code of Conduct policy for things like code repositories, mailing lists and forums."
+        "desc": "Use this tool to build a Code of Conduct for projects like code repositories, mailing lists and forums."
       }
     ],
     "what":[
       {
-        "head":"What is this tool?",
+        "head":"What",
         "subhead":"This tool is a free, online Code of Conduct generator. It helps you to:",
         "list": [
           {
             "type": "ul",
-            "content": ["Design customized Code of Conduct policies for your event or open-source project","Be better prepared for handling problems","Successfully implement and maintain your Code of Conduct policy"],
+            "content": ["Design a customized Code of Conduct for your event or project","Be better prepared for handling problems","Successfully implement and maintain your Code of Conduct policy"],
           }
         ],
         "more": [""],
@@ -28,7 +28,7 @@ var ros = [
     ],
     "how":[
       {
-        "head":"How does it work?",
+        "head":"How",
         "subhead":"",
         "list":[
           {
@@ -42,8 +42,8 @@ var ros = [
     ],
     "background":[
       {
-        "head":"What's behind this project?",
-        "subhead":"This tool was originally conceived in 2016 as part of the Ford-Mozilla Open Web Fellowship, but was put on hold before it could be completed. In 2020, Gem Barrett revived the basic concept and launched a similar tool for building organisational security policies (https://usesoap.app). With the success of SOAP, Gem turned her focus back to the Code of Conduct Builder and it was finally launched in 2021. However, this tool couldn't have been built if not for the hard work of those who have fastidiously developing Code of Conduct resources for several years. In particular, the contents of the following resources have been used in the content of this tool.",
+        "head":"Why",
+        "subhead":"This tool was originally conceived in 2016 as part of the Ford-Mozilla Open Web Fellowship, but was put on hold before it could be completed. In 2020, Gem Barrett revived the basic concept and launched a similar tool for <a href='https://usesoap.app'>building organisational security policies</a>. With the success of SOAP, Gem turned their focus back to the Code of Conduct Builder and it was finally launched in 2021. However, this tool couldn't have been built if not for the hard work of those who have been fastidiously developing Code of Conduct resources for several years, and faced abuse in return for their efforts. In particular, the contents of the following resources have been used in the content of this tool.",
         "list":"",
         "more":[],
         "links":[
@@ -68,7 +68,7 @@ var ros = [
     ],
     "support":[
       {
-        "head":"Can I help support this project?",
+        "head":"Support",
         "subhead":"Thanks for asking! It’s true: this tool takes a lot of time (and coffee!) to maintain. So if you’re interested in giving back and supporting the project, here are a few options:",
         "list":[
           {

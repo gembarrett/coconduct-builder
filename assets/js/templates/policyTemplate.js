@@ -6,21 +6,21 @@ templates.policyTemplate = function(data){
   for (var r = 0; r<resources.length; r++){
     links += `<a href="`+resources[r].url+`" target="_blank" class="btn btn-seco" title="Get more info about `+resources[r].name+`">`+resources[r].name+`</a>`;
   }
-  txt = '<button class="btn btn-prim pink-border-glow" onclick="downloadPolicy(\'plain\')"><i class="fas fa-download"></i> Text (.txt)</button>';
-  editTxt = '<button class="btn btn-prim pink-border-glow" onclick="downloadPolicy(\'plain\', true)"><i class="fas fa-download"></i> Download this policy text (.txt)</button>';
+  txt = '<button class="btn btn-prim" onclick="downloadPolicy(\'plain\')"><i class="fas fa-download"></i> Text (.txt)</button>';
+  editTxt = '<button class="btn btn-prim" onclick="downloadPolicy(\'plain\', true)"><i class="fas fa-download"></i> Download this policy text (.txt)</button>';
 
-  md = '<button class="btn btn-prim pink-border-glow" onclick="downloadPolicy(\'markdown\')"><i class="fas fa-download"></i> Markdown (.md)</button>';
-  html = '<button class="btn btn-prim pink-border-glow" onclick="downloadPolicy(\'html\')"><i class="fas fa-download"></i> HTML (.html)</button>';
+  md = '<button class="btn btn-prim" onclick="downloadPolicy(\'markdown\')"><i class="fas fa-download"></i> Markdown (.md)</button>';
+  html = '<button class="btn btn-prim" onclick="downloadPolicy(\'html\')"><i class="fas fa-download"></i> HTML (.html)</button>';
   var content =
     `<div class="qContainer contain">
-      <div id="policy-dl" class="window pink-border-glow">
+      <div id="policy-dl" class="window">
         <h3>Get policy</h3>
         <div class="dlBtnWrapper">
           <p>Download pre-formatted versions of your organizational security policy documents in plaintext, markdown and HTML.</p>
         <div>`+ txt + md + html + `</div>
       </div>
       </div>
-      <div id="policy-edit" class="window pink-border-glow">
+      <div id="policy-edit" class="window">
         <h3>Edit policy</h3>
         <div>
           <p>Edit your policy below for copying and pasting into your own file.</p>
@@ -31,18 +31,18 @@ templates.policyTemplate = function(data){
           `+editTxt+`
         </div>
       </div>
-      <div class="window pink-border-glow">
+      <div class="window">
         <h3>What did you think?</h3>
         <div>
           <p>If you have a few minutes, it would be great to hear your thoughts on SOAP so it can be improved in the future. SOAP doesn't use analytics to follow you around the site, so this is the best way to share your opinion.</p>
           <a class="btn btn-seco" href="https://feedback024968.typeform.com/to/ykpDnElo" target="_blank" title="Click to take a short survey about SOAP">Sure, I'll complete a quick survey!</a>
         </div>
       </div>
-      <div id="resources" class="window pink-border-glow">
+      <div id="resources" class="window">
         <h3>Learn more</h3>`
         +links+`</div>
       </div>
-      <div id="policy-reset" class="window pink-border-glow">
+      <div id="policy-reset" class="window">
         <h3>Start over</h3>
         <div>
           <p>All done? You'll need to reload the page before building another policy.</p>

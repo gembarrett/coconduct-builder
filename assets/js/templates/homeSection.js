@@ -10,17 +10,11 @@ templates.homeSection = function(data){
     }
     list += `</`+text.list[0].type+`>`;
   }
-  var moreText = text.more.join('\n');
   var content = `
-  <div class="window pink-border-glow">
+  <div class="window">
     <h3>`+text.head+`</h3>
     <div class="homeSectionOverview"><p>`+text.subhead+`</p>`
-    +list+
-    `<details>
-    <summary title="Click or press Space (while focused) to view more information">More</summary>
-      <p>`+moreText+`</p>
-    </details>
-    </div>
+    +list+text.more+`</div>
   </div>`;
   return content;
 };

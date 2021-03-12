@@ -113,7 +113,7 @@ templates.questionsTemplate = function(data, params){
       } else if (question.id === "q0") {
         // if it's the first question, lay out the content a bit differently
         for (var k = 0; k < question.contentArray.length; k++){
-          content += `<div class="window pink-border-glow"><h3>`+question.contentArray[k].title+`</h3><p>`+question.contentArray[k].text+`</p></div>`;
+          content += `<div class="window"><h3>`+question.contentArray[k].title+`</h3><p>`+question.contentArray[k].text+`</p></div>`;
         }
       } else if (question.id === ("q"+(questionsList.length-1))){
         // call a function to deal with this
