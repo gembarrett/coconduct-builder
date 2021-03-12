@@ -19,10 +19,10 @@ var ros = [
         "list": [
           {
             "type": "ul",
-            "content": ["Design a customized Code of Conduct for your event or project","Be better prepared for handling problems","Successfully implement and maintain your Code of Conduct policy"],
+            "content": ["Design a customized Code of Conduct for your event or project","Be better prepared for handling problems","Successfully implement and maintain your Code of Conduct"],
           }
         ],
-        "more": [""],
+        "more": "At the end of the process you'll receive your Code of Conduct in a downloadable format. Along with that document you'll also get an appendix of supporting information for implementing your Code of Conduct.",
         "links":[]
       }
     ],
@@ -33,35 +33,27 @@ var ros = [
         "list":[
           {
             "type":"ol",
-            "content":["step 1","step 2","step 3"]
+            "content":["Answer questions about the behaviour expected from participants","Check the preview and edit your answers","Download your Code of Conduct"]
           }
         ],
-        "more":[],
+        "more":"The answers you provide will dictate which follow up questions are asked. From this, your Code of Conduct will be pieced together, a preview of which you can review at anytime. You can also go back to change your previous answers and see the updates reflected in the contents. At the end, you can download an HTML, Markdown or plaintext version of your Code of Conduct.",
         "links":[]
       }
     ],
     "background":[
       {
         "head":"Why",
-        "subhead":"This tool was originally conceived in 2016 as part of the Ford-Mozilla Open Web Fellowship, but was put on hold before it could be completed. In 2020, Gem Barrett revived the basic concept and launched a similar tool for <a href='https://usesoap.app'>building organisational security policies</a>. With the success of SOAP, Gem turned their focus back to the Code of Conduct Builder and it was finally launched in 2021. However, this tool couldn't have been built if not for the hard work of those who have been fastidiously developing Code of Conduct resources for several years, and faced abuse in return for their efforts. In particular, the contents of the following resources have been used in the content of this tool.",
+        "subhead":"Gem Barrett designed this tool in 2016 as part of their Ford-Mozilla Open Web Fellowship, but it was paused before completion. In 2020, they revived the idea in a <a href='https://usesoap.app'>tool for orgsec policies</a>. With that success, they turned their focus back to the Code of Conduct tool, which launched in 2021.",
         "list":"",
-        "more":[],
+        "more":"This tool couldn't have been built if not for the hard work of those who have been fastidiously developing Code of Conduct resources for several years, and faced abuse in return for their efforts. Two resources in particular have been invaluable:",
         "links":[
           {
             "name":"Contributor Covenant was created by Coraline Ada Ehmke and is released under the CC BY 4.0 License.",
             "url":"https://www.contributor-covenant.org/"
           },
           {
-            "name": "Another CoC article",
-            "url": ""
-          },
-          {
-            "name": "And another CoC article",
-            "url":""
-          },
-          {
-            "name":"And yet another CoC article",
-            "url":""
+            "name": "Ashe Dryden's Code of Conduct 101",
+            "url": "https://www.ashedryden.com/blog/codes-of-conduct-101-faq"
           }
         ]
       }
@@ -69,14 +61,15 @@ var ros = [
     "support":[
       {
         "head":"Support",
-        "subhead":"Thanks for asking! It’s true: this tool takes a lot of time (and coffee!) to maintain. So if you’re interested in giving back and supporting the project, here are a few options:",
+        "subhead":"This site has been built by one person as a side project and as such is time-consuming to maintain. If you want to contribute ideas, report bugs or offer your skills, please head over to <a href='https://github.com/gembarrett/coconduct-builder' target='_blank' title='Go to the code repository at GitHub'>the GitHub repository</a>.",
         "list":[
           {
             "type":"ul",
-            "content":["Donations to fund SOAP’s upkeep can be made at <a href='https://www.ko-fi.com/supportsoap' target='_blank' title='Donate via Ko-Fi.com'>ko-fi.com/supportsoap</a>","Fluent in a language other than English? Email <a href='mailto:feedback@usesoap.app?subject=Suggested%20change' title='Email your feedback'>feedback(at)codeofconduct.tools</a> with the languages you can translate to and we'll let you know how you can help translate the tool and make it more accessible to non-English speakers","SOAP is an open-source project. Contributions to the code (JavaScript, HTML or CSS) or documentation are always welcomed at <a href='https://github.com/gembarrett/coconduct-builder' target='_blank' title='Go to the code repository at GitHub'>github.com/gembarrett/coconduct-builder</a>"]
+            "content":[]
           }
         ],
-        "more":["Just want to say hi or ask a question? Have an idea for how SOAP could be improved? Email us at: <a href='mailto:feedback@usesoap.app?subject=Suggested%20change' title='Email your feedback about SOAP'>feedback(at)usesoap.app</a>."]
+        "more":"This is an open-source project which deliberately avoids the use of frameworks in order to be accessible to a wide range of frontend developers. If you want to help with the code (JavaScript, HTML or CSS) or documentation, please get in touch via <a href='https://github.com/gembarrett/coconduct-builder/issues'>the repository</a>.",
+        "links":[]
       }
     ]
   }

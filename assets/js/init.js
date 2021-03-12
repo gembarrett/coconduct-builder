@@ -12,7 +12,7 @@ window.onload = function(){
       "hashchange",
       function(){utils.router()}
   );
-  setUpFeedback();
+  // setUpFeedback();
   utils.router();
 };
 
