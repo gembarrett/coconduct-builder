@@ -17,12 +17,6 @@ function compileDoc(p,a){
   var purposeP = [];
   var reportP = [];
   var enforceP = [];
-  var appContent = {
-    general: [],
-    review: [],
-    tips: [],
-    links: []
-  };
 
   // what is the first q in the answers array?
   var prevQ = 0;
@@ -45,27 +39,15 @@ function compileDoc(p,a){
           // section 0
           case qRef < 8: // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
             contextP = getPolicyContent(qRef, prevQ, aRef, contextP, found);
-            // if we need the appendix and routines too
-            if (a) {
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found); // TODO: instead of repeating this is should just be a function call each time
-            }
             break;
           // add case for teaming name & pos @ 9
           // section 1
           case qRef < 17:
             purposeP = getPolicyContent(qRef, prevQ, aRef, purposeP, found);
-            // if we need the appendix and routines too
-            if (a) {
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
             break;
           // section 2
           case qRef < 26:
             reportP = getPolicyContent(qRef, prevQ, aRef, reportP, found);
-            // if we need the appendix and routines too
-            if (a) {
-              appContent = getAppendixContent(qRef, prevQ, aRef, appContent, found);
-            }
             break;
           // section 3
           case qRef < 31:
@@ -100,32 +82,6 @@ function compileDoc(p,a){
     doc.html += '<h3>How this will be enforced</h3><p>' + enforceP.join('</p><p>')+'</p>';
   }
 
-  // if appendix is requested, join the policy, appendix and routines arrays together, and add the team-specific policies
-  if (a) {
-    doc.plain += '\n\nAppendix\n';
-    doc.markdown += '\n\n## Appendix\n';
-    doc.html += '<h2>Appendix</h2>';
-    if (appContent.general.length > 0){
-      doc.plain += '\n\nGeneral Advice\n- ' + appContent.general.join('\n- ');
-      doc.markdown += '\n\n### General Advice \n\n* ' + appContent.general.join('\n* ');
-      doc.html += '<h3>General Advice</h3><ul><li>' + appContent.general.join('</li><li>')+'</li></ul>';
-    }
-    if (appContent.review.length > 0){
-      doc.plain += '\n\nReview Checklist\n- ' + appContent.review.join('\n- ');
-      doc.markdown += '\n\n### Review Checklist \n\n- [ ] ' + appContent.review.join('\n- [ ] ');
-      doc.html += '<h3>Review Checklist</h3><ol><li>' + appContent.review.join('</li><li>')+'</li></ol>';
-    }
-    if (appContent.tips.length > 0){
-      doc.plain += '\n\nImplementation Tips\n- ' + appContent.tips.join('\n- ');
-      doc.markdown += '\n\n### Implementation Tips \n\n* ' + appContent.tips.join('\n* ');
-      doc.html += '<h3>Implementation Tips</h3><ul><li>' + appContent.tips.join('</li><li>')+'</li></ul>';
-    }
-    if (appContent.links.length > 0){
-      doc.plain += '\n\nUseful Links \n- ' + appContent.links.join('\n- ');
-      doc.markdown += '\n\n### Useful Links \n\n* ' + appContent.links.join('\n* ');
-      doc.html += '<h3>Useful Links</h3><ul><li>' + appContent.links.join('</li><li>')+'</li></ul>';
-    }
-  }
   doc.plain += '\n\nBuilt at CodeOfConduct.tools v.'+current;
   doc.markdown += '\n\n##### Built at CodeOfConduct.tools v.'+current;
   doc.html += '<h5>Built at CodeOfConduct.tools v. '+current+'</h5></body></html>';
@@ -283,27 +239,6 @@ function getPolicyContent(question, previous, answer, policy, content){
     console.log(question + ' does not have an answer-specific entry');
   }
   return policy;
-}
-
-function getAppendixContent(question, previous, answer, appDoc, content){
-  if ((question !== previous) && (content.appendixEntry !== "")) {
-    thisContent = replaceStr(content.appendixEntry);
-    appDoc.general.push(thisContent);
-  }
-  appEntry = content.answers[answer].appendixEntry[0];
-  if (appEntry.reviewList.length > 0){
-    thisContent = replaceStr(appEntry.reviewList);
-    appDoc.review.push(thisContent);
-  }
-  if (appEntry.tipList.length > 0){
-    thisContent = replaceStr(appEntry.tipList);
-    appDoc.tips.push(thisContent);
-  }
-  if (appEntry.linksList.length > 0){
-    thisContent = replaceStr(appEntry.linksList);
-    appDoc.links.push(thisContent);
-  }
-  return appDoc;
 }
 
 function resetChanges(){

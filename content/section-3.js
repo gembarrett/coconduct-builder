@@ -10,36 +10,21 @@ var section3 = [
     "id":"q27",
     "q":"What are the potential remedies for Code of Conduct violations?",
     "required": false,
-    "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
-    "appendixEntry":"",
+    "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [[name]] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
     "answers":[
       {
         "type":"checkbox",
         "answerText":"Ejection without refund",
         "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"- we reserve the right to eject without refund from [space-name]",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
+        "policyEntry":"- we reserve the right to eject without refund from [[name]]",
       },
       {
         "type":"checkbox",
         "answerText":"Ban from future events",
         "storeAs":"[consequences]",
         "excludes":[],
-        "policyEntry":"- if necessary, we will take steps enforce a ban from future [space-name] events",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
+        "policyEntry":"- if necessary, we will take steps enforce a ban from future [[name]] events",
       },
       {
         "type":"checkbox",
@@ -47,13 +32,6 @@ var section3 = [
         "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"- in extreme cases where a crime has been committed, and if the victim consents, then it may be appropriate to involve the police",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -62,13 +40,6 @@ var section3 = [
         "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -81,8 +52,7 @@ var section3 = [
     "id":"q28",
     "q":"What are the potential remedies for Code of Conduct violations?",
     "required":false,
-    "policyEntry":"Depending on the nature of the Code of Conduct violation and the immediate risks to the victim, reportee and other attendees, [space-name] may take a range of actions against the perpetrator including, but not limited to: [consequences]",
-    "appendixEntry":"",
+    "policyEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -90,13 +60,6 @@ var section3 = [
         "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"- being temporarily removed from the space",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -104,13 +67,6 @@ var section3 = [
         "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"- being permanently banned from the space",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -119,13 +75,6 @@ var section3 = [
         "storeAs":"[consequences]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -138,8 +87,7 @@ var section3 = [
     "id":"q29",
     "q":"What are the alternative forms of help for attendees in distress?",
     "required":false,
-    "policyEntry":"If you find yourself in immediate need of help, you can contact: [emergency]",
-    "appendixEntry":"",
+    "policyEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -147,13 +95,6 @@ var section3 = [
         "storeAs":"[emergency]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -161,13 +102,6 @@ var section3 = [
         "storeAs":"[emergency]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -175,13 +109,6 @@ var section3 = [
         "storeAs":"[emergency]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -189,17 +116,10 @@ var section3 = [
         "storeAs":"[emergency]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
-      {"meaning":"Attendees may need more urgent help than can be provided by event staff, so provide them with alternatives for the local area. Don't assume that people know the local emergency services number or which ride-share services work in the area."},
+      {"meaning":""},
       {"more": [""]}
     ]
   },
@@ -209,7 +129,6 @@ var section3 = [
     "q":"Where can people send questions (not reports) about this Code of Conduct?",
     "required":false,
     "policyEntry":"If you have questions about this Code of Conduct, you can email: [questions-to]",
-    "appendixEntry": "",
     "answers":[
       {
         "type":"text",
@@ -218,13 +137,6 @@ var section3 = [
         "storeAs":"[questions-to]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[

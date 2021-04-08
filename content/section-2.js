@@ -11,7 +11,6 @@ var section2 = [
     "q":"How can people report a violation of the Code of Conduct?",
     "required": false,
     "policyEntry":"You can report a Code of Conduct violation through the following channels: [report-via]",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -19,13 +18,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
       {
         "type":"checkbox",
@@ -33,13 +25,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
       {
         "type":"checkbox",
@@ -47,13 +32,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
       {
         "type":"checkbox",
@@ -61,13 +39,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
       {
         "type":"checkbox",
@@ -76,13 +47,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       }
     ],
     "tips":[
@@ -96,7 +60,6 @@ var section2 = [
     "q":"How can people report a violation of the Code of Conduct?",
     "required":false,
     "policyEntry":"You can report a Code of Conduct violation through the following channels: [report-via]",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -104,13 +67,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -118,13 +74,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -132,13 +81,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -147,13 +89,6 @@ var section2 = [
         "storeAs":"[report-via]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -167,7 +102,6 @@ var section2 = [
     "q":"Can people make anonymous reports?",
     "required": false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -175,13 +109,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"> We can't follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
       {
         "type":"radio",
@@ -189,13 +116,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
     ],
     "tips":[
@@ -209,7 +129,6 @@ var section2 = [
     "q":"Do you have moderators for the online space?",
     "required":false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -217,13 +136,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"Moderators will help to keep the conversations friendly and respectful in the event's online space.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"radio",
@@ -231,13 +143,6 @@ var section2 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -251,7 +156,6 @@ var section2 = [
     "q":"Who is responsible for handling reports?",
     "required":false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"text",
@@ -260,13 +164,6 @@ var section2 = [
         "storeAs":"[report-handlers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"text",
@@ -275,13 +172,6 @@ var section2 = [
         "storeAs":"[report-handlers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"text",
@@ -290,13 +180,6 @@ var section2 = [
         "storeAs":"[report-handlers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"text",
@@ -305,13 +188,6 @@ var section2 = [
         "storeAs":"[report-handlers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"text",
@@ -320,13 +196,6 @@ var section2 = [
         "storeAs":"[report-handlers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"text",
@@ -335,13 +204,6 @@ var section2 = [
         "storeAs":"[report-handlers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
     ],
     "tips":[
@@ -355,7 +217,6 @@ var section2 = [
     "q":"How can people recognise who to approach for help?",
     "required":false,
     "policyEntry":"If you need help and you're not sure who to approach, here's a few things to look for. [help-identifiers]",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -363,13 +224,6 @@ var section2 = [
         "storeAs":"[help-identifiers]",
         "excludes":[],
         "policyEntry":"You can identify event staff by the event logo on their shirt.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -377,13 +231,6 @@ var section2 = [
         "storeAs":"[help-identifiers]",
         "excludes":[],
         "policyEntry":"They will be introduced to event attendees in a public manner.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -391,13 +238,6 @@ var section2 = [
         "storeAs":"[help-identifiers]",
         "excludes":[],
         "policyEntry":"The event's Twitter account will have open direct messages, enabling anyone to send a private message to the team.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
@@ -406,13 +246,6 @@ var section2 = [
         "storeAs":"[help-identifiers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -426,7 +259,6 @@ var section2 = [
     "q":"How can people recognise who to approach for help?",
     "required":false,
     "policyEntry":"If you need help and you're not sure who to approach, here's a few things to look for. [help-identifiers]",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"checkbox",
@@ -434,27 +266,13 @@ var section2 = [
         "storeAs":"[help-identifiers]",
         "excludes":[],
         "policyEntry":"The usernames of people who can help will be shared with you.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
         "answerText":"Logo in avatar",
         "storeAs":"[help-identifiers]",
         "excludes":[],
-        "policyEntry":"Look for the [space-name] logo in avatars to find the people to approach for help.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
+        "policyEntry":"Look for the [[name]] logo in avatars to find the people to approach for help.",
       },
       {
         "type":"checkbox",
@@ -463,13 +281,6 @@ var section2 = [
         "storeAs":"[help-identifiers]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -482,8 +293,7 @@ var section2 = [
     "id":"q25",
     "q":"Can you describe the process for handling reports?",
     "required":false,
-    "policyEntry":"[space-name] has developed the following process for handling reports of Code of Conduct violations: [process]",
-    "appendixEntry":"Sint maxime id esse aut.",
+    "policyEntry":"[[name]] has developed the following process for handling reports of Code of Conduct violations: [process]",
     "answers":[
       {
         "type":"textarea",
@@ -492,13 +302,6 @@ var section2 = [
         "storeAs":"[process]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[

@@ -36,7 +36,7 @@ var ros = [
             "content":["Answer questions about the behaviour expected from participants","Check the preview and edit your answers","Download your Code of Conduct"]
           }
         ],
-        "more":"The answers you provide will dictate which follow up questions are asked. From this, your Code of Conduct will be pieced together, a preview of which you can review at anytime. <br /><br />You can also go back to change your previous answers and see the updates reflected in the contents. At the end, you can download an HTML, Markdown or plaintext version of your Code of Conduct, along with an appendix of supporting information for implementing it.",
+        "more":"The answers you provide will dictate which follow up questions are asked. From this, your Code of Conduct will be pieced together, a preview of which you can review at anytime. <br /><br />You can also go back to change your previous answers and see the updates reflected in the contents. At the end, you can download an HTML, Markdown or plaintext version of your Code of Conduct.",
         "links":[]
       }
     ],

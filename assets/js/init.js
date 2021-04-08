@@ -58,5 +58,4 @@ var homeName = "";
 
 // for holding the end result
 var policyText = [];
-var appendixText = [];
 var output;

@@ -14,7 +14,7 @@ var section0 = [
       },
       {
         "title":"Use your Code of Conduct",
-        "text":"Once you've built your policy, you can edit and download your Code of Conduct, along with an appendix of complementary resources to help with implementing it."
+        "text":"Once you've built your policy, you can edit and download your Code of Conduct at the end."
       }
     ],
   },
@@ -23,23 +23,15 @@ var section0 = [
     "id":"q1",
     "q":"What's the name of the space this Code of Conduct applies to?",
     "required":false,
-    "policyEntry":"[space-name] Code of Conduct",
-    "appendixEntry":"",
+    "policyEntry":"[name] Code of Conduct",
     "answers":[
       {
         "type":"text",
         "answerText":"",
         "placeholder":"Example",
-        "storeAs":"[space-name]",
+        "storeAs":"[name]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry": [
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       }
     ],
     "tips":[
@@ -50,137 +42,57 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q2",
-    "q":"Which specific spaces does this Code of Conduct apply to?",
+    "q":"Where will your event be held?",
     "required":false,
-    "policyEntry":"This Code of Conduct applies to [space-name] [where-policy-applies]",
-    "appendixEntry":"",
+    "policyEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"conferences",
-        "storeAs":"[where-policy-applies]",
+        "answerText":"online",
+        "storeAs":"[type]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
-        "answerText":"meetups",
-        "storeAs":"[where-policy-applies]",
+        "answerText":"offline",
+        "storeAs":"[type]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
-      {
-        "type":"checkbox",
-        "answerText":"workshops",
-        "storeAs":"[where-policy-applies]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "answerText":"related social events",
-        "storeAs":"[where-policy-applies]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      },
-      {
-        "type":"checkbox",
-        "editable": true,
-        "answerText":"another synchronous space",
-        "storeAs":"[where-policy-applies]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
-      }
     ],
     "tips":[
-      {"meaning":"Specify where your Code of Conduct applies so people know when professional behaviour is expected."},
+      {"meaning":"Choose both if it’s online and offline."},
       {"more":""}
     ]
   },
   {
     "isQuestion": true,
     "id":"q3",
-    "q":"Which specific spaces does this Code of Conduct apply to?",
+    "q":"What type of space is this Code of Conduct being built for?",
     "required":false,
-    "policyEntry":"This Code of Conduct applies to all [space-name] spaces, including [where-policy-applies]",
-    "appendixEntry":"",
+    "policyEntry":"",
     "answers":[
       {
         "type":"checkbox",
-        "answerText":"code repository",
-        "storeAs":"[where-policy-applies]",
-        "excludes":[],
-        "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
-      },
-      {
-        "type":"checkbox",
         "answerText":"Mailing list",
-        "storeAs":"[where-policy-applies]",
+        "storeAs":"[type]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"checkbox",
-        "answerText":"Slack group",
-        "storeAs":"[where-policy-applies]",
+        "answerText":"Forum",
+        "storeAs":"[type]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
+      },
+      {
+        "type":"checkbox",
+        "answerText":"Code repository",
+        "storeAs":"[type]",
+        "excludes":[],
+        "policyEntry":"",
       },
       {
         "type":"checkbox",
@@ -189,18 +101,11 @@ var section0 = [
         "storeAs":"[where-policy-applies]",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
     ],
     "tips":[
-      {"meaning":"Quis enim ratione esse aliquam itaque cum est cupiditate though."},
-      {"more":["lorem ipsum"]}
+      {"meaning":"Select multiple spaces if that’s appropriate"},
+      {"more":[""]}
     ]
   },
   {
@@ -209,7 +114,6 @@ var section0 = [
     "q":"Is it appropriate for sponsors and exhibitors to use sexualised images, activities or clothing at your event?",
     "required":false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -217,31 +121,17 @@ var section0 = [
         "storeAs":"",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
       {
         "type":"radio",
         "answerText":"No",
         "storeAs":"",
         "excludes":[],
-        "policyEntry":"All exhibitors in the venue, sponsor booths, or similar activities are also subject to this Code of Conduct. Unless it is relevant to their product or otherwise appropriate for the context of the [space-name] event, exhibitors should not use sexualized images, activities, or other material and booth staff (including volunteers) should not use sexualized uniforms, or otherwise create a sexualized environment.",
-        "appendixEntry":[
-          {
-            "reviewList":"Do you have any new sponsors or exhibitors who may be unaware of the Code of Conduct?",
-            "tipList": "Review the sponsors advertising material, such as t-shirt and booth designs, before the event if possible.",
-            "linksList": ""
-          }
-        ]
+        "policyEntry":"All exhibitors in the venue, sponsor booths, or similar activities are also subject to this Code of Conduct. Unless it is relevant to their product or otherwise appropriate for the context of the [[name]] event, exhibitors should not use sexualized images, activities, or other material and booth staff (including volunteers) should not use sexualized uniforms, or otherwise create a sexualized environment.",
       }
     ],
     "tips":[
-      {"meaning":"The use of promotional techniques such as 'booth babes' and sexualised imagery may not be appopriate for your event as it can create an unwelcome atmosphere for femme-presenting people. However, if your event centres on sexual topics, or your sponsors' products are related to sexual activities, then discouragement doesn't make sense."},
+      {"meaning":""},
       {"more":["lorem ipsum"]},
     ]
   },
@@ -251,21 +141,13 @@ var section0 = [
     "q":"Does your event have an online space for attendees to interact?",
     "required":false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"radio",
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"[space-name] will have an online aspect to the event, and attendees who use it are asked to respect each other as they would in an offline capacity as the rules of this Code of Conduct still apply.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
+        "policyEntry":"",
       },
       {
         "type":"radio",
@@ -273,13 +155,6 @@ var section0 = [
         "storeAs": "",
         "excludes":[18],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
     ],
     "tips":[
@@ -293,7 +168,6 @@ var section0 = [
     "q":"Will there be photography or filming at your event?",
     "required":false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"radio",
@@ -301,27 +175,13 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ]
       },
       {
         "type":"radio",
         "answerText":"No",
         "storeAs": "",
         "excludes":[11],
-        "policyEntry":"We do not expect any professional photography or filming to take place at [space-name]. However, attendees should be respectful of others nearby whenever they are taking photos or filming.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
+        "policyEntry":"",
       },
     ],
     "tips":[
@@ -335,21 +195,13 @@ var section0 = [
     "q":"Does your event employ the Chatham House rule?",
     "required":false,
     "policyEntry":"",
-    "appendixEntry":"",
     "answers":[
       {
         "type":"radio",
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"Unless explicitly stated otherwise, conversations at [space-name] will take place under the Chatham House Rule. The rule states: \"When a meeting, or part thereof, is held under the Chatham House Rule, participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.\" This includes sharing information in note-taking documents and on social media. If you choose to share information on social media, reflect on possible ways a person may be indirectly identified even if you do not use their name or affiliation.",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": "https://www.chathamhouse.org/about-us/chatham-house-rule"
-          }
-        ]
+        "policyEntry":"",
       },
       {
         "type":"radio",
@@ -357,17 +209,10 @@ var section0 = [
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
-        "appendixEntry":[
-          {
-            "reviewList":"",
-            "tipList": "",
-            "linksList": ""
-          }
-        ],
       },
     ],
     "tips":[
-      {"meaning":"Chatham House rule means you can share the information you hear at the event, but not the identity of the person who said it. Consider other people's privacy."},
+      {"meaning":""},
       {"more":["lorem ipsum"]}
     ]
   },
