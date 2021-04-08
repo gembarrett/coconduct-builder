@@ -30,6 +30,7 @@ function checkForName() {
 }
 
 // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
+// TODO: edit this so that exclusions list takes out only e-only or p-only area questions
 function signPosts(type,from) {
   // event
   if (type === 'ev'){
