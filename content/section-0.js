@@ -191,10 +191,10 @@ var section0 = [
       },
       {
         "type":"text",
-        "answerText":"other values",
+        "answerText":"other",
         "storeAs":"[values]",
         "excludes":[],
-        "policyEntry":".",
+        "policyEntry":"",
       }
     ],
     "tips":[
@@ -205,82 +205,443 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q5",
-    "q":"Does your event have an online space for attendees to interact?",
+    "area":"e-p",
+    "q":'Complete the sentence: This environment is for everyone regardless of their ___“',
     "required":false,
-    "policyEntry":"",
+    "policyEntry":"[name] is committed to providing a [values] environment for everyone, regardless of their [identities]",
     "answers":[
       {
-        "type":"radio",
-        "answerText":"Yes",
-        "storeAs": "",
+        "type":"checkbox",
+        "answerText":"gender & expression",
+        "storeAs": "[identities]",
         "excludes":[],
         "policyEntry":"",
       },
       {
-        "type":"radio",
-        "answerText":"No",
-        "storeAs": "",
-        "excludes":[18],
+        "type":"checkbox",
+        "answerText":"race",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"ethnicity",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"socioeconomic status",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"religion (or lack thereof)",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"sexual orientation",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"sexual characteristics",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"physical appearance",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"ability",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"age",
+        "storeAs": "[identities]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[identities]",
+        "excludes":[],
         "policyEntry":"",
       },
     ],
     "tips":[
-      {"meaning":"Recusandae alias magnam nihil. Ad nisi et eum."},
+      {"meaning":"Each of these are important. Consider each as you add them manually."},
       {"more":["lorem ipsum"]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q6",
-    "q":"Will there be photography or filming at your event?",
+    "area":"p-f",
+    "q":"Where can people find this Code of Conduct?",
     "required":false,
-    "policyEntry":"",
+    "policyEntry":"This Code of Conduct will be available in the following ways: ",
     "answers":[
       {
-        "type":"radio",
-        "answerText":"Yes",
-        "storeAs": "",
+        "type":"text",
+        "answerText":"web address",
+        "storeAs": "[url]",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"- online at [url]",
       },
       {
-        "type":"radio",
-        "answerText":"No",
+        "type":"checkbox",
+        "answerText":"will be emailed",
         "storeAs": "",
-        "excludes":[11],
-        "policyEntry":"",
+        "excludes":[],
+        "policyEntry":"- it will be emailed (send us an email if you haven't received it!)",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"pinned post",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- shared in a pinned post",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[outlet]",
+        "excludes":[],
+        "policyEntry":"- [outlet]",
       },
     ],
     "tips":[
-      {"meaning":"Recusandae alias magnam nihil. Ad nisi et eum."},
+      {"meaning":"Don't make people hunt for your Code of Conduct."},
       {"more":["lorem ipsum"]}
     ]
   },
   {
     "isQuestion": true,
     "id":"q7",
-    "q":"Does your event employ the Chatham House rule?",
+    "area":"p-r",
+    "q":"Where can people find this Code of Conduct?",
+    "required":false,
+    "policyEntry":"This Code of Conduct will be available in the following ways: ",
+    "answers":[
+      {
+        "type":"text",
+        "answerText":"web address",
+        "storeAs": "[url]",
+        "excludes":[],
+        "policyEntry":"- online at [url]",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"will be emailed",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- it will be emailed (send us an email if you haven't received it!)",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"in repository",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- in the project repository",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[outlet]",
+        "excludes":[],
+        "policyEntry":"- [outlet]",
+      },
+    ],
+    "tips":[
+      {"meaning":"Don't make people hunt for your Code of Conduct."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q8",
+    "area":"e-on",
+    "q":"Where can people find this Code of Conduct?",
+    "required":false,
+    "policyEntry":"This Code of Conduct will be available in the following ways: ",
+    "answers":[
+      {
+        "type":"text",
+        "answerText":"web address",
+        "storeAs": "[url]",
+        "excludes":[],
+        "policyEntry":"- online at [url]",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"will be emailed",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- it will be emailed (send us an email if you haven't received it!)",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"registration process",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- shared during registration process",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[outlet]",
+        "excludes":[],
+        "policyEntry":"- [outlet]",
+      },
+    ],
+    "tips":[
+      {"meaning":"Don't make people hunt for your Code of Conduct."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q9",
+    "area":"e-off",
+    "q":"Where can people find this Code of Conduct?",
+    "required":false,
+    "policyEntry":"This Code of Conduct will be available in the following ways: ",
+    "answers":[
+      {
+        "type":"text",
+        "answerText":"web address",
+        "storeAs": "[url]",
+        "excludes":[],
+        "policyEntry":"- online at [url]",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"will be emailed",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- it will be emailed (send us an email if you haven't received it!)",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"registration process",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- shared during registration process",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"on venue walls",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- printed copies will be displayed on the walls of the venue",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"read upon entry",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"- read to you by event staff upon entry",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[outlet]",
+        "excludes":[],
+        "policyEntry":"- [outlet]",
+      },
+    ],
+    "tips":[
+      {"meaning":"Don't make people hunt for your Code of Conduct."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q10",
+    "area":"e-p",
+    "q":"Do you want to know about and recognise people who make extra efforts to create a safe and welcoming space?",
     "required":false,
     "policyEntry":"",
     "answers":[
       {
         "type":"radio",
-        "answerText":"Yes",
+        "answerText":"yes",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we'd love to hear about it so we can recognise their efforts.",
       },
       {
         "type":"radio",
-        "answerText":"No",
+        "answerText":"no",
         "storeAs": "",
         "excludes":[],
         "policyEntry":"",
       },
     ],
     "tips":[
-      {"meaning":""},
+      {"meaning":"It can be nice to know who’s helping make the space a successful one, for a private or public thank you."},
       {"more":["lorem ipsum"]}
     ]
   },
+  {
+    "isQuestion": true,
+    "id":"q11",
+    "area":"e",
+    "q":"Who does the Code of Conduct apply to?",
+    "required":false,
+    "policyEntry":"Individuals are responsible for knowing and abiding by our standards and we encourage everyone to assist in creating a welcoming and safe environment. This Code of Conduct outlines our expectations for [people], and all those who participate in our community.",
+    "answers":[
+      {
+        "type":"checkbox",
+        "answerText":"service provider",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"attendees",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"speakers",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"organizers",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+    ],
+    "tips":[
+      {"meaning":"Everyone who participates should behave according to the Code of Conduct but it’s worth explicitly stating it so no one thinks they're above it."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q12",
+    "area":"p",
+    "q":"Who does the Code of Conduct apply to?",
+    "required":false,
+    "policyEntry":"Individuals are responsible for knowing and abiding by our standards and we encourage everyone to assist in creating a welcoming and safe environment. This Code of Conduct outlines our expectations for [people], and all those who participate in our community.",
+    "answers":[
+      {
+        "type":"checkbox",
+        "answerText":"service provider",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"contributors",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"decision-makers",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+    ],
+    "tips":[
+      {"meaning":"Everyone who participates should behave according to the Code of Conduct but it’s worth explicitly stating it so no one thinks they're above it."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+  {
+    "isQuestion": true,
+    "id":"q13",
+    "area":"e-off",
+    "q":"Does this Code of Conduct apply in related social events?",
+    "required":false,
+    "policyEntry":"",
+    "answers":[
+      {
+        "type":"radio",
+        "answerText":"yes",
+        "storeAs": "",
+        "excludes":[],
+        "policyEntry":"By agreeing to this Code of Conduct, you are expected to abide by its rules at all venues and related social events to help us realize a safe and positive community experience for everyone.",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"attendees",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"speakers",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"checkbox",
+        "answerText":"organizers",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+      {
+        "type":"text",
+        "answerText":"other",
+        "storeAs": "[people]",
+        "excludes":[],
+        "policyEntry":"",
+      },
+    ],
+    "tips":[
+      {"meaning":"Everyone who participates should behave according to the Code of Conduct but it’s worth explicitly stating it so no one thinks they're above it."},
+      {"more":["lorem ipsum"]}
+    ]
+  },
+
 ]
