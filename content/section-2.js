@@ -19,18 +19,18 @@ var section2 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"[name] actively monitors all online public communications between [type] participants for inappropriate postings and will exercise editorial control of postings and other appropriate action required.",
       },
       {
         "type":"radio",
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
-        "policyEntry":"",
+        "policyEntry":"[name] does not actively monitor all online public communications among [type] participants for inappropriate postings and does not exercise editorial control of postings. However, in the event that any inappropriate posting is reported, [name] will use reasonable efforts to take appropriate action.",
       },
     ],
     "tips":[
-      {"meaning":""},
+      {"meaning":"Monitoring the chat functionality, comments and other public communications is best if you have the team to carry it out, or you can rely on participants to report violations. Be aware that some violations will go unaddressed if taking the reactive approach."},
       {"more":["lorem ipsum"]}
     ]
   },
