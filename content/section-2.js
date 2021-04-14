@@ -99,6 +99,14 @@ var section2 = [
         "excludes":[],
         "policyEntry":"",
       },
+      {
+        "type":"text",
+        "answerText":"Other",
+        "placeholder":"",
+        "storeAs":"[]",
+        "excludes":[],
+        "policyEntry":"",
+      },
     ],
     "tips":[
       {"meaning":"Including a range of consequences allows freedom and flexibility to deal with violations of all severities."},
