@@ -236,7 +236,7 @@ var section0 = [
       },
       {
         "type":"text",
-        "answerText":"OOther rules",
+        "answerText":"Other rules",
         "placeholder":"www.yourSpace.com/community",
         "storeAs":"[]",
         "excludes":[],
