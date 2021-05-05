@@ -37,20 +37,20 @@ function compileDoc(p,a){
       if (found){
         switch (true) {
           // section 0
-          case qRef < 8: // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
+          case qRef < 15: // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
             contextP = getPolicyContent(qRef, prevQ, aRef, contextP, found);
             break;
           // add case for teaming name & pos @ 9
           // section 1
-          case qRef < 17:
+          case qRef < 42:
             purposeP = getPolicyContent(qRef, prevQ, aRef, purposeP, found);
             break;
           // section 2
-          case qRef < 26:
+          case qRef < 52:
             reportP = getPolicyContent(qRef, prevQ, aRef, reportP, found);
             break;
           // section 3
-          case qRef < 31:
+          case qRef < 68:
             enforceP = getPolicyContent(qRef, prevQ, aRef, enforceP, found);
             break;
           default:
