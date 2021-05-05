@@ -19,6 +19,7 @@ var section2 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"[name] actively monitors all online public communications between [type] participants for inappropriate postings and will exercise editorial control of postings and other appropriate action required.",
       },
       {
@@ -26,6 +27,7 @@ var section2 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"[name] does not actively monitor all online public communications among [type] participants for inappropriate postings and does not exercise editorial control of postings. However, in the event that any inappropriate posting is reported, [name] will use reasonable efforts to take appropriate action.",
       },
     ],
@@ -48,6 +50,7 @@ var section2 = [
         "answerText":"general public reminder",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -55,6 +58,7 @@ var section2 = [
         "answerText":"private warning",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -62,6 +66,7 @@ var section2 = [
         "answerText":"temp removal",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -69,6 +74,7 @@ var section2 = [
         "answerText":"permanent immediate expulsion",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -76,6 +82,7 @@ var section2 = [
         "answerText":"account deactivation",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -83,6 +90,7 @@ var section2 = [
         "answerText":"ban from future participation",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -90,6 +98,7 @@ var section2 = [
         "answerText":"public identification",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -97,6 +106,7 @@ var section2 = [
         "answerText":"public apology required",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -105,6 +115,7 @@ var section2 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -127,6 +138,7 @@ var section2 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Those who are expelled from [name] for violating the Code of Conduct will not be issued a refund.",
       },
       {
@@ -134,6 +146,7 @@ var section2 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
 
@@ -157,6 +170,7 @@ var section2 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -165,6 +179,7 @@ var section2 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"It may be deemed appropriate for [name] organisers to close down the chat facility, under circumstances which include:",
       },
 
@@ -188,6 +203,7 @@ var section2 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"This code of conduct applies to [name] spaces, but if you are being harassed by a participant of [name] [type] outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by [name] members seriously. This includes harassment outside our spaces and harassment that took place at any point in time. [name] reserves the right to exclude people from our [type] based on their past behavior, including behavior outside [name] spaces and behavior towards people who are not in [name]. In order to protect volunteer admins from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.",
       },
       {
@@ -195,6 +211,7 @@ var section2 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -217,6 +234,7 @@ var section2 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"We use the 3 strikes method to enforce this Code of Conduct. The point of this section is not to find opportunities to punish people, but we do need a fair way to deal with people who make our community suck.",
       },
       {
@@ -224,6 +242,7 @@ var section2 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -247,6 +266,7 @@ var section2 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -255,6 +275,7 @@ var section2 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -263,6 +284,7 @@ var section2 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -286,6 +308,7 @@ var section2 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -309,6 +332,7 @@ var section2 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],

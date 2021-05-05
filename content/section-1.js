@@ -19,6 +19,7 @@ var section1 = [
         "answerText":"respectful",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -26,6 +27,7 @@ var section1 = [
         "answerText":"friendly",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -33,6 +35,7 @@ var section1 = [
         "answerText":"professional",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -40,6 +43,7 @@ var section1 = [
         "answerText":"inclusive",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -47,6 +51,7 @@ var section1 = [
         "answerText":"collaborative",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -54,6 +59,7 @@ var section1 = [
         "answerText":"safe",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -61,6 +67,7 @@ var section1 = [
         "answerText":"productive",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -68,6 +75,7 @@ var section1 = [
         "answerText":"welcoming",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -75,6 +83,7 @@ var section1 = [
         "answerText":"happy",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -82,6 +91,7 @@ var section1 = [
         "answerText":"harassment-free",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -90,6 +100,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[env]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -112,6 +123,7 @@ var section1 = [
         "answerText":"gender identity & expression",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -119,6 +131,7 @@ var section1 = [
         "answerText":"race & ethnicity",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -126,6 +139,7 @@ var section1 = [
         "answerText":"socioeconomic status,",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -133,6 +147,7 @@ var section1 = [
         "answerText":"religion (or lack thereof)",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -140,6 +155,7 @@ var section1 = [
         "answerText":"sexual orientation & characteristics",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -147,6 +163,7 @@ var section1 = [
         "answerText":"physical appearance",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -154,6 +171,7 @@ var section1 = [
         "answerText":"ability",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -161,6 +179,7 @@ var section1 = [
         "answerText":"age",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -169,6 +188,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[identities]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -191,6 +211,7 @@ var section1 = [
         "answerText":"service providers",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -198,6 +219,7 @@ var section1 = [
         "answerText":"attendees",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -205,6 +227,7 @@ var section1 = [
         "answerText":"speakers",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -212,6 +235,7 @@ var section1 = [
         "answerText":"organizers",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -220,6 +244,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -242,6 +267,7 @@ var section1 = [
         "answerText":"service providers",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -249,6 +275,7 @@ var section1 = [
         "answerText":"contributors",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -256,6 +283,7 @@ var section1 = [
         "answerText":"decision-makers",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -264,6 +292,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[people]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -286,6 +315,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -293,6 +323,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -315,6 +346,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -322,6 +354,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -344,6 +377,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -351,6 +385,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -373,6 +408,7 @@ var section1 = [
         "answerText":"misgendering",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -380,6 +416,7 @@ var section1 = [
         "answerText":"stalking",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -387,6 +424,7 @@ var section1 = [
         "answerText":"incitement of violence",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -394,6 +432,7 @@ var section1 = [
         "answerText":"outing",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -401,6 +440,7 @@ var section1 = [
         "answerText":"doxxing",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -408,6 +448,7 @@ var section1 = [
         "answerText":"posting abuse",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -415,6 +456,7 @@ var section1 = [
         "answerText":"inappropriate filming or photography",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -422,6 +464,7 @@ var section1 = [
         "answerText":"simulated & physical sexual harassment",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -429,6 +472,7 @@ var section1 = [
         "answerText":"verbal abuse",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -437,6 +481,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[behaviour]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -459,6 +504,7 @@ var section1 = [
         "answerText":"weapons",
         "storeAs":"[behaviour-add]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -466,6 +512,7 @@ var section1 = [
         "answerText":"drugs",
         "storeAs":"[behaviour-add]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -473,6 +520,7 @@ var section1 = [
         "answerText":"drugging",
         "storeAs":"[behaviour-add]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -495,6 +543,7 @@ var section1 = [
         "answerText":"filming",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"There will be official filming taking place during [name].",
       },
       {
@@ -502,6 +551,7 @@ var section1 = [
         "answerText":"photography",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"There will be official photography taking place during [name].",
       },
       {
@@ -509,6 +559,7 @@ var section1 = [
         "answerText":"both",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"There will be official filming and photography taking place during [name].",
       },
       {
@@ -516,6 +567,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[26,27,28,29],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -538,6 +590,7 @@ var section1 = [
         "answerText":"Breakout rooms",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"The [media] will be focused on the breakout rooms.",
       },
       {
@@ -545,6 +598,7 @@ var section1 = [
         "answerText":"Whole event",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"The [media] will be happening throughout the event.",
       },
       {
@@ -553,6 +607,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[other-media]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"[other-media]",
       },
     ],
@@ -575,6 +630,7 @@ var section1 = [
         "answerText":"deleted after transcription",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Recordings are made to enable us to transcribe the video in order to capture the arguments being presented. The recordings will be deleted once the transcription is completed.",
       },
       {
@@ -582,6 +638,7 @@ var section1 = [
         "answerText":"attribution with consent",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Attributions to individuals for their comments will not be made without their explicit permission.",
       },
       {
@@ -589,6 +646,7 @@ var section1 = [
         "answerText":"not shared with others",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Neither photos nor recordings are not passed on to any third party. They are only viewed by the [name] team.",
       },
       {
@@ -596,6 +654,7 @@ var section1 = [
         "answerText":"used in promotional materials",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Recordings and photos may be used in future [name] promotional content.",
       },
       {
@@ -604,6 +663,7 @@ var section1 = [
         "placeholder":"other uses",
         "storeAs":"[other-uses]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"[other-uses]",
       },
     ],
@@ -626,6 +686,7 @@ var section1 = [
         "answerText":"Lanyard color denotes consent",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"During the [name] event, attendees can express their consent to being filmed and photography through the colour of their lanyard, selected upon entry.",
       },
       {
@@ -633,6 +694,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -641,6 +703,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -663,6 +726,7 @@ var section1 = [
         "answerText":"Turn off camera",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Participants can opt-out of having their online participation recorded by keeping their camera switched off.",
       },
       {
@@ -670,6 +734,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -678,6 +743,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -700,6 +766,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"In this community we encourage public discussion and respect each others’ space, therefore we ask that you refrain from sending unsolicited direct messages to others participants.",
       },
       {
@@ -707,6 +774,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -729,6 +797,7 @@ var section1 = [
         "answerText":"adverts",
         "storeAs":"[commercials]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -736,6 +805,7 @@ var section1 = [
         "answerText":"self-promotion",
         "storeAs":"[commercials]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -743,6 +813,7 @@ var section1 = [
         "answerText":"sales pitches",
         "storeAs":"[commercials]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -750,6 +821,7 @@ var section1 = [
         "answerText":"spam",
         "storeAs":"[commercials]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -757,6 +829,7 @@ var section1 = [
         "answerText":"affiliate links",
         "storeAs":"[commercials]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -765,6 +838,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[commercials]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -787,6 +861,7 @@ var section1 = [
         "answerText":"adverts",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -794,6 +869,7 @@ var section1 = [
         "answerText":"self-promotion",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -801,6 +877,7 @@ var section1 = [
         "answerText":"sales pitches",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -808,6 +885,7 @@ var section1 = [
         "answerText":"spam",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -815,6 +893,7 @@ var section1 = [
         "answerText":"affiliate links",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -822,6 +901,7 @@ var section1 = [
         "answerText":"website URLs",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -830,6 +910,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[chat-ads]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -852,6 +933,7 @@ var section1 = [
         "answerText":"recruiters",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Recruiters are permitted to post jobs, but please be respectful of everyone’s time and avoid repeated posts. If you’re coming here only to make a sales pitch, please don’t.",
       },
       {
@@ -859,6 +941,7 @@ var section1 = [
         "answerText":"nobody",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"We do not permit any job postings in the [name] [type]]",
       },
       {
@@ -866,6 +949,7 @@ var section1 = [
         "answerText":"anybody",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"If you are an active community member and you are personally hiring more people, you may post relevant job descriptions.",
       },
       {
@@ -874,6 +958,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -896,6 +981,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Keep it legal: basically, don’t get anyone in trouble. Share only content that you own, do not share private or sensitive information, and don’t break the law. Sharing content or links to content that is illegal or violates any applicable local or national laws is not permitted and this includes defamatory statements and pirated software.",
       },
       {
@@ -903,6 +989,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -925,6 +1012,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Community posts might include advice on commands to run on your computer or any other actions for you to perform. This sort of advice is provided by community members as-is, without any liability. Consider any such advice carefully, and ask for clarification as needed; any potential damage or loss of data resulting from following advice is your own responsibility.",
       },
       {
@@ -932,6 +1020,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -954,6 +1043,7 @@ var section1 = [
         "answerText":"pornography",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -961,6 +1051,7 @@ var section1 = [
         "answerText":"harassment",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -968,6 +1059,7 @@ var section1 = [
         "answerText":"abuse",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -975,6 +1067,7 @@ var section1 = [
         "answerText":"torture",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -982,6 +1075,7 @@ var section1 = [
         "answerText":"rape",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -989,6 +1083,7 @@ var section1 = [
         "answerText":"sexual assault",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -996,6 +1091,7 @@ var section1 = [
         "answerText":"war",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -1003,6 +1099,7 @@ var section1 = [
         "answerText":"death",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -1011,6 +1108,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"[topics]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -1033,6 +1131,7 @@ var section1 = [
         "answerText":"In educational or otherwise relevant context",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"This content is only appropriate within an educational or otherwise relevant context.",
       },
       {
@@ -1040,6 +1139,7 @@ var section1 = [
         "answerText":"Check beforehand",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Please check this type of content with [name] before sharing publicly.",
       },
       {
@@ -1047,6 +1147,7 @@ var section1 = [
         "answerText":"Provide warnings",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"If you discuss difficult topics that may be traumatic for some, please provide warnings so people may choose to not enter into a conversation or plan coping strategies.",
       },
       {
@@ -1055,6 +1156,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -1077,6 +1179,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Use of nudity and/or sexual language and imagery is not appropriate for any [name] space.",
       },
       {
@@ -1084,6 +1187,7 @@ var section1 = [
         "answerText":"In educational or otherwise relevant context",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Gratuitous or off-topic use of sexual language and imagery is not appropriate, but this content can be shared appropriately at [name] [type] within an educational or otherwise relevant context.",
       },
       {
@@ -1091,6 +1195,7 @@ var section1 = [
         "answerText":"Check beforehand",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Gratuitous or off-topic use of sexual language and imagery is not appropriate, but this content can be shared appropriately within [name] [type], under specific restrictions. Please check this type of content with the community organisers or leaders before sharing publicly.",
       },
       {
@@ -1098,6 +1203,7 @@ var section1 = [
         "answerText":"Provide warnings",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Gratuitous or off-topic use of sexual language and imagery is not appropriate, but this content can be shared appropriately within [name] [type] when it is preceded by a warning.",
       },
       {
@@ -1106,6 +1212,7 @@ var section1 = [
         "placeholder":"other",
         "storeAs":"",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -1128,6 +1235,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -1135,6 +1243,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Unless it is relevant to their product or otherwise appropriate for the context of the [[name]] event, exhibitors should not use sexualized images, activities, or other material and booth staff (including volunteers) should not use sexualized uniforms, or otherwise create a sexualized environment.",
       },
     ],
@@ -1157,6 +1266,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Additionally, we welcome people of all academic and professional backgrounds as well as levels of expertise, preferred operating system, programming language, or text editor.",
       },
       {
@@ -1164,6 +1274,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -1186,6 +1297,7 @@ var section1 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":'Chatham House Rules apply in all [name] spaces in order to encourage inclusive and open dialogue. The rule states: “When a meeting, or part thereof, is held under the Chatham House Rule, participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.”',
       },
       {
@@ -1193,6 +1305,7 @@ var section1 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],

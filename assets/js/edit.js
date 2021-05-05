@@ -149,6 +149,7 @@ function collectAnswers(isEdited){
 function collectExclusions(id){
   find = "#q"+id+' input:checked';
   var exc = [];
+  var inc = [];
   if (inputs = document.querySelectorAll(find)){
     // for each checked input
     for (var i = 0; i < inputs.length; i++){
@@ -160,15 +161,22 @@ function collectExclusions(id){
       // if it has exclusions
       // add them to the array
       exc = updateExc(q.data.answers[id], exc);
+      inc = updateInc(q.data.answers[id], inc);
     }
     // if this question has exclusions
     if (exc.length > 0){
       //  take those exclusions and concatenate them with the current exclusions
       currentState.exclusions.push(exc[0]);
     }
+    // update exclusions list using the inclusions list
+    console.log(exc.length +' and '+ inc.length);
   } else {
     console.log('none found');
   }
+}
+
+function getInclusions(id){
+
 }
 
 // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
@@ -287,5 +295,15 @@ function updateExc(a, e){
   } else {
     return e;
   }
+}
 
+function updateInc(a, e){
+  // check for exclusions
+  if (a.includes.length > 0){
+    // add them to the list of excluded questions
+    e = e.concat(a.includes);
+    return e;
+  } else {
+    return e;
+  }
 }

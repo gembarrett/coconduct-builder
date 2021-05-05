@@ -19,6 +19,7 @@ var section3 = [
         "answerText":"visually identifiable staff",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -26,6 +27,7 @@ var section3 = [
         "answerText":"email",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -33,6 +35,7 @@ var section3 = [
         "answerText":"Twitter",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -40,6 +43,7 @@ var section3 = [
         "answerText":"online form",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -47,6 +51,7 @@ var section3 = [
         "answerText":"phone",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -54,6 +59,7 @@ var section3 = [
         "answerText":"messenger app(s)",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -62,6 +68,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -84,6 +91,7 @@ var section3 = [
         "answerText":"email",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -91,6 +99,7 @@ var section3 = [
         "answerText":"Twitter",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -98,6 +107,7 @@ var section3 = [
         "answerText":"online form",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -105,6 +115,7 @@ var section3 = [
         "answerText":"phone",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -112,6 +123,7 @@ var section3 = [
         "answerText":"messenger app(s)",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -119,6 +131,7 @@ var section3 = [
         "answerText":"message via forum",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -126,6 +139,7 @@ var section3 = [
         "answerText":"report button",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -134,6 +148,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -157,6 +172,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -165,6 +181,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -173,6 +190,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -181,6 +199,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -204,6 +223,7 @@ var section3 = [
         "placeholder":"e.g. shirts with 'staff' on them",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -227,6 +247,7 @@ var section3 = [
         "placeholder":"e.g. +1 (234) 567-8901",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -235,6 +256,7 @@ var section3 = [
         "placeholder":"e.g. Wire: @handle",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -243,6 +265,7 @@ var section3 = [
         "placeholder":"e.g. Signal +44 1234 567890",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -266,6 +289,7 @@ var section3 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -288,6 +312,7 @@ var section3 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -296,6 +321,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[encrypt]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"The email address [email] can receive GPG encrypted messages, please use the following public key: [encrypt]",
       },
     ],
@@ -319,6 +345,7 @@ var section3 = [
         "placeholder":"www.yourSpace.com/report",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -341,6 +368,7 @@ var section3 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"If you are considering sending us an incident report through our online form, and are worried about retaliation if you share your identity, be assured that you can submit anonymously.",
       },
       {
@@ -348,6 +376,7 @@ var section3 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -371,6 +400,7 @@ var section3 = [
         "placeholder":"",
         "storeAs":"[twitter]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -393,6 +423,7 @@ var section3 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Direct messages are open on the @[twitter] account, so reports can be made privately, and by anyone.",
       },
       {
@@ -400,6 +431,7 @@ var section3 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -422,6 +454,7 @@ var section3 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"The [name] team will respect the privacy and security of the reporter of any incident. All reports will be kept confidential and you will not be asked to take actions that make you feel unsafe. At our discretion, we may publicly name a person about whom we’ve received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of [name] members or the general public. We will not name harassment victims without their affirmative consent.",
       },
       {
@@ -429,6 +462,7 @@ var section3 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"Be aware that reports are not confidential and we may disclose details to others at our discretion.",
       },
     ],
@@ -451,6 +485,7 @@ var section3 = [
         "answerText":"Yes",
         "storeAs": "",
         "excludes":[],
+        "includes":[],
         "policyEntry":"There will be a Wellness Team of mental health professionals available at [name]:",
       },
       {
@@ -458,6 +493,7 @@ var section3 = [
         "answerText":"No",
         "storeAs": "",
         "excludes":[66],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -466,6 +502,7 @@ var section3 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -489,6 +526,7 @@ var section3 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -497,6 +535,7 @@ var section3 = [
         "placeholder":"Example",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
@@ -520,6 +559,7 @@ var section3 = [
         "placeholder":"e.g. 911",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -528,6 +568,7 @@ var section3 = [
         "placeholder":"e.g. Lyft and Uber",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -536,6 +577,7 @@ var section3 = [
         "placeholder":"e.g. Best Taxis 000-000-0000",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
       {
@@ -544,6 +586,7 @@ var section3 = [
         "placeholder":"e.g. venue security",
         "storeAs":"[]",
         "excludes":[],
+        "includes":[],
         "policyEntry":"",
       },
     ],
