@@ -29,13 +29,13 @@ function checkForName() {
   }
 }
 
-// CHANGE THIS WHEN UPDATING QUESTION NUMBERS
-// TODO: edit this so that exclusions list takes out only e-only or p-only area questions
 function signPosts(type,from) {
   // event
   if (type === 'ev'){
     // exclude these project questions
-    currentState.exclusions = [3,4,5,6,11,19,31,33,35,54];
+    var returned = findQuestions("p", "m", "c");
+    console.log(returned);
+    currentState.exclusions = returned;
     // if coming from home page
     if (from === 'h'){
       // grab the name
@@ -44,7 +44,9 @@ function signPosts(type,from) {
       startQuestions();
     }
   } else { // project
-    currentState.exclusions = [2,9,12,13,18,20,21,25,26,27,28,29,32,39,41,43,46,53,55,56,57,65,66,67];
+    var returned = findQuestions("e", "off", "on");
+    console.log(returned);
+    currentState.exclusions = returned;
     // if coming from home page
     if (from === 'h'){
       // grab the name
@@ -54,6 +56,31 @@ function signPosts(type,from) {
     }
   }
 }
+
+function findQuestions(space, space2, space3){
+  sp = document.querySelectorAll("[data-spaces*='"+space+"']");
+  all = Array.from(sp);
+  sp = document.querySelectorAll("[data-spaces*='"+space2+"']");
+  all = all.concat(Array.from(sp));
+  sp = document.querySelectorAll("[data-spaces*='"+space3+"']");
+  all = all.concat(Array.from(sp));
+  itemIDs = [];
+  all.forEach(item=>{
+    // if there's two spaces mentioned
+    if(item.dataset.spaces.length > 1){
+      // if both spaces match the parameters then add to array
+      hideThis = item.id;
+      itemIDs.push(hideThis.split('q')[1]);
+      // otherwise, don't
+    } else {
+      hideThis = item.id;
+      itemIDs.push(hideThis.split('q')[1]);
+    }
+  });
+  hideIDs = [...new Set(itemIDs)];
+  return hideIDs;
+}
+
 
 function startQuestions(){
   // if there are event/project buttons then hide them

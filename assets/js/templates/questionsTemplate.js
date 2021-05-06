@@ -38,7 +38,28 @@ templates.questionsTemplate = function(data, params){
       var question = data[i];
 
       // create the start of the form
-      content += `<form id="`+question.id+ `" class="questionContent`+ (question.id !== 'q0' ? '">' : ' current">');
+
+      // content += `<form id="`+question.id+ `" class="questionContent`+ (question.id !== 'q0' ? '" data-spaces="'+question.spaces+'">' : ' current">');
+
+      // start form with question id
+      // form id=question.id
+      content += '<form id="'+question.id+'" class="questionContent';
+
+      // if form is not a question then add class of questionContent
+      // class=questionContent
+      if (!question.isQ){
+        content += (question.id === 'q0' ? ' current">' : '">');
+      } else {
+        content += '" data-spaces="'+question.spaces+'">';
+      }
+
+      // if form is q0 then add class of questionContent and current
+      // class=questionContent current
+
+      // if form is a question then add class of questionContent and data-spaces attribute
+      // class=questionContent data-spaces=question.spaces
+
+
       // if it's a question
       if (question.isQ) {
         var panel = "";
@@ -47,6 +68,7 @@ templates.questionsTemplate = function(data, params){
         }
         if (question.tips[1].more) {
           panel += '<div><span class="fas fa-search"></span><p>| ';
+          // TODO there's only one link, no need for this for loop
           for (var s = 0; s < question.tips[1].more.length; s++){
             more = encodeURIComponent(question.tips[1].more[s]);
             panel += '<a href="https://duckduckgo.com/?q='+more+'" target="_blank" title="Research '+question.tips[1].more[s]+' on DuckDuckGo">'+question.tips[1].more[s]+'</a> | ';

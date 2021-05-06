@@ -755,7 +755,7 @@ var section1 = [
   {
     "isQuestion": true,
     "id":"q30",
-    "spaces":["on","f"],
+    "spaces":["on","c"],
     "position":["et",0],
     "q":"Are participants discouraged from sending unsolicited direct messages to each other?",
     "required":false,
@@ -922,7 +922,7 @@ var section1 = [
   {
     "isQuestion": true,
     "id":"q33",
-    "spaces":["m","f"],
+    "spaces":["m","c"],
     "position":["et",2],
     "q":"Who can post job listings?",
     "required":false,

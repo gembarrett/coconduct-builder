@@ -152,7 +152,7 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q5",
-    "spaces":["f"],
+    "spaces":["c"],
     "position": [],
     "q":"Which platform is your forum on?",
     "required":false,
@@ -192,7 +192,7 @@ var section0 = [
   {
     "isQuestion": true,
     "id":"q6",
-    "spaces":["f"],
+    "spaces":["c"],
     "position": ["in",4],
     "q":"Names and descriptions of main channels:",
     "required":false,
