@@ -35,22 +35,26 @@ function compileDoc(p,a){
       var found = sections[j].find(ans => ans.id === thisQ);
       // if there's data
       if (found){
+        sec0 = sections[0].length;
+        sec1 = sections[1].length+sec0;
+        sec2 = sections[2].length+sec1;
+        sec3 = sections[3].length+sec2;
         switch (true) {
           // section 0
-          case qRef < 15: // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
+          case qRef < sec0: // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
             contextP = getPolicyContent(qRef, prevQ, aRef, contextP, found);
             break;
           // add case for teaming name & pos @ 9
           // section 1
-          case qRef < 42:
+          case qRef < sec1:
             purposeP = getPolicyContent(qRef, prevQ, aRef, purposeP, found);
             break;
           // section 2
-          case qRef < 52:
+          case qRef < sec2:
             reportP = getPolicyContent(qRef, prevQ, aRef, reportP, found);
             break;
           // section 3
-          case qRef < 68:
+          case qRef < sec3:
             enforceP = getPolicyContent(qRef, prevQ, aRef, enforceP, found);
             break;
           default:
