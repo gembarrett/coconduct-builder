@@ -103,7 +103,6 @@ function collectAnswers(isEdited){
     questions = document.querySelectorAll(".editable, .current");
     // for each question, except the last one
     for (var c = 0; c < questions.length; c++){
-
       // if this question id is the same as that of the last element in questionsList then skip
       if (questions[c].id === questionsList[questionsList.length - 1]){
         console.log('Skip');
@@ -140,10 +139,33 @@ function collectAnswers(isEdited){
 
   dict = dic;
   currentState.answers = ans;
+
+  // TODO consider changing this so it can be updated later in the process
+  if (currentState.questionQ === 'q2'){
+    online = currentState.answers.find(x => (x.q === "2") && (x.a === "0"));
+    offline = currentState.answers.find(x => (x.q === "2") && (x.a === "1"));
+    // if online and offline have entries, do nothing
+    if (online || offline){
+      if (online){
+        filtered = refineSpace("off");
+        // currentState.exclusions.concat(filtered);
+        currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(filtered)));
+      } else {
+        filtered = refineSpace("on");
+        // currentState.exclusions.concat(filtered);
+        currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(filtered)));
+      }
+    }
+  } else if (currentState.questionQ === 'q3'){
+    console.log();
+  }
+
   // collect any excluded question numbers
   if (exc.length > 0){
     currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(exc)));
   }
+  console.log(currentState.exclusions);
+
 }
 
 function collectExclusions(id){

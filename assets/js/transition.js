@@ -34,7 +34,6 @@ function signPosts(type,from) {
   if (type === 'ev'){
     // exclude these project questions
     var returned = findQuestions("p", "m", "c");
-    console.log(returned);
     currentState.exclusions = returned;
     // if coming from home page
     if (from === 'h'){
@@ -45,7 +44,6 @@ function signPosts(type,from) {
     }
   } else { // project
     var returned = findQuestions("e", "off", "on");
-    console.log(returned);
     currentState.exclusions = returned;
     // if coming from home page
     if (from === 'h'){
@@ -60,24 +58,48 @@ function signPosts(type,from) {
 function findQuestions(space, space2, space3){
   sp = document.querySelectorAll("[data-spaces*='"+space+"']");
   all = Array.from(sp);
+
   sp = document.querySelectorAll("[data-spaces*='"+space2+"']");
   all = all.concat(Array.from(sp));
+
   sp = document.querySelectorAll("[data-spaces*='"+space3+"']");
   all = all.concat(Array.from(sp));
+
   itemIDs = [];
   all.forEach(item=>{
     // if there's two spaces mentioned
     if(item.dataset.spaces.length > 1){
-      // if both spaces match the parameters then add to array
-      hideThis = item.id;
-      itemIDs.push(hideThis.split('q')[1]);
-      // otherwise, don't
+      // if the first item is a match
+        if ([0] === space || [0] === space2 || [0] === space3){
+        // then check if the second item is a match too
+          if ([1] === space || [1] === space2 || [1] === space3){
+            // if both spaces match the parameters then add to array
+            hideThis = parseInt(item.id.split('q')[1]);
+            itemIDs.push(hideThis);
+          }
+        }
     } else {
-      hideThis = item.id;
-      itemIDs.push(hideThis.split('q')[1]);
+      hideThis = parseInt(item.id.split('q')[1]);
+      itemIDs.push(hideThis);
     }
   });
   hideIDs = [...new Set(itemIDs)];
+  return hideIDs;
+}
+
+// if we're at questions 2 or 3, use the answers to add to the exclusions list
+function refineSpace(filter, filter2){
+  // find the things with this filter
+  sp1 = document.querySelectorAll("[data-spaces*='"+filter+"']");
+  // create an array of things with that filter
+  added = Array.from(sp1);
+
+  filterIDs = [];
+  added.forEach(item=>{
+    hideThis = parseInt(item.id.split('q')[1]);
+    filterIDs.push(hideThis);
+  });
+  hideIDs = [...new Set(filterIDs)];
   return hideIDs;
 }
 
