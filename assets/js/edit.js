@@ -180,21 +180,26 @@ function getInclusions(id){
 }
 
 // CHANGE THIS WHEN UPDATING QUESTION NUMBERS
+// get length of each section and add to length of previous section
 function findContent(q){
+  sec0 = sections[0].length;
+  sec1 = sections[1].length+sec0;
+  sec2 = sections[2].length+sec1;
+  sec3 = sections[3].length+sec2;
   switch (true) {
-    case q < 15:
+    case q < sec0:
       q = 'q'+q;
       return sections[0].find(question => question.id === q);
       break;
-    case q < 42:
+    case q < sec1:
       q = 'q'+q;
       return sections[1].find(question => question.id === q);
       break;
-    case q < 52:
+    case q < sec2:
       q = 'q'+q;
       return sections[2].find(question => question.id === q);
       break;
-    case q < 68:
+    case q < sec3:
       q = 'q'+q;
       return sections[3].find(question => question.id === q);
       break;
