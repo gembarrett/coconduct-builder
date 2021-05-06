@@ -148,23 +148,30 @@ function collectAnswers(isEdited){
     if (online || offline){
       if (online){
         filtered = refineSpace("off");
-        // currentState.exclusions.concat(filtered);
-        currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(filtered)));
       } else {
         filtered = refineSpace("on");
-        // currentState.exclusions.concat(filtered);
-        currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(filtered)));
       }
+      arr = Array.from(new Set(currentState.exclusions.concat(filtered)));
+      exc.concat(arr);
     }
   } else if (currentState.questionQ === 'q3'){
-    console.log();
+    listserv = currentState.answers.find(x => (x.q === "3") && (x.a === "0"));
+    chat = currentState.answers.find(x => (x.q === "3") && (x.a === "1"));
+    // if listserve and chat have entries, do nothing
+    if (listserv || chat){
+      if (listserv){
+        filtered = refineSpace('c');
+      } else {
+        filtered = refineSpace('m');
+      }
+      arr = Array.from(new Set(currentState.exclusions.concat(filtered)));
+      exc.concat(arr);
+    }
   }
-
   // collect any excluded question numbers
   if (exc.length > 0){
     currentState.exclusions = Array.from(new Set(currentState.exclusions.concat(exc)));
   }
-  console.log(currentState.exclusions);
 
 }
 
