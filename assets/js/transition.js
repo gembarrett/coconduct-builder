@@ -55,6 +55,11 @@ function signPosts(type,from) {
   }
 }
 
+function compareNumbers(a, b) {
+  return a - b;
+}
+
+
 function findQuestions(space, space2, space3){
   sp = document.querySelectorAll("[data-spaces*='"+space+"']");
   all = Array.from(sp);
@@ -66,17 +71,21 @@ function findQuestions(space, space2, space3){
   all = all.concat(Array.from(sp));
 
   itemIDs = [];
+
   all.forEach(item=>{
+
+    spaces = item.dataset.spaces.split(',');
+
     // if there's two spaces mentioned
-    if(item.dataset.spaces.length > 1){
+    if(spaces.length > 1){
       // if the first item is a match
-        if ([0] === space || [0] === space2 || [0] === space3){
+        if ((spaces[0] === space || spaces[0] === space2 || spaces[0] === space3)&&(spaces[1] === space || spaces[1] === space2 || spaces[1] === space3)){
         // then check if the second item is a match too
-          if ([1] === space || [1] === space2 || [1] === space3){
             // if both spaces match the parameters then add to array
             hideThis = parseInt(item.id.split('q')[1]);
             itemIDs.push(hideThis);
-          }
+        } else {
+          console.log(item.id, spaces);
         }
     } else {
       hideThis = parseInt(item.id.split('q')[1]);
