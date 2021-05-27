@@ -18,7 +18,7 @@ var section0 = [
       },
       {
         "title":"Reporting",
-        "text": "Mothods for reporting Code of Conduct violations."
+        "text": "Methods for reporting Code of Conduct violations."
       }
     ],
   },

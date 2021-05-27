@@ -154,6 +154,7 @@ templates.questionsTemplate = function(data, params){
 
   content += '<div class="btn-wrap wrap-r">'+pause+'<div><button disabled id="previewPolicy" class="previewButton btn btn-seco" title="Click or press P to view your policy preview">Preview</button>';
 
+  // if there's no exclusions yet (i.e. route hasn't been chosen)
   if (currentState.exclusions.length < 1) {
     // show the event and project buttons, hide the "Got it!" option
     routes = `<button class="btn btn-prim routes" id="submit-build-event" onclick="signPosts(\'ev\', \'ref\')">`+ros[0].buttons[0].name+`</button><button class="btn btn-seco routes" id="submit-build-project" onclick="signPosts('pr', 'ref')">`+ros[0].buttons[1].name+`</button>`;

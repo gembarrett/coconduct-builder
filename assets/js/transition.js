@@ -29,29 +29,51 @@ function checkForName() {
   }
 }
 
+// if there's an ev/pr class on page then show Next button
+function hasRoute(){
+  if (document.querySelector('body').classList[0].length === 2){
+    startQuestions();
+  } else {
+    // if there's no ev/pr class on page then show both buttons
+  }
+}
+// when Next is clicked, if exclusions is 0 then use ev/pr class to populate that array
+function prePopulateExc(){
+  if ((currentState.questionQ === 'q0') && (currentState.exclusions.length === 0)){
+    var route = document.querySelector('body').classList[0];
+    if (route === 'ev'){
+      currentState.exclusions = findQuestions("p", "m", "c");
+    } else if (route === 'pr'){
+      currentState.exclusions = findQuestions("e", "off", "on");
+    } else {
+      // if it just has the default class use the route defined by the button that was clicked
+    }
+  }
+}
+
 function signPosts(type,from) {
   // event
   if (type === 'ev'){
-    // exclude these project questions
-    var returned = findQuestions("p", "m", "c");
-    currentState.exclusions = returned;
     document.querySelector('body').classList.add('ev');
     // if coming from home page
     if (from === 'h'){
       // grab the name
       getNameFromHome();
     } else { // if coming from build refresh
+      // exclude these project questions
+      var returned = findQuestions("p", "m", "c");
+      currentState.exclusions = returned;
       startQuestions();
     }
   } else { // project
+    document.querySelector('body').classList.add('pr');
     var returned = findQuestions("e", "off", "on");
     currentState.exclusions = returned;
-    document.querySelector('body').classList.add('pr');
     // if coming from home page
     if (from === 'h'){
       // grab the name
       getNameFromHome();
-    } else { // if coming from build re
+    } else { // if coming from build refresh
       startQuestions();
     }
   }
@@ -61,7 +83,7 @@ function compareNumbers(a, b) {
   return a - b;
 }
 
-
+// coming from home this is called before the questions are on the page, leading to both buttons showing, instead of Next
 function findQuestions(space, space2, space3){
   sp = document.querySelectorAll("[data-spaces*='"+space+"']");
   all = Array.from(sp);
@@ -126,6 +148,6 @@ function startQuestions(){
   // show the submit button
   next = document.querySelector('#submitAnswers');
   next.classList.remove('hide');
-  // then click it
-  next.click();
+  // then click it - why?
+  // next.click();
 }
