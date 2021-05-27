@@ -35,6 +35,7 @@ function signPosts(type,from) {
     // exclude these project questions
     var returned = findQuestions("p", "m", "c");
     currentState.exclusions = returned;
+    document.querySelector('body').classList.add('ev');
     // if coming from home page
     if (from === 'h'){
       // grab the name
@@ -45,6 +46,7 @@ function signPosts(type,from) {
   } else { // project
     var returned = findQuestions("e", "off", "on");
     currentState.exclusions = returned;
+    document.querySelector('body').classList.add('pr');
     // if coming from home page
     if (from === 'h'){
       // grab the name

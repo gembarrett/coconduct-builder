@@ -292,7 +292,7 @@ var section0 = [
       {
         "type":"text",
         "answerText":"Other restriction",
-        "placeholder":"",
+        "placeholder":"e.g. non-binary people only",
         "storeAs":"[]",
         "excludes":[],
         "includes":[],

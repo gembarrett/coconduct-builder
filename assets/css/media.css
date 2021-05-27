@@ -44,7 +44,7 @@
     flex-wrap: wrap;
   }
   .main-content > div {
-    padding:2em;
+    padding:2em 0;
   }
   .text-buttons-wrap {
     margin: 0;

@@ -40,6 +40,14 @@ body {
   background: #bababa;
 }
 
+.ev {
+  background-color: #f0ef00;
+}
+
+.pr {
+  background-color: #8ee8e9;
+}
+
 p {
   font-family: 'Signika Negative',"Helvetica", sans-serif;
 }
@@ -71,7 +79,7 @@ body.buildPage #head.nav-start {
   opacity:100;
 }
 body.buildPage #page {
-  padding-top:4em;
+  padding:4em;
 }
 
 #head.nav-start {
@@ -253,14 +261,13 @@ a {
 
 .questionContent {
   display:none;
+  background: #fff;
 }
 .questionContent.current {
   display:block;
+  width: 100%;
 }
 
-.questionContent h2 {
-  width:85%;
-}
 .questionContent > h1, .questionContent > p {
 color: #A9bcd0;
 }
@@ -270,11 +277,9 @@ color: #A9bcd0;
 }
 
 .questionContent summary {
-  width: auto;
-  color: #f2eee2;
-  background: #1b263b;
-  padding: 1em;
   cursor: pointer;
+  box-shadow: none;
+  border: none;
 }
 
 #secretLink {
@@ -330,12 +335,10 @@ color: #A9bcd0;
 }
 
 .question-panel {
-  border: 1px solid currentColor;
-  padding: 1em;
-  background-color: #f2eee2;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 2em;
 }
 
 .question-panel i {
@@ -548,7 +551,6 @@ details a {
 }
 
 .window {
-  margin:4em 0;
   padding:2em;
   background: #eae8e9;
   display:flex;
@@ -586,12 +588,10 @@ details a {
   margin-top: 1em;
 }
 .buildPage .window {
-  margin:4em auto;
   padding: 2em;
 }
-.buildPage .window > :not(h3) {
-  padding: 0 2em;
-}
+/* .buildPage .window > :not(h3) {
+} */
 
 #policy-dl i{
   padding-left: 5px;
